@@ -12,6 +12,9 @@ RUN npm install --no-save pg knex@"<1.0.0"
 # Make sure the start script is executable
 RUN chmod +x ./start.sh
 
+# Set environment variable to ignore certificate validation
+ENV NODE_TLS_REJECT_UNAUTHORIZED=0
+
 # Ghost will run on port 2368
 EXPOSE 2368
 

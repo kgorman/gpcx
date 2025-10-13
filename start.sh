@@ -43,7 +43,10 @@ cat > config.production.json << EOF
       "password": "${database__connection__password}",
       "database": "${database__connection__database:-ghost}",
       "ssl": {
-        "rejectUnauthorized": false
+        "rejectUnauthorized": false,
+        "ca": null,
+        "key": null,
+        "cert": null
       }
     }
   },
@@ -84,6 +87,13 @@ else
   echo "No database host specified in environment variables"
 fi
 
-# Start Ghost with the config file
+# Copy knexfile to the right location
+if [ -f "/var/lib/ghost/knexfile.js" ]; then
+  echo "Using custom knexfile.js for database migrations"
+  cp /var/lib/ghost/knexfile.js /var/lib/ghost/current/
+fi
+
+# Start Ghost with the config file and disable certificate validation
 echo "Starting Ghost..."
+export NODE_TLS_REJECT_UNAUTHORIZED=0
 node current/index.js

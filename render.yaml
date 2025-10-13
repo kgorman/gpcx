@@ -29,8 +29,10 @@ services:
           property: password
       - key: database__connection__port
         value: "5432"
-      - key: database__connection__ssl
-        value: true
+      - key: database__connection__ssl__rejectUnauthorized
+        value: "false"
+      - key: NODE_TLS_REJECT_UNAUTHORIZED
+        value: "0"
 
 databases:
   - name: ghost-db
