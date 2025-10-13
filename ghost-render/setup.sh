@@ -1,5 +1,5 @@
 #!/bin/bash
-# Initialize the GPCX (Ghost on Render) repository
+# Initialize the Ghost on Render repository
 
 # Check if git is installed
 if ! command -v git &> /dev/null; then
@@ -12,7 +12,7 @@ if [ ! -d .git ]; then
     echo "Initializing Git repository..."
     git init
     git add .
-    git commit -m "Initial commit: GPCX - Ghost on Render setup"
+    git commit -m "Initial commit: Ghost on Render setup"
     echo "Git repository initialized successfully!"
 else
     echo "Git repository already exists."

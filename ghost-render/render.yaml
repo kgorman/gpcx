@@ -3,38 +3,39 @@ services:
     name: ghost-blog
     env: docker
     dockerfilePath: ./Dockerfile
-    plan: free
-    port: 2368
-    healthCheckPath: /
+    plan: standard
+    healthCheckPath: /ghost/api/admin/site/
     disk:
       name: ghost-content
       mountPath: /var/lib/ghost/content
-      sizeGB: 1
+      sizeGB: 10
     envVars:
       - key: url
-        value: https://your-blog-url.onrender.com
-      - key: database__client
-        value: postgres
-      - key: database__connection__host
+        value: https://your-ghost-blog.onrender.com
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_HOST
         fromDatabase:
           name: ghost-db
           property: host
-      - key: database__connection__database
+      - key: DATABASE_NAME
         fromDatabase:
           name: ghost-db
           property: database
-      - key: database__connection__user
+      - key: DATABASE_USER
         fromDatabase:
           name: ghost-db
           property: user
-      - key: database__connection__password
+      - key: DATABASE_PASSWORD
         fromDatabase:
           name: ghost-db
           property: password
-      - key: database__connection__ssl__rejectUnauthorized
-        value: "false"
+      - key: MAIL_USER
+        sync: false
+      - key: MAIL_PASSWORD
+        sync: false
 
 databases:
   - name: ghost-db
-    plan: free
-    databaseName: ghost
+    plan: standard
+    type: postgres

@@ -1,50 +1,27 @@
-# GPCX - Ghost on Render
+# Ghost on Render
 
-This repository (gpcx) contains configurations to deploy a Ghost blog on Render.
+A simple and clean Ghost deployment on Render with PostgreSQL database.
 
-## Local Development
-
-To run the Ghost blog locally using Docker Compose:
-
-```bash
-docker-compose up
-```
-
-Your local Ghost instance will be available at http://localhost:2368. The Ghost admin interface will be at http://localhost:2368/ghost.
-
-## Deployment on Render
+## Deployment Instructions
 
 1. Fork this repository to your GitHub account.
+2. Log in to your Render account at https://render.com.
+3. Click on the "New" button and select "Blueprint".
+4. Connect your GitHub account and select this repository.
+5. Render will detect the `render.yaml` file and create the required services.
+6. Update the `url` environment variable with your actual Render URL.
+7. Click "Apply" to start the deployment.
 
-2. Create a new Render account if you don't have one at https://render.com
+## What's Included
 
-3. In the Render dashboard, click on "New" and select "Blueprint".
+- Ghost CMS latest version
+- PostgreSQL database (free tier)
+- Persistent disk storage for content
 
-4. Connect your GitHub account and select the forked repository.
+## Configuration
 
-5. Render will automatically detect the `render.yaml` configuration file and create the required services.
-
-6. Update the following environment variables:
-   - `url`: Your Render app URL (e.g., https://your-ghost-blog.onrender.com)
-   - `MAIL_USER`: Your mail service username (e.g., from Mailgun)
-   - `MAIL_PASSWORD`: Your mail service password
-
-7. Click "Apply" and wait for the deployment to finish.
-
-## Important Notes
-
-- The deployment includes a MySQL database for persistent storage.
-- The Ghost content is stored in a volume that persists across deployments.
-- The `config.production.json` file needs to be updated with your actual Render URL before deployment.
+The setup is configured to use PostgreSQL as the database. The database connection details are automatically passed to Ghost using environment variables.
 
 ## Customization
 
-You can customize the Ghost installation by modifying the following files:
-
-- `Dockerfile`: Change the Ghost version or add custom packages
-- `config.production.json`: Adjust Ghost configuration
-- `render.yaml`: Modify the deployment configuration
-
-## Maintenance
-
-To update Ghost to a newer version, update the version in the Dockerfile and redeploy.
+To customize your Ghost blog, access the admin panel at `https://your-blog-url.onrender.com/ghost` after deployment.
