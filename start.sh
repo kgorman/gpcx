@@ -93,7 +93,27 @@ if [ -f "/var/lib/ghost/knexfile.js" ]; then
   cp /var/lib/ghost/knexfile.js /var/lib/ghost/current/
 fi
 
+# Fix for database migration issues
+echo "Preparing database for Ghost migrations..."
+export PGPASSWORD="${database__connection__password}"
+DB_HOST="${database__connection__host}"
+DB_PORT="${database__connection__port:-5432}"
+DB_USER="${database__connection__user}"
+DB_NAME="${database__connection__database}"
+
+# Apply the fix_migrations.sql script to handle migration table issues
+if [ -f "/var/lib/ghost/fix_migrations.sql" ]; then
+  echo "Applying database migration fixes..."
+  
+  # Try to connect and run the fix script
+  PGPASSWORD=$database__connection__password psql -h "$DB_HOST" -p "$DB_PORT" -U "$DB_USER" -d "$DB_NAME" -f "/var/lib/ghost/fix_migrations.sql" 2>/dev/null || echo "Could not apply migration fixes, but continuing anyway"
+  
+  echo "Database preparation completed"
+else
+  echo "Migration fix script not found, skipping database preparation"
+fi
+
 # Start Ghost with the config file and disable certificate validation
-echo "Starting Ghost..."
+echo "Starting Ghost with certificate validation disabled..."
 export NODE_TLS_REJECT_UNAUTHORIZED=0
 node current/index.js

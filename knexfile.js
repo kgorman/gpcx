@@ -15,5 +15,10 @@ module.exports = {
       key: null,
       cert: null
     }
-  }
+  },
+  migrations: {
+    tableName: 'migrations',
+    directory: './migrations'
+  },
+  debug: true
 };

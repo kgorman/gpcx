@@ -4,10 +4,12 @@ WORKDIR $GHOST_INSTALL
 COPY . .
 
 # Install PostgreSQL client and other utilities
-RUN apt-get update && apt-get install -y postgresql-client curl jq && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && \
+    apt-get install -y postgresql-client postgresql-client-common curl jq && \
+    rm -rf /var/lib/apt/lists/*
 
 # Install PostgreSQL drivers properly for Ghost
-RUN npm install --no-save pg knex@"<1.0.0"
+RUN npm install --no-save pg@8.7.1 knex@0.95.15
 
 # Make sure the start script is executable
 RUN chmod +x ./start.sh
