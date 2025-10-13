@@ -3,7 +3,7 @@ services:
     name: ghost-blog
     env: docker
     dockerfilePath: ./Dockerfile
-    plan: standard
+    plan: free
     healthCheckPath: /ghost/api/admin/site/
     disk:
       name: ghost-content
@@ -14,25 +14,37 @@ services:
         value: https://your-ghost-blog.onrender.com
       - key: NODE_ENV
         value: production
-      - key: DATABASE_HOST
+      # Ghost-specific database connection variables
+      - key: database__client
+        value: postgres
+      - key: database__connection__host
         fromDatabase:
           name: ghost-db
           property: host
-      - key: DATABASE_NAME
+      - key: database__connection__database
         fromDatabase:
           name: ghost-db
           property: database
-      - key: DATABASE_USER
+      - key: database__connection__user
         fromDatabase:
           name: ghost-db
           property: user
-      - key: DATABASE_PASSWORD
+      - key: database__connection__password
         fromDatabase:
           name: ghost-db
           property: password
-      - key: MAIL_USER
+      # Ghost-specific mail variables
+      - key: mail__transport
+        value: SMTP
+      - key: mail__options__service
+        value: Mailgun
+      - key: mail__options__host
+        value: smtp.mailgun.org
+      - key: mail__options__port
+        value: "587"
+      - key: mail__options__auth__user
         sync: false
-      - key: MAIL_PASSWORD
+      - key: mail__options__auth__pass
         sync: false
 
 databases:

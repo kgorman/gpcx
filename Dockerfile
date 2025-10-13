@@ -12,12 +12,14 @@ RUN apt-get update && apt-get install -y postgresql-client && rm -rf /var/lib/ap
     cd /var/lib/ghost && \
     npm install pg --save
 
-# Copy configuration and health check script
-COPY config.production.json /var/lib/ghost/config.production.json
+# Copy health check script only (we'll use env vars instead of config.production.json)
 COPY health-check.sh /var/lib/ghost/health-check.sh
 
 # Ensure health check script is executable
 RUN chmod +x /var/lib/ghost/health-check.sh
+
+# Create logs directory to avoid warnings
+RUN mkdir -p /var/lib/ghost/content/logs
 
 # Set the working directory
 WORKDIR /var/lib/ghost
