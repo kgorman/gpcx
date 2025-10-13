@@ -12,10 +12,8 @@ ENV port=2368
 # Fallback database variables in traditional format
 ENV DATABASE_CLIENT=postgres
 
-# Install PostgreSQL client and Node.js pg module
-RUN apt-get update && apt-get install -y postgresql-client && rm -rf /var/lib/apt/lists/* && \
-    cd /var/lib/ghost && \
-    npm install pg --save
+# Install PostgreSQL client and network tools for diagnostics
+RUN apt-get update && apt-get install -y postgresql-client netcat-openbsd iputils-ping && rm -rf /var/lib/apt/lists/*
 
 # Copy health check script only (we'll use env vars instead of config.production.json)
 COPY health-check.sh /var/lib/ghost/health-check.sh
@@ -24,7 +22,13 @@ COPY health-check.sh /var/lib/ghost/health-check.sh
 RUN chmod +x /var/lib/ghost/health-check.sh
 
 # Create logs directory to avoid warnings
-RUN mkdir -p /var/lib/ghost/content/logs
+RUN mkdir -p /var/lib/ghost/content/logs && \
+    mkdir -p /var/lib/ghost/content/adapters && \
+    mkdir -p /var/lib/ghost/content/settings && \
+    mkdir -p /var/lib/ghost/content/data && \
+    mkdir -p /var/lib/ghost/content/themes && \
+    mkdir -p /var/lib/ghost/content/images && \
+    chown -R node:node /var/lib/ghost/content
 
 # Set the working directory
 WORKDIR /var/lib/ghost
