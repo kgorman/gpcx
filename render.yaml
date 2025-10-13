@@ -38,4 +38,5 @@ services:
 databases:
   - name: ghost-db
     plan: standard
-    type: postgres
+    databaseName: ghost
+    ipAllowList: [] # only allow internal connections
