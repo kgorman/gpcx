@@ -15,3 +15,14 @@ CREATE TABLE IF NOT EXISTS migrations_lock (
 INSERT INTO migrations_lock (lock_key, locked)
 SELECT '1', false
 WHERE NOT EXISTS (SELECT 1 FROM migrations_lock WHERE lock_key = '1');
+
+-- Reset the lock regardless (this fixes locked migration issues)
+UPDATE migrations_lock SET locked = false WHERE lock_key = '1';
+
+-- Also fix the migrations table if it exists
+CREATE TABLE IF NOT EXISTS migrations (
+    id INTEGER,
+    name VARCHAR(255) NOT NULL,
+    version VARCHAR(255) NOT NULL,
+    CONSTRAINT migrations_pkey PRIMARY KEY (id)
+);

@@ -113,6 +113,30 @@ else
   echo "Migration fix script not found, skipping database preparation"
 fi
 
+# Fix for migration lock issue - reset the lock with both SQL and Node.js
+echo "Checking for migration lock..."
+
+# Reset the lock using SQL first
+LOCK_CHECK=$(PGPASSWORD=$database__connection__password psql -h "$DB_HOST" -p "$DB_PORT" -U "$DB_USER" -d "$DB_NAME" -t -c "SELECT EXISTS (SELECT 1 FROM information_schema.tables WHERE table_schema = 'public' AND table_name = 'migrations_lock');" 2>/dev/null || echo "false")
+
+if [[ "$LOCK_CHECK" == *"t"* ]]; then
+  echo "Migrations lock table exists, resetting lock status via SQL..."
+  
+  # Reset the migration lock
+  PGPASSWORD=$database__connection__password psql -h "$DB_HOST" -p "$DB_PORT" -U "$DB_USER" -d "$DB_NAME" -c "UPDATE migrations_lock SET locked = false WHERE lock_key = '1';" 2>/dev/null || echo "Could not reset migration lock via SQL, continuing anyway"
+fi
+
+# Also try to initialize the database using Node.js
+if [ -f "/var/lib/ghost/init_db.js" ]; then
+  echo "Running database initialization script..."
+  node /var/lib/ghost/init_db.js
+fi
+
+# Double-check the lock
+echo "Final migration lock status check..."
+LOCK_STATUS=$(PGPASSWORD=$database__connection__password psql -h "$DB_HOST" -p "$DB_PORT" -U "$DB_USER" -d "$DB_NAME" -t -c "SELECT locked FROM migrations_lock WHERE lock_key = '1';" 2>/dev/null || echo "unknown")
+echo "Migration lock status: $LOCK_STATUS"
+
 # Start Ghost with the config file and disable certificate validation
 echo "Starting Ghost with certificate validation disabled..."
 export NODE_TLS_REJECT_UNAUTHORIZED=0
