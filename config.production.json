@@ -1,0 +1,42 @@
+{
+  "url": "https://YOUR_RENDER_URL",
+  "server": {
+    "port": 2368,
+    "host": "0.0.0.0"
+  },
+  "database": {
+    "client": "postgres",
+    "connection": {
+      "host": "${process.env.DATABASE_HOST}",
+      "port": 5432,
+      "user": "${process.env.DATABASE_USER}",
+      "password": "${process.env.DATABASE_PASSWORD}",
+      "database": "${process.env.DATABASE_NAME}",
+      "ssl": {
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "mail": {
+    "transport": "SMTP",
+    "options": {
+      "service": "Mailgun",
+      "host": "smtp.mailgun.org",
+      "port": 587,
+      "auth": {
+        "user": "${process.env.MAIL_USER}",
+        "pass": "${process.env.MAIL_PASSWORD}"
+      }
+    }
+  },
+  "logging": {
+    "transports": [
+      "file",
+      "stdout"
+    ]
+  },
+  "process": "systemd",
+  "paths": {
+    "contentPath": "/var/lib/ghost/content"
+  }
+}

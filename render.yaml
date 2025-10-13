@@ -1,0 +1,41 @@
+services:
+  - type: web
+    name: ghost-blog
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: standard
+    healthCheckPath: /ghost/api/admin/site/
+    disk:
+      name: ghost-content
+      mountPath: /var/lib/ghost/content
+      sizeGB: 10
+    envVars:
+      - key: url
+        value: https://your-ghost-blog.onrender.com
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_HOST
+        fromDatabase:
+          name: ghost-db
+          property: host
+      - key: DATABASE_NAME
+        fromDatabase:
+          name: ghost-db
+          property: database
+      - key: DATABASE_USER
+        fromDatabase:
+          name: ghost-db
+          property: user
+      - key: DATABASE_PASSWORD
+        fromDatabase:
+          name: ghost-db
+          property: password
+      - key: MAIL_USER
+        sync: false
+      - key: MAIL_PASSWORD
+        sync: false
+
+databases:
+  - name: ghost-db
+    plan: standard
+    type: postgres
