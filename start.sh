@@ -53,6 +53,11 @@ cat > config.production.json << EOF
   },
   "paths": {
     "contentPath": "/var/lib/ghost/content"
+  },
+  "adapters": {
+    "storage": {
+      "active": "LocalFileStorage"
+    }
   }
 }
 EOF

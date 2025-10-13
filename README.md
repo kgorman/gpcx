@@ -6,7 +6,7 @@ This repository contains everything you need to deploy [Ghost](https://ghost.org
 
 * Uses the official [Ghost Docker image](https://hub.docker.com/_/ghost) (v5.14.1)
 * Uses PostgreSQL instead of MySQL for the database
-* Uses [Render Disks](https://render.com/docs/disks) for permanent SSD storage for uploaded files and content
+* Optimized for Render's free tier
 * Automatic environment configuration
 
 ## Deployment Instructions
@@ -18,7 +18,6 @@ This repository contains everything you need to deploy [Ghost](https://ghost.org
 5. Render will detect the `render.yaml` file and create the required services:
    - A web service running Ghost
    - A PostgreSQL database
-   - Persistent disk storage for content
 6. Click "Apply" to start the deployment
 
 ## Configuration
@@ -35,4 +34,4 @@ After deployment, access the Ghost admin panel at `https://your-ghost-app-name.o
 2. Customize your site theme
 3. Start creating content
 
-**Note**: Both the Ghost web service and PostgreSQL database use persistent storage, so your data will be preserved between deployments.
+**Note**: The PostgreSQL database uses persistent storage, so your database content will be preserved between deployments. However, since this setup is optimized for the free tier, file uploads like images will not persist between deployments. For production use with persistent file storage, upgrade to a paid plan and add a disk configuration.
