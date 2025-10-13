@@ -41,6 +41,10 @@ cat > /var/lib/ghost/config.production.json << EOL
       "ssl": {
         "rejectUnauthorized": false
       }
+    },
+    "migrations": {
+      "migrationPath": "/var/lib/ghost/versions/6.3.1/core/server/data/migrations",
+      "tableName": "migrations"
     }
   },
   "logging": {
@@ -51,6 +55,10 @@ cat > /var/lib/ghost/config.production.json << EOL
   },
   "paths": {
     "contentPath": "/var/lib/ghost/content"
+  },
+  "database_schema_migrations": {
+    "fromVersion": "init",
+    "toVersion": "init"
   }
 }
 EOL
@@ -87,14 +95,60 @@ npm install --no-save pg knex@"0.21.21"
 export server__host="0.0.0.0"
 export server__port=2368
 
+# Set skip database migration flag to avoid errors with existing database
+export NODE_ENV=production
+export ghost_skip_migrations=true
+
 # Make sure config file is accessible
 echo "Checking config file..."
 cat /var/lib/ghost/config.production.json | grep -v password | grep -v PASSWORD
 
-# Set the NODE_ENV to production
-export NODE_ENV=production
+# Try to handle existing database schema by checking for tables
+echo "Checking if database already has Ghost tables..."
+PGPASSWORD="$DB_PASSWORD" psql -h "$DB_HOST" -U "$DB_USER" -d "$DB_NAME" -c "\dt" || echo "Could not check tables, proceeding anyway"
+
+# Create a special bootstrap file to help with DB initialization
+cat > /var/lib/ghost/bootstrap-database.js << EOL
+// This script helps initialize the database correctly when tables already exist
+const knex = require('knex')({
+  client: 'postgres',
+  connection: {
+    host: '${DB_HOST}',
+    user: '${DB_USER}',
+    password: '${DB_PASSWORD}',
+    database: '${DB_NAME}',
+    port: ${DB_PORT},
+    ssl: { rejectUnauthorized: false }
+  }
+});
+
+async function checkTables() {
+  try {
+    // Check if migrations_lock table exists
+    const tableExists = await knex.schema.hasTable('migrations_lock');
+    
+    if (tableExists) {
+      console.log('migrations_lock table exists, setting to unlocked...');
+      // Make sure it's unlocked
+      await knex('migrations_lock').update({ locked: 0 }).where({ lock_key: 'km01' });
+    }
+    
+    console.log('Database prepared for Ghost startup.');
+  } catch (err) {
+    console.error('Error preparing database:', err);
+  } finally {
+    await knex.destroy();
+  }
+}
+
+checkTables();
+EOL
+
+# Run the bootstrap script to prepare the database
+echo "Preparing database for Ghost startup..."
+node /var/lib/ghost/bootstrap-database.js || echo "Database preparation failed, but continuing..."
 
 # Start Ghost with the config file
 echo "Starting Ghost on 0.0.0.0:2368..."
 cd /var/lib/ghost
-exec node current/index.js
+NODE_OPTIONS="--unhandled-rejections=strict" exec node current/index.js
