@@ -33,6 +33,10 @@ services:
         fromDatabase:
           name: ghost-db
           property: password
+      - key: database__connection__port
+        value: "5432"
+      - key: database__connection__ssl__rejectUnauthorized
+        value: "false"
       # Ghost-specific mail variables
       - key: mail__transport
         value: SMTP
