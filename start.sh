@@ -1,6 +1,17 @@
 #!/bin/bash
 set -o errexit
 
+# Debug: Print environment variables (excluding sensitive data)
+echo "Environment variables:"
+env | grep -v PASSWORD | grep -v password | sort
+
+echo "Database connection parameters:"
+echo "Host: ${database__connection__host}"
+echo "Port: ${database__connection__port:-5432}"
+echo "User: ${database__connection__user}"
+echo "Database: ${database__connection__database}"
+echo "URL: ${url:-http://localhost:2368}"
+
 # Copy the content directories if they don't exist
 baseDir="$GHOST_INSTALL/content.orig"
 for src in "$baseDir"/*/ "$baseDir"/themes/*; do
@@ -12,10 +23,10 @@ for src in "$baseDir"/*/ "$baseDir"/themes/*; do
     fi
 done
 
-# Create config.production.json from environment variables
+# Create config.production.json directly in Ghost's directory
 echo "Creating Ghost configuration..."
 
-# Get database connection info from environment
+# Create a more explicit configuration file
 cat > config.production.json << EOF
 {
   "url": "${url:-http://localhost:2368}",
@@ -26,18 +37,18 @@ cat > config.production.json << EOF
   "database": {
     "client": "postgres",
     "connection": {
-      "host": "${database__connection__host}",
+      "host": "${database__connection__host:-localhost}",
       "port": ${database__connection__port:-5432},
-      "user": "${database__connection__user}",
+      "user": "${database__connection__user:-postgres}",
       "password": "${database__connection__password}",
-      "database": "${database__connection__database}",
+      "database": "${database__connection__database:-ghost}",
       "ssl": {
         "rejectUnauthorized": false
       }
     }
   },
   "logging": {
-    "level": "info",
+    "level": "debug",
     "transports": ["stdout"]
   },
   "paths": {
@@ -46,8 +57,28 @@ cat > config.production.json << EOF
 }
 EOF
 
+# Show the config (without sensitive info)
+echo "Ghost configuration (passwords hidden):"
+cat config.production.json | grep -v password | grep -v PASSWORD
+
+# Make sure the pg module is installed
+echo "Installing pg module for PostgreSQL support..."
+npm install --no-save pg knex@"<1.0.0"
+
 # Update the URL using the updateConfig.js script
 node updateConfig.js
 
-# Start Ghost
+# Debug: Test database connection
+echo "Testing PostgreSQL connection..."
+if [ -n "${database__connection__host}" ]; then
+  export PGPASSWORD="${database__connection__password}"
+  echo "Attempting to connect to PostgreSQL at ${database__connection__host}:${database__connection__port:-5432}..."
+  # Try to connect, but don't fail if it doesn't work
+  pg_isready -h "${database__connection__host}" -p "${database__connection__port:-5432}" -U "${database__connection__user}" || echo "Could not connect to PostgreSQL, but continuing anyway"
+else
+  echo "No database host specified in environment variables"
+fi
+
+# Start Ghost with the config file
+echo "Starting Ghost..."
 node current/index.js
