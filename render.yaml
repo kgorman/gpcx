@@ -1,18 +1,13 @@
 services:
   - type: web
-    name: ghost-blog
+    name: ghost
     env: docker
-    dockerfilePath: ./Dockerfile
-    plan: free
-    port: 2368
-    healthCheckPath: /
+    autoDeploy: false
     disk:
-      name: ghost-content
+      name: ghost
       mountPath: /var/lib/ghost/content
-      sizeGB: 1
+      sizeGB: 10 #You can adjust this based on your needs
     envVars:
-      - key: url
-        value: https://your-blog-url.onrender.com
       - key: database__client
         value: postgres
       - key: database__connection__host

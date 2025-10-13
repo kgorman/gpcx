@@ -1,38 +1,24 @@
 #!/bin/bash
-set -e
+set -o errexit
 
-echo "Starting Ghost setup..."
+# Copy the content directories if they don't exist
+baseDir="$GHOST_INSTALL/content.orig"
+for src in "$baseDir"/*/ "$baseDir"/themes/*; do
+    src="${src%/}"
+    target="$GHOST_CONTENT/${src#$baseDir/}"
+    mkdir -p "$(dirname "$target")"
+    if [ ! -e "$target" ]; then
+        tar -cC "$(dirname "$src")" "$(basename "$src")" | tar -xC "$(dirname "$target")"
+    fi
+done
 
-# Create content directories if they don't exist
-mkdir -p /var/lib/ghost/content/data
-mkdir -p /var/lib/ghost/content/images
-mkdir -p /var/lib/ghost/content/themes
-mkdir -p /var/lib/ghost/content/logs
-mkdir -p /var/lib/ghost/content/adapters
-mkdir -p /var/lib/ghost/content/settings
-
-# Set correct permissions
-chown -R node:node /var/lib/ghost/content
-
-# Debug: Print environment variables (excluding sensitive data)
-echo "Environment variables:"
-env | grep -v PASSWORD | grep -v password | sort
-
-# Create config file from environment variables
+# Create config.production.json from environment variables
 echo "Creating Ghost configuration..."
 
 # Get database connection info from environment
-DB_HOST="${database__connection__host}"
-DB_PORT="${database__connection__port:-5432}"
-DB_USER="${database__connection__user}"
-DB_PASSWORD="${database__connection__password}"
-DB_NAME="${database__connection__database}"
-SITE_URL="${url}"
-
-# Create Ghost configuration
-cat > /var/lib/ghost/config.production.json << EOF
+cat > config.production.json << EOF
 {
-  "url": "${SITE_URL}",
+  "url": "${url:-http://localhost:2368}",
   "server": {
     "port": 2368,
     "host": "0.0.0.0"
@@ -40,11 +26,11 @@ cat > /var/lib/ghost/config.production.json << EOF
   "database": {
     "client": "postgres",
     "connection": {
-      "host": "${DB_HOST}",
-      "port": ${DB_PORT},
-      "user": "${DB_USER}",
-      "password": "${DB_PASSWORD}",
-      "database": "${DB_NAME}",
+      "host": "${database__connection__host}",
+      "port": ${database__connection__port:-5432},
+      "user": "${database__connection__user}",
+      "password": "${database__connection__password}",
+      "database": "${database__connection__database}",
       "ssl": {
         "rejectUnauthorized": false
       }
@@ -60,26 +46,8 @@ cat > /var/lib/ghost/config.production.json << EOF
 }
 EOF
 
-echo "Configuration created."
-
-# Install pg package directly in Ghost's node_modules
-cd /var/lib/ghost
-npm install --no-save pg knex@"<1.0.0"
-
-# Ensure proper permissions on config
-chmod 644 /var/lib/ghost/config.production.json
-chown node:node /var/lib/ghost/config.production.json
-
-# Show the config (without sensitive info)
-echo "Ghost configuration (passwords hidden):"
-cat /var/lib/ghost/config.production.json | grep -v password | grep -v PASSWORD
-
-# Debug: Test database connection
-echo "Testing PostgreSQL connection..."
-export PGPASSWORD="${DB_PASSWORD}"
-pg_isready -h "${DB_HOST}" -p "${DB_PORT}" -U "${DB_USER}" || echo "Could not connect to PostgreSQL, but continuing anyway"
+# Update the URL using the updateConfig.js script
+node updateConfig.js
 
 # Start Ghost
-echo "Starting Ghost..."
-cd /var/lib/ghost
-exec su-exec node node current/index.js
+node current/index.js
