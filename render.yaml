@@ -37,6 +37,6 @@ services:
 
 databases:
   - name: ghost-db
-    plan: standard
+    plan: free
     databaseName: ghost
     ipAllowList: [] # only allow internal connections
