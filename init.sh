@@ -144,7 +144,9 @@ async function fixDatabase() {
     
     // List all Ghost tables for debugging
     console.log('Listing all tables in database:');
-    const tables = await knex.raw('\\\\dt');
+    const tables = await knex('pg_catalog.pg_tables')
+      .select('schemaname', 'tablename')
+      .where('schemaname', 'public');
     console.log(tables);
     
     console.log('Database prepared for Ghost startup.');
@@ -163,29 +165,46 @@ cat > /var/lib/ghost/custom-start.js << EOL
 // Custom start script to bypass database migration issues
 console.log('Starting Ghost with custom initialization...');
 
-// Override the problematic database initialization function
-const originalCore = require('/var/lib/ghost/versions/6.3.1/core/server/data/db/DatabaseStateManager.js');
-const originalGetState = originalCore.DatabaseStateManager.prototype.getState;
+// Set database-related environment variables to help Ghost start
+process.env.ghost_db_migration_skip = 'true';
+process.env.NODE_ENV = 'production';
 
-// Replace the getState method to avoid the primary key error
-originalCore.DatabaseStateManager.prototype.getState = async function() {
-  console.log('Using custom database state management...');
-  return {
-    migrations: true,
-    migrationLock: false,
-    dbInitialized: true
-  };
-};
+// We'll use a simpler approach - set a special flag and then just start Ghost
+process.env.GHOST_SKIP_DB_CHECK = 'true';
 
 // Load the original Ghost entry point
-require('/var/lib/ghost/versions/6.3.1/index.js');
+require('/var/lib/ghost/current/index.js');
 EOL
 
 # Run the bootstrap script to prepare the database
 echo "Preparing database for Ghost startup..."
 node /var/lib/ghost/bootstrap-database.js || echo "Database preparation failed, but continuing..."
 
-# Start Ghost with our custom entry point
+# Start Ghost with environment variables to disable database migrations
 echo "Starting Ghost with custom initialization on 0.0.0.0:2368..."
 cd /var/lib/ghost
-NODE_OPTIONS="--unhandled-rejections=strict" exec node /var/lib/ghost/custom-start.js
+
+# Export all necessary environment variables for Ghost
+export ghost_db_client=postgres
+export ghost_db_connection__host=${DB_HOST}
+export ghost_db_connection__user=${DB_USER}
+export ghost_db_connection__password=${DB_PASSWORD}
+export ghost_db_connection__database=${DB_NAME}
+export ghost_db_connection__port=${DB_PORT}
+export ghost_db_connection__ssl__rejectUnauthorized=false
+
+# Use environment variables to prevent database migrations
+export NODE_ENV=production
+export ghost_skip_bootstrap=true
+export ghost_skip_startup_checks=true
+
+# Create a symbolic link to ensure the current directory has the right setup
+rm -rf /var/lib/ghost/content/logs 2>/dev/null
+mkdir -p /var/lib/ghost/content/logs
+chown -R node:node /var/lib/ghost/content
+
+# Try custom entry point first, fall back to direct execution
+echo "Attempting to start Ghost with custom entry point..."
+(cd /var/lib/ghost && node /var/lib/ghost/custom-start.js) || 
+  (echo "Custom start failed, trying direct Ghost start..." && 
+   cd /var/lib/ghost && node current/index.js)
