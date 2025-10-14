@@ -30,6 +30,15 @@
     <link rel="stylesheet" href="{{ "/css/dark.css" | relative_url }}?{{ site.time | date: "%Y%m%d%H%M" }}" type="text/css">
     {% endif %}
     <link rel="stylesheet" href="{{ "/css/custom.css" | relative_url }}?{{ site.time | date: "%Y%m%d%H%M" }}" type="text/css">
+    <link rel="stylesheet" href="{{ "/css/overrides.scss" | relative_url }}?{{ site.time | date: "%Y%m%d%H%M" }}" type="text/css">
+    
+    <!-- Inline styles to ensure font overrides take precedence -->
+    <style>
+      .site-header, .site-nav, .nav-link, .nav-active, .site-header a, .site-nav a {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace !important;
+        text-transform: lowercase;
+      }
+    </style>
 
     <!-- Fonts -->
     {% if site.extended_fonts %}
