@@ -2,15 +2,24 @@
 title: My Awesome Site
 email: your-email@example.com
 description: >-
-  A simple Jekyll site deployed on Render
+  A simple Jekyll site deployed on Render with a dark Pixyll theme
 baseurl: ""
 url: ""
 
 # Build settings
-theme: minima
+# No theme specified as we're using a custom Pixyll dark theme
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  
+# Pixyll theme specific settings
+text_color: "#e0e0e0"
+dark_theme: true
+animated: true
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
 
 # Exclude from processing
 exclude:

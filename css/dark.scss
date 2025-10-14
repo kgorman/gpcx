@@ -1,0 +1,126 @@
+---
+# Dark theme styles
+---
+
+@charset "UTF-8";
+
+// Import existing variables
+@import "variables";
+
+// Override with dark theme colors
+$dark-background: #121212;
+$dark-text: #e0e0e0;
+$dark-secondary-text: #b0b0b0;
+$dark-border: #333333;
+$dark-link: #4da3ff;
+$dark-link-hover: #80bdff;
+$dark-code-bg: #1e1e1e;
+$dark-blockquote-bg: #1a1a1a;
+$dark-blockquote-border: #444;
+$dark-table-border: #333;
+$dark-table-bg-even: #1a1a1a;
+
+body {
+  background-color: $dark-background;
+  color: $dark-text;
+}
+
+a {
+  color: $dark-link;
+  &:hover {
+    color: $dark-link-hover;
+  }
+}
+
+.site-header {
+  background-color: $dark-background;
+  border-bottom: 1px solid $dark-border;
+}
+
+.site-nav a {
+  color: $dark-text;
+  &:hover {
+    color: $dark-link-hover;
+  }
+}
+
+.social-icons a {
+  color: $dark-secondary-text;
+  &:hover {
+    color: $dark-link-hover;
+  }
+}
+
+.post-meta {
+  color: $dark-secondary-text;
+}
+
+.pagination {
+  color: $dark-secondary-text;
+  a, .disabled {
+    color: $dark-link;
+    border-color: $dark-border;
+  }
+  a:hover {
+    background-color: darken($dark-background, 3%);
+    border-color: $dark-link;
+  }
+  .button {
+    background-color: $dark-background;
+  }
+  .disabled {
+    color: $dark-secondary-text;
+  }
+}
+
+blockquote {
+  background-color: $dark-blockquote-bg;
+  border-left-color: $dark-blockquote-border;
+}
+
+pre, code {
+  background-color: $dark-code-bg;
+  border: 1px solid $dark-border;
+}
+
+hr {
+  border-top: 1px solid $dark-border;
+}
+
+.footer {
+  background-color: $dark-background;
+  border-top: 1px solid $dark-border;
+  color: $dark-secondary-text;
+}
+
+input, textarea, button {
+  background-color: darken($dark-background, 3%);
+  border: 1px solid $dark-border;
+  color: $dark-text;
+  &:focus {
+    border-color: $dark-link;
+    outline: none;
+  }
+}
+
+table {
+  border: 1px solid $dark-table-border;
+  tbody tr:nth-child(even) {
+    background-color: $dark-table-bg-even;
+  }
+  th, td {
+    border: 1px solid $dark-table-border;
+  }
+}
+
+// Form specific styling
+.input-dark {
+  background-color: darken($dark-background, 3%);
+  color: $dark-text;
+}
+
+.form-stacked label,
+.form-stacked .input-field {
+  display: block;
+  margin-top: 0.25rem;
+}
