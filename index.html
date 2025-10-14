@@ -51,3 +51,12 @@ layout: default
     <h1 class='center'>{{ site.text.index.coming_soon }}</h1>
   {% endif %}
 </div>
+
+<!-- Extra font override for header/menu, loaded last for maximum specificity -->
+<style>
+.site-header, .site-header *, .site-nav, .site-nav *, .nav-link, .nav-active, .site-header a, .site-nav a, nav a {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace !important;
+  text-transform: lowercase !important;
+  letter-spacing: 0.03em !important;
+}
+</style>

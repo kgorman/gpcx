@@ -43,13 +43,10 @@ body {
 }
 
 /* Specific header and navigation menu font overrides */
-.site-nav a, 
-.nav-link,
-.nav-active,
-.site-header a {
+.site-header, .site-header *, .site-nav, .site-nav *, .nav-link, .nav-active, .site-header a, .site-nav a, nav a {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace !important;
-  text-transform: lowercase;
-  letter-spacing: 0.03em;
+  text-transform: lowercase !important;
+  letter-spacing: 0.03em !important;
 }
 
 /* Posts page specific styling */
