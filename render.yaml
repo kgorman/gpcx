@@ -1,39 +1,6 @@
 services:
   - type: web
-    name: ghost-blog
-    env: docker
-    dockerfilePath: ./Dockerfile
-    dockerContext: .
-    plan: free
-    healthCheckPath: /
-    envVars:
-      - key: NODE_ENV
-        value: production
-      - key: database__client
-        value: postgres
-      - key: database__connection__host
-        fromDatabase:
-          name: ghost-db
-          property: host
-      - key: database__connection__database
-        fromDatabase:
-          name: ghost-db
-          property: database
-      - key: database__connection__user
-        fromDatabase:
-          name: ghost-db
-          property: user
-      - key: database__connection__password
-        fromDatabase:
-          name: ghost-db
-          property: password
-      - key: database__connection__port
-        value: "5432"
-      - key: database__connection__ssl__rejectUnauthorized
-        value: "false"
-      - key: NODE_TLS_REJECT_UNAUTHORIZED
-        value: "0"
-
-databases:
-  - name: ghost-db
-    plan: free
+    name: jekyll
+    runtime: static
+    buildCommand: bundle exec jekyll build
+    publishDir: _site

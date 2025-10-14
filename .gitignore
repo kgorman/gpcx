@@ -1,18 +1,19 @@
-# Node modules
-node_modules/
+# Default .gitignore file for Jekyll
 
-# Environment variables
-.env
+# Jekyll build
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
 
-# OS generated files
+# Ruby dependencies
+.bundle/
+
+# General
 .DS_Store
-Thumbs.db
-
-# IDE files
-.idea/
-.vscode/
+*.log
 *.swp
-*.swo
-
-# Example directory
-render-example/
+*~
+node_modules/
+.env
