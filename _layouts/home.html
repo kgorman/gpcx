@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<main class="home-posts">
+  {% for post in site.posts %}
+    <article class="post-preview">
+      <header>
+        <h2 class="post-title">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
+      </header>
+      {% if post.description %}
+        <p class="post-description">{{ post.description }}</p>
+      {% endif %}
+      {% if post.image %}
+        <figure class="post-image">
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }} image" loading="lazy" />
+        </figure>
+      {% endif %}
+      <section class="post-teaser">
+        {% if post.excerpt %}
+          {{ post.excerpt }}
+        {% else %}
+          {{ post.content | markdownify | strip_html | truncatewords: 40 }}
+        {% endif %}
+      </section>
+      <footer>
+        <a href="{{ post.url | relative_url }}" class="read-more">Read more &rarr;</a>
+      </footer>
+    </article>
+  {% endfor %}
+</main>

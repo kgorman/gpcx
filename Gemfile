@@ -6,7 +6,6 @@ gem "webrick", "~> 1.7"
 gem "logger"
 gem "csv"
 
-# Theme - Using custom Pixyll theme (no gem needed)
 
 # Plugins
 group :jekyll_plugins do

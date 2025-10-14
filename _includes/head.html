@@ -25,12 +25,8 @@
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.title }}" href="{{ "/feed.xml" | relative_url }}" />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ "/css/pixyll.css" | relative_url }}?{{ site.time | date: "%Y%m%d%H%M" }}" type="text/css">
-    {% if site.dark_theme %}
-    <link rel="stylesheet" href="{{ "/css/dark.css" | relative_url }}?{{ site.time | date: "%Y%m%d%H%M" }}" type="text/css">
-    {% endif %}
-    <link rel="stylesheet" href="{{ "/css/custom.css" | relative_url }}?{{ site.time | date: "%Y%m%d%H%M" }}" type="text/css">
-    <link rel="stylesheet" href="{{ "/css/overrides.scss" | relative_url }}?{{ site.time | date: "%Y%m%d%H%M" }}" type="text/css">
+  <link rel="stylesheet" href="{{ "/css/custom.css" | relative_url }}?{{ site.time | date: "%Y%m%d%H%M" }}" type="text/css">
+  <link rel="stylesheet" href="{{ "/assets/css/theme-placeholders.css" | relative_url }}?{{ site.time | date: "%Y%m%d%H%M" }}" type="text/css">
     
     <!-- Inline styles to ensure font overrides take precedence -->
     <style>

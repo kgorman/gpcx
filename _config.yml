@@ -8,25 +8,19 @@ url: ""
 author: kenny gorman
 
 # Build settings
-# No theme specified as we're using a custom Pixyll dark theme
+  A simple Jekyll site deployed on Render with a custom dark theme
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   
 # Pixyll theme specific settings
 text_color: "#e0e0e0"
-dark_theme: true
+theme: null # No theme specified, using custom layouts and CSS
 animated: true
 date_format: "%b %-d, %Y"
 
 # Pagination
 paginate: 5
-paginate_path: "/page:num/"
 
-# Exclude from processing
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
   - vendor
   - .gitignore
