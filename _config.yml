@@ -5,6 +5,7 @@ description: >-
   A simple Jekyll site deployed on Render with a dark Pixyll theme
 baseurl: ""
 url: ""
+author: kenny gorman
 
 # Build settings
 # No theme specified as we're using a custom Pixyll dark theme
