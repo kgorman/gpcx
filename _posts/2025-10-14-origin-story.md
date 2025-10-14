@@ -5,6 +5,7 @@ date: 2025-10-14 07:00:00 -0500
 description: "A quiet moment in Telluride that changed everything."
 tags: [gpxc, originstory, rideeveryday, cyclinglife, grimyhandshake]
 author: kenny gorman
+image: /assets/images/IMG_6748.jpeg
 ---
 
 ## The Origin Story
