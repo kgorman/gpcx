@@ -2,5 +2,8 @@ services:
   - type: web
     name: jekyll
     runtime: static
-    buildCommand: bundle exec jekyll build
+    buildCommand: bundle install && bundle exec jekyll build
     publishDir: _site
+    envVars:
+      - key: JEKYLL_ENV
+        value: production

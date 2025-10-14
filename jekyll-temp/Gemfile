@@ -1,10 +1,7 @@
 source "https://rubygems.org"
-ruby "~> 2.7.0" # Specify Ruby version
 
-gem "jekyll", "~> 4.2.0" # More stable version
-gem "webrick", "~> 1.7"
-gem "logger"
-gem "csv"
+gem "jekyll", "~> 4.3.2"
+gem "webrick", "~> 1.8"
 
 # Theme
 gem "minima", "~> 2.5"
