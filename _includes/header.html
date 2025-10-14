@@ -1,7 +1,10 @@
 <header class="site-header px2 px-responsive">
   <div class="mt2 wrap">
     <div class="measure">
-      <a href="{{ "/" | relative_url }}" class="site-title">{{ site.title }}</a>
+      <a href="{{ "/" | relative_url }}" class="site-title">
+        <img src="{{ "/assets/images/FD8D310C-1E36-417A-B665-56A8FAC730CF.jpeg" | relative_url }}" alt="Site Logo" class="site-logo">
+        <span class="site-title-text">{{ site.title }}</span>
+      </a>
       <nav class="site-nav">
         {% include navigation.html %}
       </nav>

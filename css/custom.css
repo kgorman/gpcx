@@ -1,0 +1,22 @@
+/* Custom styles for the site logo */
+.site-logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* Makes the image circular */
+}
+
+/* Adjust the site title positioning to align with logo */
+a.site-title {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+/* Adjust the site title text */
+.site-title-text {
+  display: inline-block;
+  vertical-align: middle;
+}
