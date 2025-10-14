@@ -59,6 +59,50 @@ body {
   color: #b0b0b0;
 }
 
+/* Post summary styling */
+.post-summary {
+  margin-top: 1.5rem;
+  line-height: 1.6;
+}
+
+.post-description {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace;
+  font-size: 1.1em;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  color: #a0a0a0;
+}
+
+.post-feature-image {
+  width: 100%;
+  margin: 1rem 0 2rem 0;
+}
+
+.post-feature-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.read-more {
+  margin-top: 1.5rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace;
+  text-transform: lowercase;
+}
+
+.read-more a {
+  font-size: 0.9em;
+  letter-spacing: 0.05em;
+  padding-bottom: 2px;
+  border-bottom: 1px solid var(--dark-link);
+}
+
+.tags {
+  margin-top: 1.5rem;
+  font-size: 0.85em;
+}
+
 /* Special styling for About page */
 .post-content {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace;
