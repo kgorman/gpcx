@@ -41,3 +41,16 @@ body {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace;
   text-transform: lowercase;
 }
+
+/* Special styling for About page */
+.post-content {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace;
+  line-height: 1.6;
+}
+
+.post-content h2 {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace;
+  text-transform: lowercase;
+  letter-spacing: 0.05em;
+  margin-top: 1.5em;
+}

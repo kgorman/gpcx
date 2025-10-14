@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: jekyll
-    runtime: static
-    buildCommand: bundle exec jekyll build
-    publishDir: _site
