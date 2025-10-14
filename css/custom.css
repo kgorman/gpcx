@@ -42,6 +42,13 @@ body {
   text-transform: lowercase;
 }
 
+/* Posts page specific styling */
+.post-tags {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace;
+  font-size: 0.85em;
+  color: #b0b0b0;
+}
+
 /* Special styling for About page */
 .post-content {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, Liberation Mono, monospace;

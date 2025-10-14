@@ -17,6 +17,7 @@ plugins:
 text_color: "#e0e0e0"
 dark_theme: true
 animated: true
+date_format: "%b %-d, %Y"
 
 # Pagination
 paginate: 5
