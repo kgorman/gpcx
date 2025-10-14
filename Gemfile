@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby "~> 2.7.0" # Specify Ruby version
+ruby "~> 3.1.0" # Specify Ruby version
 
 gem "jekyll", "~> 4.2.0" # More stable version
 gem "webrick", "~> 1.7"
