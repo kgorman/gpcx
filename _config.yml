@@ -1,0 +1,9 @@
+title: gpcx
+email: your-email@example.com
+description: >-
+  A dead simple Jekyll site for Render demo.
+baseurl: ""
+url: ""
+theme: minima
+plugins:
+  - jekyll-feed
