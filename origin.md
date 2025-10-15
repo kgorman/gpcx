@@ -4,9 +4,11 @@ title: Origin Story
 description: How this came to be
 permalink: /origin_story/
 ---
+![beer](/assets/images/telluride_beer.jpg)
+
 I was sitting on the patio at Telluride Brewing, beer in hand, happy as a man can be after a huge ride. My son was still up on the mountain, ripping the park. My wife and daughter were out shopping with the dogs. Everything was perfect — except I knew, deep down, something had to change.
 
-I’m 54 now. I’ve been riding bikes since my twenties. I’ve never really taken a break, but I’ve also never been the guy at the front of the pack. Consistent, yes. Fast, no. I didn’t race for the trophies; I rode for my soul. I was never the skinniest guy, but I was always out there. I grew up on Colorado’s Front Range — riding Matthew Winters Park, the odd weekend in Moab, long days pedaling from downtown Denver with my co-partner in crime: Bill, to the foothills and back. We even raced the Cactus Cup once or twice. Nothing spectacular in the results, but mountain biking was my life.
+I’m 54 now. I’ve been riding bikes since my twenties. I’ve never really taken a break, but I’ve also never been the guy at the front of the pack. Consistent, yes. Fast, no. I didn’t race for the trophies; I rode for my soul. I was never the skinniest guy, but I was always out there. I grew up on Colorado’s Front Range — riding Matthew Winters Park, the odd weekend in Moab, long days pedaling from downtown Denver with my partner in crime: Bill, to the foothills and back. We even raced the Cactus Cup once or twice. Nothing spectacular in the results, but mountain biking was my life.
 
 In the ’90s, I moved to the Bay Area and kept the streak alive — Marin, Angel Camp, Mount Diablo, endless weekends in Downieville, and Skeggs Point on the peninsula. We rode everywhere. Abani was always up for a ride. Sometimes John would join, or my brother, or Michael. We weren’t chasing podiums; we were just chasing.. I'm not sure, something. My wife was/is a saint never asking why it took all day to ride, just patiently knowing I needed it.
 
@@ -17,5 +19,3 @@ Which brings me back to Telluride. Every year we go to Colorado — Yeti Tribe r
 Fast forward three months: I’ve been riding three times a week and I’ve dropped twenty-five pounds. I’ve signed up for two races — one done, one coming. The first was Doss Gravel, and I finished it. The second is the Austin Rattler. I don’t even know if I’ll finish the Rattler, but that’s the point. Keep riding. Keep pushing. Make the change. Turn the corner. Put in the effort. Finish the race.
 
 I don’t know exactly where this goes from here. I just know I’ll keep writing, keep taking pictures, keep making stuff — and I’ll keep *riding* more. I’m waking up in the dark, rolling out with my buddies before the sun, and yeah, they’re still faster. But it doesn’t matter. This is where I need to be. This is my spot.
-
----
