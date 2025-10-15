@@ -1,6 +1,8 @@
 ---
 layout: home
-title: Welcome to gpcx
+title: gpxc.cc
 ---
 
-This is a dead simple Jekyll site deployed on Render.
+somewhere between grease and dust,  
+this is where the <s>good</s> stuff happens —  
+the work, the rides, the failures that turn into better parts and better stories.
