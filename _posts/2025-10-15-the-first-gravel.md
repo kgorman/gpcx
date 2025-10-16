@@ -7,6 +7,8 @@ tags: [gpxc, gravel, race, dossgravel, rideeveryday]
 author: kenny gorman
 ---
 
+![road](/assets/images/dos_gravel_road.jpg)
+
 So for whatever reason, I decided to race a gravel race.  
 And for whatever reason, this is going to be the first post here.
 
