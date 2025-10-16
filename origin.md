@@ -16,6 +16,8 @@ Then life did what it does. Kids, companies, responsibilities — all good thing
 
 Which brings me back to Telluride. Every year our family goes to Colorado — Yeti Tribe rides, park days, the usual mountain rituals. But this time was different. I was there, surrounded by everything I love about bikes, and I wasn’t in shape to enjoy it. It bugged me deeply. I knew I could be better. I knew I *was* better. That afternoon, staring at the mountains with a beer in hand (I'll admit a few in at this point), I decided it was time for a change.
 
+![singletrack](/assets/images/telluride_singletrack.jpg)
+
 Fast forward three months: I’ve been riding three times a week and I’ve dropped twenty-five pounds. I’ve signed up for two races — one done, one coming. The first was Doss Gravel, and I finished it. The second is the Austin Rattler. I don’t even know if I’ll finish the Rattler, but that’s the point. Keep riding. Keep pushing. Make the change. Turn the corner. Put in the effort. Finish the race.
 
 I don’t know exactly where this goes from here. I just know I’ll keep writing, keep taking pictures, keep making stuff — and I’ll keep *riding* more. I’m waking up in the dark, rolling out with my buddies before the sun, and yeah, they’re still faster. But it doesn’t matter. This is where I need to be. This is my spot.
