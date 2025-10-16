@@ -18,6 +18,8 @@ It still seemed like a silly idea. I’m not in great shape, not the kind that f
 
 The night before the race, I ate like a man who thought calories could become courage. Big dinner, maybe too big, but I slept great. We left before dawn, driving through the dark out to Doss, Texas. At the start line it was me, Mark, Brett, and Boots. We were joking around, pretending it was all casual, but I was nervous. I didn’t even know if I could finish.  
 
+![number_plate](/assets/images/dos_gravel_number_plate.jpg)
+
 My training plan said to stay in the 140s for heart rate — Zone 2, the safe zone. That lasted about five minutes. Once the gun went off, I was in the 150s and knew I’d be there all day.
 
 Brett took off. So did Mark. Boots, though — Boots stayed with me.  
