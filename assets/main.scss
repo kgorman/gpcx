@@ -34,3 +34,8 @@
 .read-more:hover {
   text-decoration: underline;
 }
+
+// Add curved edges to all images
+img {
+  border-radius: 8px;
+}
