@@ -9,6 +9,4 @@ plugins:
 
 minima:
   show_excerpts: true
-  skin: classic
-  include:
-    - assets/css/custom.scss 
+  skin: classic 

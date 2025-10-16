@@ -1,0 +1,36 @@
+---
+---
+
+@import "minima";
+
+// Custom styles for compact post images on home page
+.post-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.post-preview {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 2rem;
+}
+
+.post-excerpt {
+  color: #555;
+  line-height: 1.6;
+}
+
+.read-more {
+  font-weight: bold;
+  text-decoration: none;
+  color: #222;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
