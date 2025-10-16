@@ -7,17 +7,17 @@ layout: default
     {% for post in site.posts %}
       <li>
         <article class="post-preview">
-          {% if post.image %}
-            <a href="{{ post.url | relative_url }}">
-              <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-image" />
-            </a>
-          {% endif %}
           <h2>
             <a class="post-link" href="{{ post.url | relative_url }}">
               {{ post.title | escape }}
             </a>
           </h2>
           <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+           {% if post.image %}
+            <a href="{{ post.url | relative_url }}">
+              <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-image" />
+            </a>
+          {% endif %}
           <p class="post-excerpt">
             {{ post.excerpt | strip_html | truncatewords: 40 }}
           </p>
