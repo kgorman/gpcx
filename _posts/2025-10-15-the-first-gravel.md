@@ -10,8 +10,7 @@ author: kenny gorman
 
 ![road](/assets/images/dos_gravel_road.jpg)
 
-So for whatever reason, I decided to race a gravel race.  
-And for whatever reason, this is going to be the first post here.
+So for whatever reason, I decided to race a gravel race, and for whatever reason, this is going to be the first post here.
 
 We picked Doss Gravel mostly because it fit the calendar. It was the next open weekend, the nearest thing that looked fun, and honestly, I’d been losing weight, riding more, feeling that pull again. I love my gravel bike. Maybe it was time to race.
 
