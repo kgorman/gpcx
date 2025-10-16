@@ -3,6 +3,7 @@ layout: post
 title: "Doss Gravel: The First One"
 date: 2025-10-10 07:00:00 -0500
 description: "First race in years. Dust, cramps, good friends, and gratitude."
+image: /assets/images/dos_gravel_road.jpg
 tags: [gpxc, gravel, race, dossgravel, rideeveryday]
 author: kenny gorman
 ---

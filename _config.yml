@@ -6,3 +6,6 @@ url: ""
 theme: minima
 plugins:
   - jekyll-feed
+
+minima:
+  show_excerpts: true
