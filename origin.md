@@ -12,6 +12,8 @@ I’m 54 now. I’ve been riding bikes since my twenties. I’ve never really ta
 
 In the ’90s, I moved to the Bay Area and kept the streak alive — Marin, Angel Camp, Mount Diablo, endless weekends in Downieville, and Skeggs Point on the peninsula. We rode everywhere. Abani was always up for a ride. Sometimes John would join, or my brother, or Michael. We weren’t chasing podiums; we were just chasing.. I'm not sure, something. My wife was/is a saint never asking why it took all day to ride, just patiently knowing I needed it.
 
+![wheelie](/assets/images/downie_wheelie.jpg)
+
 Then life did what it does. Kids, companies, responsibilities — all good things, but they eat at the edges of your time. I didn’t love riding any less; I just did it less. When we moved to Austin in 2013, I made a deliberate choice to live near Emma Long Park so I could ride from the house. But the cadence never stuck. Some months I rode ten times, some months none. A few years like that and it showed — the weight crept up, the legs got slower, and the young guns started dropping me.
 
 Which brings me back to Telluride. Every year our family goes to Colorado — Yeti Tribe rides, park days, the usual mountain rituals. But this time was different. I was there, surrounded by everything I love about bikes, and I wasn’t in shape to enjoy it. It bugged me deeply. I knew I could be better. I knew I *was* better. That afternoon, staring at the mountains with a beer in hand (I'll admit a few in at this point), I decided it was time for a change.
