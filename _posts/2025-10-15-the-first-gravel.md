@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Doss Gravel: The First One"
+title: "Doss Gravel: First Taste of Gravel"
 date: 2025-10-10 07:00:00 -0500
 description: "First race in years. Dust, cramps, good friends, and gratitude."
 image: /assets/images/dos_gravel_road.jpg
