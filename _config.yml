@@ -12,11 +12,3 @@ plugins:
 minima:
   show_excerpts: true
   skin: classic 
-
-# Default values for all pages
-defaults:
-  - scope:
-      path: ""          # everything, including index
-      type: "pages"
-    values:
-      image: /assets/images/telluride_singletrack.jpg 
