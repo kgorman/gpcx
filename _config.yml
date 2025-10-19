@@ -12,3 +12,16 @@ plugins:
 minima:
   show_excerpts: true
   skin: classic 
+
+# SEO and social media defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
