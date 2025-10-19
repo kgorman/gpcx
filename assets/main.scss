@@ -40,9 +40,21 @@ img {
   border-radius: 8px;
 }
 
-// Tagline styling
-.tagline {
-  color: #666;
-  font-weight: normal;
-  font-size: 0.9em;
+// Title and tagline alignment
+.site-title,
+.site-title:visited { 
+  display: inline-block; 
+  vertical-align: middle; 
+  margin: 0; 
+  line-height: 1; 
+}
+
+.site-title + .tagline {
+  display: inline-block; 
+  vertical-align: middle; 
+  margin-left: .45rem;
+  font-family: 'JetBrains Mono', monospace; 
+  font-size: .85rem; 
+  color: #666; 
+  text-transform: lowercase;
 }
