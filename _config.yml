@@ -3,6 +3,7 @@ description: >-
   ride stories & garage experiments
 baseurl: ""
 url: "https://gpxc.cc"
+image: /assets/images/telluride_singletrack.jpg
 theme: minima
 plugins:
   - jekyll-feed

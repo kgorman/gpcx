@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Subscribe 
+title: subscribe
 permalink: /subscribe/
 ---
 
