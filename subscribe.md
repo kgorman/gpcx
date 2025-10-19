@@ -5,7 +5,7 @@ permalink: /subscribe/
 ---
 
 Most of what happens here starts in the garage or out on a ride.  
-i write about both — the miles, the busted parts, the fixes that work.  
+I write about both — the miles, the busted parts, the fixes that work.  
 no ads, no fluff, just stories and photos that come out of the week.  
 
 The email goes out once or twice a week when there's something worth sharing —  
