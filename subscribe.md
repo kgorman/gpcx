@@ -1,19 +1,17 @@
 ---
 layout: page
-title: subscribe
+title: subscribe 
 permalink: /subscribe/
 ---
 
-# subscribe to the zine
-
-most of what happens here starts in the garage or out on a ride.  
+Most of what happens here starts in the garage or out on a ride.  
 i write about both — the miles, the busted parts, the fixes that work.  
 no ads, no fluff, just stories and photos that come out of the week.  
 
-the email goes out once or twice a week when there's something worth sharing —  
+The email goes out once or twice a week when there's something worth sharing —  
 a new story, a few photos, maybe a small project from the bench.  
 
-if that sounds like your kind of thing, drop your email below.  
+If that sounds like your kind of thing, drop your email below.  
 you'll get the next issue straight in your inbox, no algorithms in between.
 
 {% include newsletter.html %}
