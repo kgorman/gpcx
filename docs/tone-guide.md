@@ -1,7 +1,7 @@
-# GPXC.cc — Tone & Voice Guide
+# GPCX.cc — Tone & Voice Guide
 
 ## Core Identity
-GPXC.cc is a handmade digital zine about **rides, parts, and the garage in between.**
+GPCX.cc is a handmade digital zine about **rides, parts, and the garage in between.**
 It's written by someone who actually rides, breaks stuff, fixes it, and rides again.
 It's **not** a brand, not content marketing, and not optimized for clicks.
 It's the dirt-under-the-fingernails version of storytelling.

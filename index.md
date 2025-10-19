@@ -1,6 +1,6 @@
 ---
 layout: home
-title: gpxc.cc
+title: gpcx.cc
 image: /assets/images/telluride_singletrack.jpg
 ---
 somewhere between grease and dust,  
