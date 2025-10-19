@@ -2,7 +2,7 @@ title: gpcx.cc
 description: >-
   ride stories & garage experiments
 baseurl: ""
-url: ""
+url: "https://gpxc.cc"
 theme: minima
 plugins:
   - jekyll-feed
