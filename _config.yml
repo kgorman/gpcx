@@ -2,7 +2,7 @@ title: gpcx.cc
 description: >-
   ride stories & garage experiments
 baseurl: ""
-url: "https://gpxc.cc"
+url: "https://gpcx.cc"
 image: /assets/images/telluride_singletrack.jpg
 theme: minima
 plugins:
