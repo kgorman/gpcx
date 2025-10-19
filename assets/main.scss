@@ -116,6 +116,12 @@ img {
   margin-top: 0.5rem;
 }
 
+.newsletter-note {
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: #888;
+}
+
 .icon-instagram {
   width: 22px;
   height: 22px;
@@ -126,4 +132,71 @@ img {
 
 .icon-instagram:hover {
   opacity: 1;
+}
+
+/* --- buttondown form styling --- */
+.bd-form {
+  margin-top: 1rem;
+  text-align: center;
+  font-family: 'JetBrains Mono', monospace;
+  text-transform: lowercase;
+}
+
+.bd-form label {
+  display: block;
+  margin-bottom: .4rem;
+  font-size: .85rem;
+  color: #111;
+}
+
+.bd-form .row {
+  display: inline-flex;
+  gap: .5rem;
+  align-items: center;
+}
+
+.bd-form input[type="email"] {
+  padding: .5rem .6rem;
+  border: 1px solid #111;
+  background: #fff;
+  font-family: inherit;
+  font-size: .9rem;
+  min-width: 240px;
+}
+
+.bd-form button {
+  padding: .5rem .8rem;
+  border: 1px solid #111;
+  background: linear-gradient(#fff,#f6f6f6);
+  box-shadow: 1px 1px 0 rgba(0,0,0,.1);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: .85rem;
+}
+
+.bd-form button:hover {
+  text-decoration: underline dotted;
+}
+
+.bd-note {
+  display: block;
+  margin-top: .4rem;
+  color: #666;
+  font-size: .72rem;
+}
+
+/* --- thanks page --- */
+.page-content h1 {
+  font-family: 'JetBrains Mono', monospace;
+  text-transform: lowercase;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+
+.page-content {
+  text-align: center;
+  margin-top: 4rem;
+  font-family: 'Spectral', serif;
+  font-size: 1.1rem;
+  line-height: 1.7;
 }
