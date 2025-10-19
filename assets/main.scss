@@ -101,3 +101,29 @@ img {
     top: 0;
   }
 }
+
+// Custom footer styling
+.site-footer {
+  text-align: center;
+  border-top: 1px dashed #999;
+  padding: 1.5rem 0;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.site-footer .social {
+  margin-top: 0.5rem;
+}
+
+.icon-instagram {
+  width: 22px;
+  height: 22px;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+  vertical-align: middle;
+}
+
+.icon-instagram:hover {
+  opacity: 1;
+}
