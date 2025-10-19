@@ -40,18 +40,23 @@ img {
   border-radius: 8px;
 }
 
-/* Reset Minima's blocky header spacing */
+/* --- Keep nav pushed to the right --- */
 .site-header .wrapper {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  justify-content: space-between; /* pushes nav (Origin Story) to right */
 }
 
-/* Keep title + tagline inline */
+/* Group title + tagline together */
 .brand {
   display: flex;
   align-items: baseline;
   flex-wrap: wrap;
+}
+
+/* Keep nav looking normal */
+.site-nav {
+  margin-left: auto;
 }
 
 /* Title */
