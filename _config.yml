@@ -6,7 +6,16 @@ url: "https://gpxc.cc"
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 minima:
   show_excerpts: true
   skin: classic 
+
+# Default values for all pages
+defaults:
+  - scope:
+      path: ""          # everything, including index
+      type: "pages"
+    values:
+      image: /assets/images/telluride_singletrack.jpg 
