@@ -2,8 +2,14 @@
   <p>© 2025 gpxc.cc — little bike zine from Texas</p>
 
   <p class="newsletter-note">
-    subscribe for new ride stories → see you in the inbox
+    <a href="#" onclick="toggleNewsletter(); return false;" class="newsletter-toggle">
+      subscribe for new ride stories → see you in the inbox
+    </a>
   </p>
+
+  <div id="newsletter-form" class="newsletter-form-container" style="display: none;">
+    {% include newsletter.html %}
+  </div>
 
   <p class="social">
     <a href="https://www.instagram.com/gpcx.cc/" target="_blank" rel="noopener">
@@ -11,3 +17,14 @@
     </a>
   </p>
 </footer>
+
+<script>
+function toggleNewsletter() {
+  var form = document.getElementById('newsletter-form');
+  if (form.style.display === 'none') {
+    form.style.display = 'block';
+  } else {
+    form.style.display = 'none';
+  }
+}
+</script>

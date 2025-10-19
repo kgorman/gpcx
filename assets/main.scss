@@ -122,6 +122,23 @@ img {
   color: #888;
 }
 
+.newsletter-toggle {
+  color: #888;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.newsletter-toggle:hover {
+  color: #111;
+  text-decoration: underline;
+}
+
+.newsletter-form-container {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px dashed #ccc;
+}
+
 .icon-instagram {
   width: 22px;
   height: 22px;
