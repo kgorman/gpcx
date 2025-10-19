@@ -1,13 +1,7 @@
 <footer class="site-footer">
   <p>© 2025 gpxc.cc — little bike zine from Texas</p>
 
-  <p class="newsletter-note">
-    <a href="#" onclick="toggleNewsletter(); return false;" class="newsletter-toggle">
-      subscribe for new ride stories → see you in the inbox
-    </a>
-  </p>
-
-  <div id="newsletter-form" class="newsletter-form-container" style="display: none;">
+  <div id="newsletter-form" class="newsletter-form-container">
     {% include newsletter.html %}
   </div>
 
@@ -17,14 +11,3 @@
     </a>
   </p>
 </footer>
-
-<script>
-function toggleNewsletter() {
-  var form = document.getElementById('newsletter-form');
-  if (form.style.display === 'none') {
-    form.style.display = 'block';
-  } else {
-    form.style.display = 'none';
-  }
-}
-</script>
