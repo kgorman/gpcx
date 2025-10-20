@@ -12,15 +12,14 @@ If you haven’t been to **Reveille Peak Ranch**, imagine granite domes, rolling
 
 The problem was simple: I didn’t really have a bike for it.
 
+![Yeti SB150](/assets/images/sb150_bars.jpg)
+
 ### The Bike I Already Had
 
-What I *did* have was my trusty **Yeti SB150**, a 2019 frame that’s been everywhere — Telluride, Purgatory, Snowmass — the kind of bike that still creaks like it’s proud of the miles.  
-It’s mostly been my park bike. Lately I’ve been on the e-MTB more, and the 150 just hung there on the rack, half retired.  
+What I *did* have was my trusty **Yeti SB150**, a 2019 frame that’s been everywhere — Telluride, Purgatory, Snowmass. It’s mostly been my park bike. Lately I’ve been on the e-MTB more, and the 150 just hung there on the rack, half retired.
 
 I even thought about selling it.  
-Then I realized: this frame could be the start of a Rattler bike.  
-If I could make it feel somewhere between an **SB140** and an **SB120**, maybe I’d have something.  
-Lighter, steeper, snappier — still tough enough to smash a ledge line.
+Then I realized: this frame could be the foundation of a Rattler race rig. If I could make it feel somewhere between an **SB140** and an **SB120**, maybe I’d have something. Lighter, steeper, snappier — still tough enough to rip the chunks.
 
 That’s where the *Breakfast Ride* name came from.  
 Yeti has its *Lunch Ride* builds — they *over-fork* their bikes for more travel.  
@@ -30,7 +29,7 @@ This is the opposite. I *under-forked* mine.
 
 First thing to go was the coil.  
 Loved it in the park, hated it everywhere else. Too heavy, too linear.  
-I wanted support, progressiveness, and a firm-mode lever I’d actually use.  
+I wanted support, progressiveness, and that firm-mode lever!
 
 That led straight to a **Fox Float X**.  
 Stock tune, no spacers touched. Lighter than the coil or the Float X2, and the feel is right in the middle — active, but never wallowy.  
@@ -66,18 +65,19 @@ I swapped to a **Maxxis Rekon 2.4 front** and **Rekon Race 2.35 rear**, running 
 Fast, light, predictable — not perfect in moon-dust, but it rolls like a rocket.  
 I kept the rims, drivetrain, and bars the same; just lighter where it mattered.
 
-Even the pedals got the treatment: an old pair from the parts bin, cleaned, greased, and spun until they felt new again.  
-No sense in buying something shiny when the old ones still work.
+Even the pedals got the treatment: an old pair of m540's from the parts bin, cleaned, greased, and spun until they felt new again. No sense in buying something shiny when the old ones still work.
 
 ### Step Three — Fit and the Nerve-Wracking Cut
 
-The old setup was pure enduro — tall front, lazy stance.  
+The old setup was pure enduro — tall front, slaaaaack.
 For Rattler, I needed to drop the stack and get more weight on the front wheel.  
 
 So I grabbed the hacksaw.  
-Measured
+Measured, 3 times.
 Headset bearings from 2019 — still smooth, just needed fresh grease.  
-Stack height landed perfect. Bike felt planted and alive.
+With a couple of 3d printed spacers we were good, stack height landed perfect.
+
+![Cutting the tube](/assets/images/sb150_cut.jpg)
 
 ### Suspension Setup
 
@@ -95,7 +95,7 @@ Stack height landed perfect. Bike felt planted and alive.
 - HSC open  
 
 The two play well together.  
-Switch Infinity stays high, pedals clean, and that little blue lever on the Float X gives just enough firmness for the long slogs.
+Switch Infinity stays high, pedals clean, and that little blue lever on the Float X gives just enough firmness for the punchy death climbs.
 
 ![rattler_ride](/assets/images/sb150_trail.jpg)
 
