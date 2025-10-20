@@ -3,6 +3,7 @@ title: "SB150BR: The Breakfast Ride Build"
 date: 2025-10-19
 image: /assets/images/sb150_head.jpg
 excerpt: "Turning a six-year-old park bike into a Rattler weapon — coil to Float X, 38 to 36, some geometry math, and a few garage tricks that actually worked."
+author: "Kenny Gorman"
 ---
 
 It actually started over beers after the Dos Gravel race. The guys said, “You should try the Austin Rattler.”
@@ -141,9 +142,7 @@ It’s the same bike I’ve always loved — just stripped back, tuned up, and r
 Breakfast Ride because Yeti over-forks their bikes for lunch rides.  
 I went the other way.
 
-<!-- Side-by-side before/after images -->
-<div style="display: flex; gap: 1em; justify-content: center;">
-  <img src="/assets/images/sb150_before.jpg" alt="SB150 Before" style="max-width: 40%; height: auto;" />
-  <img src="/assets/images/sb150_after.jpg" alt="SB150 After" style="max-width: 40%; height: auto;" />
+<div style="display: flex; gap: 1em; justify-content: center; align-items: flex-start;">
+  <img src="/assets/images/sb150_before.jpg" alt="SB150 Before" style="width: 100%; max-width: 400px; height: auto;" />
+  <img src="/assets/images/sb150_after.jpg" alt="SB150 After" style="width: 100%; max-width: 400px; height: auto;" />
 </div>
-
