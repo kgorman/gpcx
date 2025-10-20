@@ -129,20 +129,19 @@ At roughly **30 pounds**, it feels like a trail bike that still remembers how to
 | **Drivetrain** | SRAM 12-speed / 30 T ring |
 | **Brakes** | SRAM 4-piston – 200 mm F / 180 mm R |
 | **Pedals** | Rebuilt used pair – cleaned & re-greased |
-| **Accessory** | *Tootsie Roll* 3D-printed bag mount on down-tube bottle bosses – flawless |
+| **Accessory** | *Tootsie Roll* wrap on a custom 3D-printed bag mount on down-tube bottle bosses – flawless |
 | **Weight** | ≈ 30 lbs |
 | **Head Angle (est.)** | ~ 64.9° |
 | **BB Height (est.)** | ~ 341 mm |
 | **Wheelbase (est.)** | ~ 1218 mm |
 
-The SB150 didn’t need saving.  
-It just needed some attention and a few smart changes to match how I actually ride now.  
-Lighter fork, lighter shock, a geometry tweak that landed where I hoped, and a few parts made on my own printer.  
-It’s the same bike I’ve always loved — just stripped back, tuned up, and ready for another chapter.  
-Breakfast Ride because Yeti over-forks their bikes for lunch rides.  
-I went the other way.
-
 <div style="display: flex; gap: 1em; justify-content: center; align-items: flex-start;">
   <img src="/assets/images/sb150_before.jpg" alt="SB150 Before" style="width: 100%; max-width: 400px; height: auto;" />
   <img src="/assets/images/sb150_after.jpg" alt="SB150 After" style="width: 100%; max-width: 400px; height: auto;" />
 </div>
+
+The SB150 didn’t need saving.  
+It just needed some attention and a few smart changes to match how the Rattler profile. Lighter fork, lighter shock, a geometry tweak that landed where I hoped, and a few parts I 3d printed.  
+It’s the same bike I’ve always loved — just stripped back, tuned up, and ready for another chapter.  
+Breakfast Ride because Yeti over-forks their bikes for lunch rides.  
+I went the other way.
