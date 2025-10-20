@@ -7,10 +7,7 @@ excerpt: "Turning a six-year-old park bike into a Rattler weapon — coil to Flo
 
 It actually started over beers after the Dos Gravel race. The guys said, “You should try the Austin Rattler.”
 
-If you haven’t been to **Reveille Peak Ranch**, imagine granite domes, rolling ledges, and loose dust that somehow steals watts right out of your legs.  
-The climbs are relentless, the descents rough and fast — pure Hill Country punishment.  
-Three laps gets you a Leadville 100 slot, but that’s fantasy for me.  
-One loop
+If you haven’t been to **Reveille Peak Ranch**, imagine granite domes, rolling ledges, and loose dust that somehow steals watts right out of your legs. The climbs are relentless, the descents rough and fast — pure Hill Country punishment. Three laps gets you a Leadville 100 slot, but that’s fantasy for me. One loop might be doable. Rattler? Maybe.
 
 The problem was simple: I didn’t really have a bike for it.
 
