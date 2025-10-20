@@ -143,7 +143,7 @@ I went the other way.
 
 <!-- Side-by-side before/after images -->
 <div style="display: flex; gap: 1em; justify-content: center;">
-  <img src="/assets/images/sb150_before.jpg" alt="SB150 Before" style="max-width: 48%; height: auto;" />
-  <img src="/assets/images/sb150_after.jpg" alt="SB150 After" style="max-width: 48%; height: auto;" />
+  <img src="/assets/images/sb150_before.jpg" alt="SB150 Before" style="max-width: 40%; height: auto;" />
+  <img src="/assets/images/sb150_after.jpg" alt="SB150 After" style="max-width: 40%; height: auto;" />
 </div>
 
