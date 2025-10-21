@@ -79,20 +79,22 @@ With a couple of 3d printed spacers we were good, stack height landed perfect.
 
 ![Cutting the tube](/assets/images/sb150_cut.jpg)
 
-### Suspension Setup
+### Suspension Setup  
+*(All clicks counted from fully closed / clockwise)*  
 
 **Fork – Fox 36 GRIP2 (160 mm)**  
-- 95 psi  
-- ≈ 30 % sag  
-- Rebound 10 out  
-- LSC 3 in  
-- HSC open  
+- Air pressure: 95 psi  
+- Sag: ≈ 30 %  
+- Low-speed compression (LSC): 13 clicks out (of 16)  
+- High-speed compression (HSC): 8 clicks out (fully open)  
+- Low-speed rebound (LSR): 10 clicks out  
+- High-speed rebound (HSR): factory neutral (mid-range)  
 
 **Shock – Fox Float X (stock)**  
-- 28 % sag  
-- Rebound 10 out  
-- LSC 3 in  
-- HSC open  
+- Sag: ≈ 28 %  
+- Rebound: 10 clicks out (of 16)  
+- Open-mode low-speed compression (LSC): 8 clicks out (of 11)  
+- Firm lever: used for long, loose climbs as needed
 
 The two play well together.  
 Switch Infinity stays high, pedals clean, and that little blue lever on the Float X gives just enough firmness for the punchy death climbs.
@@ -122,8 +124,8 @@ At roughly **30 pounds**, it feels like a trail bike that still remembers how to
 | Component | Spec / Setting |
 |:--|:--|
 | **Frame** | 2019 Yeti SB150 T-Series Carbon |
-| **Fork** | Fox 36 GRIP2 160 mm – 95 psi, 30 % sag, Reb 10 out, LSC 3 in |
-| **Shock** | Fox Float X (stock) – 28 % sag, Reb 10 out, LSC 3 in |
+| **Fork** | Fox 36 GRIP2 160 mm – 95 psi, 30 % sag, LSC 13 out / HSC 8 out / Reb 10 out |
+| **Shock** | Fox Float X (stock) – 28 % sag, LSC 8 out / Reb 10 out / Firm lever as needed |
 | **Tires** | Maxxis Rekon 2.4 F / Rekon Race 2.35 R – 22 / 24 psi |
 | **Cockpit** | 800 mm bar, 50 mm stem, 15 mm printed spacer below + 5 above, saddle +½″ forward planned |
 | **Drivetrain** | SRAM 12-speed / 30 T ring |
