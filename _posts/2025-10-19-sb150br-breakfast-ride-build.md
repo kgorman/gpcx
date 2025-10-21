@@ -127,7 +127,7 @@ At roughly **30 pounds**, it feels like a trail bike that still remembers how to
 | **Tires** | Maxxis Rekon 2.4 F / Rekon Race 2.35 R – 22 / 24 psi |
 | **Cockpit** | 800 mm bar, 50 mm stem, 15 mm printed spacer below + 5 above, saddle +½″ forward planned |
 | **Drivetrain** | SRAM 12-speed / 30 T ring |
-| **Brakes** | SRAM 4-piston – 200 mm F / 180 mm R |
+| **Brakes** | SRAM 4-piston Code RSC – 200 mm F / 200 mm R |
 | **Pedals** | Rebuilt used pair – cleaned & re-greased |
 | **Accessory** | *Tootsie Roll* wrap on a custom 3D-printed bag mount on down-tube bottle bosses – flawless |
 | **Weight** | ≈ 30 lbs |
