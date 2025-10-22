@@ -49,9 +49,9 @@ I lined it up against the SB140 and SB120 numbers and felt better right away.
 
 | Model                     | Fork | Head Angle | BB Height | Wheelbase | Notes                                   |
 |:--------------------------|:----:|:----------:|:---------:|:---------:|:----------------------------------------|
-| **SB120**         | 130  | **66.2°**  | **337 mm**| **1220 mm**| Your provided factory figures            |
-| **SB140**         | 160  | **65.0°**  | **342 mm**| **1246 mm**| Your provided factory figures            |
-| **SB150 (2019, stock)**   | 170  | **64.5°**  | **347.9 mm**| **1248 mm**| Your provided factory figures            |
+| **SB120**         | 130  | **66.2°**  | **337 mm**| **1220 mm**| 
+| **SB140**         | 160  | **65.0°**  | **342 mm**| **1246 mm**|     |
+| **SB150 (2019, stock)**   | 170  | **64.5°**  | **347.9 mm**| **1248 mm**|       |
 | **SB150BR**  | 160  | **≈ 64.9°**| **≈ 344.9 mm**| **≈ 1243 mm**| Est. from 10 mm fork drop (+0.4°, −3 mm BB, −5 mm WB) |
 
 A few tenths steeper, a few millimeters lower, and just a touch shorter.  
