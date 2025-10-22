@@ -47,12 +47,12 @@ Would it ruin the SB150’s character?
 
 I lined it up against the SB140 and SB120 numbers and felt better right away.
 
-| Model | Fork | Head Angle | BB Height | Wheelbase (LG) | Notes |
-|:--|:--:|:--:|:--:|:--|
-| **SB150 (stock 170 mm)** | 170 mm | 64.5° | 344 mm | 1223 mm | Baseline |
-| **SB150BR (160 mm)** | 160 mm | ≈ 64.9° | ≈ 341 mm | ≈ 1218 mm | My setup |
-| **SB140** | 160 mm | 65.4° | 341 mm | 1214 mm | Trail reference |
-| **SB120** | 130 mm | 66.5° | 335 mm | 1205 mm | XC reference |
+| Model                     | Fork | Head Angle | BB Height | Wheelbase | Notes                                   |
+|:--------------------------|:----:|:----------:|:---------:|:---------:|:----------------------------------------|
+| **SB120**         | 130  | **66.2°**  | **337 mm**| **1220 mm**| Your provided factory figures            |
+| **SB140**         | 160  | **65.0°**  | **342 mm**| **1246 mm**| Your provided factory figures            |
+| **SB150 (2019, stock)**   | 170  | **64.5°**  | **347.9 mm**| **1248 mm**| Your provided factory figures            |
+| **SB150BR**  | 160  | **≈ 64.9°**| **≈ 344.9 mm**| **≈ 1243 mm**| Est. from 10 mm fork drop (+0.4°, −3 mm BB, −5 mm WB) |
 
 A few tenths steeper, a few millimeters lower, and just a touch shorter.  
 Right between a 150’s stability and a 140’s agility.  
