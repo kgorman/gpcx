@@ -36,7 +36,7 @@ Stock tune, no spacers touched. Lighter than the coil or the Float X2, and the f
 That lever lets me flip into a firmer platform on long, loose climbs. Perfect.
 
 Next came the fork.  
-The **Fox 38** was way too much for Reveille Peak, so I went with a **Fox 36 GRIP2 @ 160 mm**.  
+The **Fox 38** was way too much for Reveille Peak, so I went with a **Fox Factory 36 GRIPX @ 160 mm**.  
 Ten millimeters shorter doesn’t sound like much, but it changes everything.  
 So I pulled up the geometry charts.
 
@@ -82,18 +82,17 @@ With a couple of 3d printed spacers we were good, stack height landed perfect.
 ### Suspension Setup  
 *(All clicks counted from fully closed / clockwise)*  
 
-**Fork – Fox 36 GRIP2 (160 mm)**  
+**Fork – Fox 36 Factory GRIP X (160 mm, 29")**  
 - Air pressure: 95 psi  
 - Sag: ≈ 30 %  
-- Low-speed compression (LSC): 13 clicks out (of 16)  
-- High-speed compression (HSC): 8 clicks out (fully open)  
-- Low-speed rebound (LSR): 10 clicks out  
-- High-speed rebound (HSR): factory neutral (mid-range)  
+- High-speed compression (HSC): 8 clicks out (of 12)  
+- Low-speed compression (LSC): 10 clicks out (of 16)  
+- Rebound: 10 clicks out (of 16)  
 
 **Shock – Fox Float X (stock)**  
 - Sag: ≈ 28 %  
 - Rebound: 10 clicks out (of 16)  
-- Open-mode low-speed compression (LSC): 8 clicks out (of 11)  
+- Low-speed compression (LSC): 8 clicks out (of 11, in Open mode)  
 - Firm lever: used for long, loose climbs as needed
 
 The two play well together.  
@@ -124,7 +123,7 @@ At roughly **30 pounds**, it feels like a trail bike that still remembers how to
 | Component | Spec / Setting |
 |:--|:--|
 | **Frame** | 2019 Yeti SB150 T-Series Carbon |
-| **Fork** | Fox 36 GRIP2 160 mm – 95 psi, 30 % sag, LSC 13 out / HSC 8 out / Reb 10 out |
+| **Fork** | Fox 36 Factory GRIP X 160 mm (29") – 95 psi, 30 % sag, HSC 8 out / LSC 10 out / Reb 10 out |
 | **Shock** | Fox Float X (stock) – 28 % sag, LSC 8 out / Reb 10 out / Firm lever as needed |
 | **Tires** | Maxxis Rekon 2.4 F / Rekon Race 2.35 R – 22 / 24 psi |
 | **Cockpit** | 800 mm bar, 50 mm stem, 15 mm printed spacer below + 5 above, saddle +½″ forward planned |
