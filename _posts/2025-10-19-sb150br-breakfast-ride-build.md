@@ -47,7 +47,7 @@ Would it ruin the SB150’s character?
 
 I lined it up against the SB140 and SB120 numbers and felt better right away.
 
-| Model                     | Fork | Head Angle | BB Height | Wheelbase | Notes                                   |
+| Model (Large)                    | Fork | Head Angle | BB Height | Wheelbase | Notes                                   |
 |:--------------------------|:----:|:----------:|:---------:|:---------:|:----------------------------------------|
 | **SB120**         | 130  | **66.2°**  | **337 mm**| **1220 mm**| 
 | **SB140**         | 160  | **65.0°**  | **342 mm**| **1246 mm**|     |
