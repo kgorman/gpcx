@@ -2,7 +2,7 @@
 layout: post  
 title: "Recon Mission or Death March? Rattler Pre-Ride Report"  
 date: 2025-10-23  
-excerpt: "A pre-race shakedown at Reveille Peak that turned into a full-blown survival story. Heat, rock, dust, and a hard reminder that fitness doesn't lie."  
+excerpt: "A pre-race shakedown at Reveille Peak that turned into a full-blown survival story. Heat, rock, dust, and pain"
 image: /assets/images/recon_header.jpg  
 tags: [ride report, rattler, austin, mountain bike, sb150, training]  
 ---
