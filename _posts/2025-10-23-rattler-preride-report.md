@@ -7,6 +7,8 @@ image: /assets/images/recon_header.jpg
 tags: [ride report, rattler, austin, mountain bike, sb150, training]  
 ---
 
+![panorama](/assets/images/recon_header.jpg)
+
 I got roped into entering to race the Austin Rattler in a few weeks, and yeah — I knew I needed to get fitter. A lot fitter. But I didn't quite realize *how much* until now. How do I make this not sound like a death march?  
 
 Ok, fuck it — it **was** a death march. Just not in the way I expected.
