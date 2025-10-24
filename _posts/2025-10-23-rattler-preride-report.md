@@ -22,6 +22,8 @@ We rolled out right at 2 p.m., when the shooting range goes cold. You could stil
 Meh. It's Texas — equal parts crazy and awesome. There's a mountain bike mecca out here — a ranch with a lake, camping, a bike shop, moto trails, and a firing range. Basically a playground for grown-up kids.  
 But all that charm starts to fade around mile five.
 
+![map](/assets/images/recon_map.jpg)
+
 RPR is hard to describe. The trails are a mashup of sweet singletrack, hardpack, gravel, moon rock, and punchy, loose climbs. Think **Moab meets South Mountain**, baked in 100-degree heat. My heart rate was redlined — deep in Z3 — gasping for air, arms burning on the climbs. Full-body effort, like the kind where even your forearms ache after.  
 
 Boots and Brett were patient. Different goals. They were reconning for race lines; I was proving I could survive. I even eyed the bailout road for a second — nope, not today. They waited for me. We crawled along but kept moving.  
@@ -41,6 +43,8 @@ We fix Boots' slow leak, get a bit lost, then lose him completely to a flat. The
 When we finally roll into the lot, Boots is already there — he'd short-cutted, run the last bit with his bike, showered, and cracked a beer. The man's a machine. We slam a couple cold ones as the sun drops.  
 My god. What an effort.  
 And we're gonna *race* this?
+
+![bike](/assets/images/recon_bike.jpg)
 
 We'd only done one lap. In the race, Boots is doing the 60 — **three laps**. I bet he beats my time for one. One thing was clear: I need to train my ass off for the next three weeks. Finishing at race pace feels impossible. But… I just did finish, didn't I?
 
