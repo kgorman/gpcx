@@ -7,7 +7,6 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-robots-txt
 
 minima:
   show_excerpts: true

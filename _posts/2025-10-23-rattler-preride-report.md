@@ -45,6 +45,8 @@ We'd only done one lap. In the race, Boots is doing the 60 — **three laps**. I
 
 As the guys pack up and drive off, I sit there in the dark with my last half beer, staring out over the granite and mesquite. Exhausted, bummed I'm not in better shape, but proud I didn't quit. Proud I didn't take that fire road back.
 
+![beer](/assets/images/recon_beer.jpg)
+
 Days later I decide — screw it. I'm racing.  
 I'll finish or die trying. If I cross that line wrecked, cracked, and smiling with a cold beer in hand — that's my podium.  
 
