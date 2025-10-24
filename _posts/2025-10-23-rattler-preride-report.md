@@ -11,22 +11,22 @@ tags: [ride report, rattler, austin, mountain bike, sb150, training]
 
 I got roped into entering to race the Austin Rattler in a few weeks, and yeah — I knew I needed to get fitter. A lot fitter. But I didn't quite realize *how much* until now. How do I make this not sound like a death march?  
 
-Ok, fuck it — it **was** a death march. Just not in the way I expected.
+Ok, fuck it — it **was** a death march. At least for me.
 
 I created the [SB150 BR](https://gpcx.cc/2025/10/19/sb150br-breakfast-ride-build.html) specifically for this. Both the bike and me needed a shakedown. I hadn't been to Reveille Peak in a few years, and driving in, it looked mostly the same — endless rock, dust, and oozing Texas. We decided to get a jump on the weekend and ride Friday afternoon.  
 Note: **it was hot as fook.**
 
-I'm riding with Boots and Brett — both way fitter than me. If they weren't feeling merciful, I'd get absolutely cooked. I hadn't ridden these trails in years, and I remembered them being hard and fun. Turns out, memory lies.
+I'm riding with Boots and Brett — both way fitter than me. If they weren't feeling merciful, I'd get absolutely cooked. I hadn't ridden these trails in years, and I remembered them being hard and fun.
 
 We rolled out right at 2 p.m., when the shooting range goes cold. You could still hear rifles echoing downrange, bullets smacking targets a mile away. I made a note: *come back here to shoot sometime*. If you're not from Texas, that last line probably made you raise an eyebrow.  
-Meh. It's Texas — equal parts crazy and awesome. There's a mountain bike mecca out here — a ranch with a lake, camping, a bike shop, moto trails, and a firing range. Basically a playground for grown-up kids.  
+Meh. It's Texas — equal parts crazy and awesome. There's a mecca out here — a ranch with a lake, camping, a bike shop, moto trails, and a firing range. Basically a playground for grown-up kids.  
 But all that charm starts to fade around mile five.
 
 ![map](/assets/images/recon_map.jpg)
 
-RPR is hard to describe. The trails are a mashup of sweet singletrack, hardpack, gravel, moon rock, and punchy, loose climbs. Think **Moab meets South Mountain**, baked in 100-degree heat. My heart rate was redlined — deep in Z3 — gasping for air, arms burning on the climbs. Full-body effort, like the kind where even your forearms ache after.  
+RPR riding is hard to describe. The trails are a mashup of sweet singletrack, hardpack, gravel, moon rock, and punchy, loose climbs. Think **Moab meets South Mountain**, but with giant oaks and cows. My heart rate was redlined — deep in Z3 — gasping for air, arms burning on the climbs. Full-body effort, like the kind where even your forearms ache after.  
 
-Boots and Brett were patient. Different goals. They were reconning for race lines; I was proving I could survive. I even eyed the bailout road for a second — nope, not today. They waited for me. We crawled along but kept moving.  
+Boots and Brett were patient. Different goals. They were reconning for the race; I was testing if I could survive. I even eyed the bailout road for a second — nope, not today. They waited for me. We crawled along but kept moving.  
 
 ![following](/assets/images/recon_follow.jpg)
 
@@ -37,6 +37,8 @@ I glance at my Wahoo — 7 miles in, 1,000 calories burned. This is gonna *hurt*
 I suck down a GU and start managing water and fuel like it's a survival mission.
 
 Reveille is huge. Beautiful. Brutal. It's Texas' sneaky version of altitude. The climbs just never end. By day's end, I'd gain over 2,000 feet. *Texas is flat*, they said. Ha.
+
+I fall into a rhythm — not fast, but steady. Slow, easy. Turn the pedals, breathe, drink, repeat. Rest when it flattens out, push when it tilts up. Over and over. It hurts, but you keep going. This is what race day will be all about. Survive, finish. Mental. Hard.
 
 We fix Boots' slow leak, get a bit lost, then lose him completely to a flat. The last 5 miles are a blur — Brett glancing back every so often like, *"he's not dead yet… close though."* The guy never left me. Legend.
 
