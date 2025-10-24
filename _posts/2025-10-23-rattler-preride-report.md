@@ -40,6 +40,8 @@ Reveille is huge. Beautiful. Brutal. It's Texas' sneaky version of altitude. The
 
 I fall into a rhythm — not fast, but steady. Slow, easy. Turn the pedals, breathe, drink, repeat. Rest when it flattens out, push when it tilts up. Over and over. It hurts, but you keep going. This is what race day will be all about. Survive, finish. Mental. Hard.
 
+![hard](/assets/images/recon_kgpic.jpg)
+
 We fix Boots' slow leak, get a bit lost, then lose him completely to a flat. The last 5 miles are a blur — Brett glancing back every so often like, *"he's not dead yet… close though."* The guy never left me. Legend.
 
 When we finally roll into the lot, Boots is already there — he'd short-cutted, run the last bit with his bike, showered, and cracked a beer. The man's a machine. We slam a couple cold ones as the sun drops.  
