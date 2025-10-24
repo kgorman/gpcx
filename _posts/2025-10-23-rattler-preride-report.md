@@ -14,8 +14,7 @@ Ok, fuck it — it **was** a death march. Just not in the way I expected.
 I created the SB150 BR specifically for this. Both the bike and me needed a shakedown. I hadn't been to Reveille Peak in a few years, and driving in, it looked mostly the same — endless rock, dust, and oozing Texas. We decided to get a jump on the weekend and ride Friday afternoon.  
 Note: **it was hot as fook.**
 
-I'm riding with Boots and Brett — both way fitter than me. If they weren't feeling merciful, I'd get absolutely cooked.  
-Still, the bike was spotless, rebuilt, dialed. I hadn't ridden these trails in years, and I remembered them being hard and fun. Turns out, memory lies.
+I'm riding with Boots and Brett — both way fitter than me. If they weren't feeling merciful, I'd get absolutely cooked. I hadn't ridden these trails in years, and I remembered them being hard and fun. Turns out, memory lies.
 
 We rolled out right at 2 p.m., when the shooting range goes cold. You could still hear rifles echoing downrange, bullets smacking targets a mile away. I made a note: *come back here to shoot sometime*. If you're not from Texas, that last line probably made you raise an eyebrow.  
 Meh. It's Texas — equal parts crazy and awesome. There's a mountain bike mecca out here — a ranch with a lake, camping, a bike shop, moto trails, and a firing range. Basically a playground for grown-up kids.  
