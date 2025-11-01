@@ -4,7 +4,7 @@ title: "The Middle Weeks"
 date: 2025-11-01
 categories: [rides, training]
 tags: [austin, rattler, yeti, sb150, emma-long, gpcx]
-image: /assets/images/the-middle-weeks.jpg
+image: /assets/images/weekday_header.jpg
 excerpt: "The excitement fades and what’s left is rhythm — wake up, ride, repeat. Somewhere in the middle weeks, the real work happens."
 ---
 
