@@ -72,3 +72,7 @@ Turns out Brett had a great race, then broke a chain. The kindness of MTB commun
 Great day, great effort. On the ride home I call my wife and she says 'well it's like you read the book and it's over, now what'? I guess I need to write another chapter...
 
 ![finish](/assets/images/rattler_end.jpg)
+
+I owe a lot to my friends — Boots and Brett for believing I could do this, and to the rest of our riding clan (missed you, Mark). You guys make this more than just bikes and trails.
+
+Huge thanks to the Austin Rattler staff, volunteers, and the crowd along the course. Incredible event.
