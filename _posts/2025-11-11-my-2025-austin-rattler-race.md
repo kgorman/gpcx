@@ -4,7 +4,7 @@ title: "My 2025 Austin Rattler Race: Probably — proving it to myself"
 date: 2025-11-11
 tags: [race, austin rattler, mtb, story, gpcx]
 excerpt: "Nervousness, pain, and finding out what happens when you push past your own doubt."
-image: /assets/images/rattler_stand.jpg
+image: /assets/images/rattler_head.jpg
 ---
 
 I had some amount of trouble getting to sleep, generally I sleep great in the GoFast camper, and tonight was like so many nights I've camped. But the difference this time is tomorrow was the race. I did finally sleep, but was jarred awake at 5:00am by the stadium-style lights for racers coming in to park. I could hear the discussion of the traffic direction crew and the dull glow of those orange stick things they wave. Yeah, things were going to get nuts, time to get up.
@@ -33,7 +33,7 @@ My strategy was simple — the first 5–8 miles is punchy, it's going to make a
 
 At mile 12 or so you start to top out by the cross on the hill. You can feel the summit and know the big climb is over. Just don't blow up Kenny, steady dude. For me that's rocking my granny gear — 30t front, 51 rear. Do the gear inch math on that — it's insanely low, insanely steep, just grinding. It's not smooth either, this is rocky stuff, Moab, Arizona, Mars. It's steep then steeper, then steep again. I see the cross, some guys are winded. I know I am about 1/2 done with the effort. Dear god, just finish.
 
-![gate](/assets/images/rattler_head.jpg)
+![gate](/assets/images/rattler_gate.jpg)
 
 The big thing I learned this year is — I need gas. I mean fuel in the tank. Boots quipped what a fucking idiot I was for not having carbs in my water on the pre-ride. He was right. My training since has been focused on ensuring I replenish around 50% of the calories I output in the effort *during* the effort.
 
