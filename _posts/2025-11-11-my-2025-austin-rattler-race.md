@@ -11,11 +11,11 @@ I had some amount of trouble getting to sleep, generally I sleep great in the Go
 
 ![lights](/assets/images/rattler_lights.jpg)
 
-Getting here was a bit of a stretch to say the least. I don't mean driving here — Reveille Peak Ranch, where the race is located, is just an hour away from my house. What I mean is physically and mentally getting myself to race a mountain bike race again. It's been at least 20 years since I did Downieville, and if you know, it's mostly a downhill. Sorta.
+Getting here was a bit of a stretch to say the least. I don't mean driving here — Reveille Peak Ranch, where the race is located, is just an hour away from my house. What I mean is physically and mentally getting myself to race a mountain bike race again. It's been at what seems like 20 years since I did Downieville, and if you know, it's mostly a downhill. Sorta.
 
 But for this race I was coming off a bit of a transition — working toward being a much better and fitter rider, losing weight and riding much more. Really just doubling down on what I love. I just didn't actually work out that it would lead me here — to the Rattler, a fucking hard mountain bike race. I think this is Boots and Brett's fault. At our Marg Shack one night they said I could "probably do it." I'll be honest, the "probably" part pissed me off. Ok, challenge accepted.
 
-I got up and got my coffee, food, filled my water pack with carbs and electrolytes (more on that later), got my shoes on, decided not to take my camera (sorry, no pics of the actual race from me!) and went over the metal checklist 22 times. I was ready, time to go meet the guys at the start line. I was regretting accepting the challenge. I wasn't just nervous, I was scared.
+I got up and got my coffee, food, filled my water pack with carbs and electrolytes (more on that later), got my shoes on, decided not to take my camera (sorry, no pics of the actual race from me!) and went over the mental checklist 22 times. I was ready, time to go meet the guys at the start line. I was regretting accepting the challenge. I wasn't just nervous, I was scared.
 
 ![start](/assets/images/rattler_start.jpg)
 
