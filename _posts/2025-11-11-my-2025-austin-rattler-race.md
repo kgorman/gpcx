@@ -63,7 +63,7 @@ Coming around the lake I see a bottle neck ahead on some roots, I know I can cle
 
 They say my name. Kenny Gorman from Austin, 20 mile race. Did that just happen? I completely space getting my finisher medal and the lady has to chase me down. Brett is there and he's smiling. I am too. I think that just happened.
 
-20 miles, 95th of 133 place, not DNF.
+20 miles, 95th of 133 place, not DFL.
 
 ![line](/assets/images/rattler_finish_at_line.jpg)
 
