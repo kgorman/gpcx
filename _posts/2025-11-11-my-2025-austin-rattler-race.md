@@ -11,11 +11,13 @@ I had some amount of trouble getting to sleep, generally I sleep great in the Go
 
 ![lights](/assets/images/rattler_lights.jpg)
 
-Getting here was a bit of a stretch to say the least. I don't mean driving here — Reveille Peak Ranch, where the race is located, is just an hour away from my house. I mean physically and mentally getting myself to race a mountain bike race again. It's been at least 20 years since I did Downieville, and if you know, it's mostly a downhill. Sorta.
+Getting here was a bit of a stretch to say the least. I don't mean driving here — Reveille Peak Ranch, where the race is located, is just an hour away from my house. What I mean is physically and mentally getting myself to race a mountain bike race again. It's been at least 20 years since I did Downieville, and if you know, it's mostly a downhill. Sorta.
 
 But for this race I was coming off a bit of a transition — working toward being a much better and fitter rider, losing weight and riding much more. Really just doubling down on what I love. I just didn't actually work out that it would lead me here — to the Rattler, a fucking hard mountain bike race. I think this is Boots and Brett's fault. At our Marg Shack one night they said I could "probably do it." I'll be honest, the "probably" part pissed me off. Ok, challenge accepted.
 
 I got up and got my coffee, food, filled my water pack with carbs and electrolytes (more on that later), got my shoes on, decided not to take my camera (sorry, no pics of the actual race from me!) and went over the metal checklist 22 times. I was ready, time to go meet the guys at the start line. I was regretting accepting the challenge. I wasn't just nervous, I was scared.
+
+![start](/assets/images/rattler_start.jpg)
 
 Start lines are funny things. There are the overconfident, the underrated, the obvious winner, the people who probably shouldn't be there, and I was feeling in that last camp. I know I have the skills to ride this course — that's not the problem, I've been riding for 30 years. It's the fitness. There's something about this course, this place, the rocks, the climbs, I don't know. It's like 30% harder than other rides with the same numbers. And I was about to do it at race pace.
 
@@ -65,7 +67,7 @@ They say my name. Kenny Gorman from Austin, 20 mile race. Did that just happen? 
 
 ![line](/assets/images/rattler_finish_at_line.jpg)
 
-Turns out Brett had a great race, then broke a chain. The kindness of MTB community shined when folks stopped their race to help me repair it and get going (with 2 gears). Now we know he can enter the singlespeed class next year. Boots did all 60 miles, that's 3 laps, what a god damn monster. Hero status.
+Turns out Brett had a great race, then broke a chain. The kindness of MTB community shined when folks stopped their race to help him repair it and get going (with 2 gears). Now we know he can enter the singlespeed class next year. Boots did all 60 miles, that's 3 laps, what a god damn monster. Hero status.
 
 Great day, great effort. On the ride home I call my wife and she says 'well it's like you read the book and it's over, now what'? I guess I need to write another chapter...
 
