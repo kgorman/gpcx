@@ -8,8 +8,8 @@ Most of what happens here starts in the garage or out on a ride.
 I write about both — the miles, the busted parts, the fixes that work.  
 no ads, no fluff, just stories and photos that come out of the week.  
 
-The email goes out once a month when there's something worth sharing —  
-a new story, a few photos, maybe a small project from the bench.  
+Once a month, I send out a digest of what's been happening —  
+new stories, photos from the trail, maybe a project from the workbench.  
 
 If that sounds like your kind of thing, drop your email below.  
 you'll get the next issue straight in your inbox, no algorithms in between.
