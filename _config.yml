@@ -24,6 +24,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      author: "Kenny Gorman"
   - scope:
       path: ""
       type: "pages"
