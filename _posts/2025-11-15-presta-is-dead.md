@@ -39,7 +39,7 @@ And before you ask, no, this isn't a paid promo. I'm writing half baked stories 
 
 You can get the valve stem cores individually and they screw right into your existing Presta stems, but I went ahead and grabbed Wolf Tooth Components stems too because, hey — I'm not above bling. If I'm going to rip out century-old tech, I might as well have anodized jewelry sticking out of my rims.
 
-You do have to get a new inflation head adapter. They're not expensive — in fact, compared to the amount of stress and sleepless nights Presta was causing, the entire upgrade feels nearly free. (You were up at night like me thinking about this, right?) Anyway, the adapter threads onto your pump or chuck or even your CO₂ inflator head. In a pinch you *can* still use a Presta pump head, but YMMV. Just get a couple adapters and be done with it. I even pony'd up for the Wolf Tooth pump with the built-in Clik head. Still nano… but now actually not leaking.
+You do have to get a new inflation head adapter. They're not expensive, in fact, compared to the amount of stress and sleepless nights Presta was causing, the entire upgrade feels nearly free. (You were up at night like me thinking about this, right?) Anyway, the adapter threads onto your pump or chuck or even your CO₂ inflator head. In a pinch you *can* still use a Presta pump head, but YMMV. Just get a couple adapters and be done with it. I even pony'd up for the Wolf Tooth pump with the built-in Clik head. Still nano… but now actually not leaking.
 
 ![outside](/assets/images/clik_outside.jpg)
 
