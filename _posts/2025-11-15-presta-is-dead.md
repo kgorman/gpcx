@@ -39,15 +39,15 @@ And before you ask, no, this isn't a paid promo. I'm writing half baked stories 
 
 You can get the valve stem cores individually and they screw right into your existing Presta stems, but I went ahead and grabbed Wolf Tooth Components stems too because, hey — I'm not above bling. If I'm going to rip out century-old tech, I might as well have anodized jewelry sticking out of my rims.
 
-You do have to get a new inflation head adapter. They're not expensive — in fact, compared to the amount of stress and sleepless nights Presta was causing, the entire upgrade feels nearly free. (You were up at night like me thinking about this, right?) Anyway, the adapter threads onto your pump or chuck or even your CO₂ inflator head. No stress. In a pinch you *can* still use a Presta pump head, but YMMV. Just get a couple adapters and be done with it. I even pony'd up for the Wolf Tooth pump with the built-in Clik head. Still nano… but now actually not leaking.
+You do have to get a new inflation head adapter. They're not expensive — in fact, compared to the amount of stress and sleepless nights Presta was causing, the entire upgrade feels nearly free. (You were up at night like me thinking about this, right?) Anyway, the adapter threads onto your pump or chuck or even your CO₂ inflator head. In a pinch you *can* still use a Presta pump head, but YMMV. Just get a couple adapters and be done with it. I even pony'd up for the Wolf Tooth pump with the built-in Clik head. Still nano… but now actually not leaking.
 
-It's a one, no, a half beer job. You don't have to take off the tire or anything. Just remove the Presta core and install the Clik core. If you want to be more obsessive like I was, then when you switch tires go for all-new valve stems at the same time. Bling mode engaged. With these Clik valves installed your life becomes one hand to click the pump on and one hand to pull it off. No leaking. It feels binary — on or off, sealed or not, zero drama.
+Installation is a one, no, a half beer job. You don't have to take off the tire or anything. Just remove the Presta core and install the Clik core. If you want to be more obsessive like I was, then when you switch tires go for all-new valve stems at the same time. Bling mode engaged. With these Clik valves installed your life becomes one hand to click the pump on and one hand to pull it off. No leaking. It feels binary — on or off, sealed or not, zero drama.
 
 All my bikes are switched over now. I'm sleeping better. My tires are holding pressure. My trail-side stress has gone down about 200%. But pumping yeah, it's still sort of X-rated. They didn't fix *that* part.
 
 ![installed](/assets/images/clik_tire2.jpg)
 
-If you want to get your own setup you can go to clik's site here or get the wolf tooth kit like I did. No these aren't affiliate links.
+If you want to get your own setup you can go to Clik's site here or get the wolf tooth kit like I did. No these aren't affiliate links.
 
 - [Clik Valves](https://clikvalve.com/)
 - [Wolf Tooth Components](https://www.wolftoothcomponents.com/collections/clik-valve)
