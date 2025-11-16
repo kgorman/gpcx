@@ -14,9 +14,9 @@ Ok I am going to say it. **Fuck Presta valves.**
 
 Bent screw shaft. Threads buggered. Slow leaks. Finicky as hell.  
 The absolute worst is when you graze it with a fingertip and it instantly goes: ffffffffffffffffffttttttttttt.  
-It's maddening.
+Like it's mocking you. It's maddening.
 
-It's for good reason, Presta is old. It was invented in the 1920s by a French engineer named Etienne Sclaverand (that's why the original name is technically the *Sclaverand valve*). Back then rims were narrow and structurally weak, and the tiny 6mm valve hole made the wheel stronger than one drilled for a fatter Schrader valve. That was the whole point: small hole, higher strength, higher pressure. And it worked for the technology of its time. But the design hasn't really changed in a century. Modern rims, modern tires, modern riding — none of it was built for this tiny screw-top antique.
+It's terrible for a reason: Presta is old. It was invented in the 1920s by a French engineer named Etienne Sclaverand (that's why the original name is technically the *Sclaverand valve*). Back then rims were narrow and structurally weak, and the tiny 6mm valve hole made the wheel stronger than one drilled for a fatter Schrader valve. That was the whole point: small hole, higher strength, higher pressure. And it worked for the technology of its time. But the design hasn't really changed in a century. Modern rims, modern tires, modern riding — none of it was built for this tiny screw-top antique.
 
 ![boxofpresta](/assets/images/clik_box.jpg)
 
@@ -41,8 +41,6 @@ You can get the valve stem cores individually and they screw right into your exi
 
 You do have to get a new inflation head adapter. They're not expensive — in fact, compared to the amount of stress and sleepless nights Presta was causing, the entire upgrade feels nearly free. (You were up at night like me thinking about this, right?) Anyway, the adapter threads onto your pump or chuck or even your CO₂ inflator head. No stress. In a pinch you *can* still use a Presta pump head, but YMMV. Just get a couple adapters and be done with it. I even pony'd up for the Wolf Tooth pump with the built-in Clik head. Still nano… but now actually not leaking.
 
-![pumphead](/assets/images/clik_pumphead.jpg)
-
 It's a one, no, a half beer job. You don't have to take off the tire or anything. Just remove the Presta core and install the Clik core. If you want to be more obsessive like I was, then when you switch tires go for all-new valve stems at the same time. Bling mode engaged. With these Clik valves installed your life becomes one hand to click the pump on and one hand to pull it off. No leaking. No gray zone. It feels binary — on or off, sealed or not, zero drama.
 
 All my bikes are switched over now. I'm sleeping better. My tires are holding pressure. My trail-side stress has gone down about 200%. But inflation… yeah, it's still sort of X-rated. They didn't fix *that* part.
@@ -51,5 +49,5 @@ All my bikes are switched over now. I'm sleeping better. My tires are holding pr
 
 If you want to get your own setup you can go to clik's site here or get the wolf tooth kit like I did. No these aren't affiliate links.
 
-- [Click Valves](https://clikvalve.com/)
+- [Clik Valves](https://clikvalve.com/)
 - [Wolf Tooth Components](https://www.wolftoothcomponents.com/collections/clik-valve)
