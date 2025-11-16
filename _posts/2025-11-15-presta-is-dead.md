@@ -49,7 +49,7 @@ All my bikes are switched over now. I'm sleeping better. My tires are holding pr
 
 ![installed](/assets/images/clik_tire2.jpg)
 
-If you want to get your own setup you can go to Clik's site here or get the wolf tooth kit like I did. No these aren't affiliate links.
+If you want to get your own setup you can go to Clik's site here or get the Wolf Tooth kit like I did. No these aren't affiliate links.
 
 - [Clik Valves](https://clikvalve.com/)
 - [Wolf Tooth Components](https://www.wolftoothcomponents.com/collections/clik-valve)
