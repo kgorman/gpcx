@@ -41,7 +41,9 @@ You can get the valve stem cores individually and they screw right into your exi
 
 You do have to get a new inflation head adapter. They're not expensive — in fact, compared to the amount of stress and sleepless nights Presta was causing, the entire upgrade feels nearly free. (You were up at night like me thinking about this, right?) Anyway, the adapter threads onto your pump or chuck or even your CO₂ inflator head. In a pinch you *can* still use a Presta pump head, but YMMV. Just get a couple adapters and be done with it. I even pony'd up for the Wolf Tooth pump with the built-in Clik head. Still nano… but now actually not leaking.
 
-Installation is a one, no, a half beer job. You don't have to take off the tire or anything. Just remove the Presta core and install the Clik core. If you want to be more obsessive like I was, then when you switch tires go for all-new valve stems at the same time. Bling mode engaged. With these Clik valves installed your life becomes one hand to click the pump on and one hand to pull it off. No leaking. It feels binary — on or off, sealed or not, zero drama.
+![outside](/assets/images/clik_outside.jpg)
+
+Installation is a one, no, a half beer job. You don't have to take off the tire or anything. Just remove the Presta core and install the Clik core. If you want to be more obsessive like I was, then when you switch tires go for all-new valve stems at the same time. Bling mode engaged. With these Clik valves installed your life becomes one hand to click the pump on and one hand to pull it off. No leaking. It feels binary — on or off, sealed or not, zero drama. I’ve been riding these all year now on long rides, big days, dumb lines, race efforts. Zero issues. No clogging, no leaks, no weirdness. They just work. Honestly that’s the most shocking part: they’ve been completely invisible in the best possible way.
 
 All my bikes are switched over now. I'm sleeping better. My tires are holding pressure. My trail-side stress has gone down about 200%. But pumping yeah, it's still sort of X-rated. They didn't fix *that* part.
 
