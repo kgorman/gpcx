@@ -1,0 +1,6 @@
+# robots.txt for gpcx.cc
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://gpcx.cc/sitemap.xml
