@@ -209,3 +209,19 @@ img {
   font-size: .72rem;
 }
 
+/* Buttondown button text visibility fix */
+.bd-form button,
+.buttondown-button {
+  color: #000 !important;
+  font-size: 16px !important;
+  padding: 12px 24px !important;
+}
+
+/* Mobile specific button fix */
+@media (max-width: 768px) {
+  .bd-form button,
+  .buttondown-button {
+    color: #000 !important;
+    font-size: 16px !important;
+  }
+}
