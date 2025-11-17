@@ -15,8 +15,8 @@ layout: default
       {%- endif -%}</p>
   </header>
 
-  {%- if page.image -%}
-    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" class="post-header-image" style="width: 100%; border-radius: 8px; margin: 1.5rem 0;">
+  {%- if page.headimage -%}
+    <img src="{{ page.headimage | relative_url }}" alt="{{ page.title }}" class="post-header-image" style="width: 100%; border-radius: 8px; margin: 1.5rem 0;">
   {%- endif -%}
 
   <div class="post-cta">

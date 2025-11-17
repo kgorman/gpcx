@@ -13,7 +13,15 @@ layout: default
             </a>
           </h2>
           <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }} by {{ post.author }}</p>
-           {% if post.image %}
+           {% if post.homeimage %}
+            <a href="{{ post.url | relative_url }}">
+              <img src="{{ post.homeimage | relative_url }}" alt="{{ post.title }}" class="post-image" />
+            </a>
+          {% elsif post.headimage %}
+            <a href="{{ post.url | relative_url }}">
+              <img src="{{ post.headimage | relative_url }}" alt="{{ post.title }}" class="post-image" />
+            </a>
+          {% elsif post.image %}
             <a href="{{ post.url | relative_url }}">
               <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-image" />
             </a>
