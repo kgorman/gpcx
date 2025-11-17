@@ -48,6 +48,56 @@ img {
   border-radius: 8px;
 }
 
+/* --- Photo with caption --- */
+.photo-caption {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+.photo-caption img {
+  margin-bottom: 0.5rem;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.photo-caption .caption {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  color: #666;
+  font-style: italic;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+/* --- Side by side photos --- */
+.photo-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.photo-grid img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.photo-grid .caption {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  color: #666;
+  font-style: italic;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+/* Stack photos on mobile */
+@media (max-width: 768px) {
+  .photo-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* --- Keep nav pushed to the right --- */
 .site-header .wrapper {
   display: flex;
