@@ -30,19 +30,29 @@ layout: default
 (function() {
   if (!window.goatcounter) return;
   
+  let scrollEngaged = false;
   let readToEnd = false;
   let scrollTimer;
   
-  function checkScrollEnd() {
+  function checkScroll() {
     clearTimeout(scrollTimer);
     scrollTimer = setTimeout(function() {
-      // Check if user has scrolled to near the bottom (within 100px)
       const scrollPosition = window.scrollY + window.innerHeight;
       const documentHeight = document.documentElement.scrollHeight;
       
+      // Track when user first scrolls (engaged with content)
+      if (!scrollEngaged && window.scrollY > 100) {
+        scrollEngaged = true;
+        window.goatcounter.count({
+          path: window.location.pathname + '?scroll-engaged',
+          title: document.title + ' (scroll engaged)',
+          event: true
+        });
+      }
+      
+      // Track when user scrolls to the bottom
       if (!readToEnd && scrollPosition >= documentHeight - 100) {
         readToEnd = true;
-        // Send event to GoatCounter
         window.goatcounter.count({
           path: window.location.pathname + '?read-to-end',
           title: document.title + ' (read to end)',
@@ -52,6 +62,6 @@ layout: default
     }, 150);
   }
   
-  window.addEventListener('scroll', checkScrollEnd);
+  window.addEventListener('scroll', checkScroll);
 })();
 </script>
