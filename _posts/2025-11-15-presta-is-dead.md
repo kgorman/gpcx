@@ -8,6 +8,10 @@ image: "/assets/images/clik_head.jpg"
 ---
 ![header_image_value](/assets/images/clik_head.jpg)
 
+<div class="post-cta">
+  <a href="https://gpcx.cc/subscribe/">get these stories in your inbox</a>
+</div>
+
 You've all been there right? You're on the side of the trail, it's hot, your heart rate is already 160 from the ride itself, and you're hunched over a 2" nano fucking pump trying desperately to inflate your tire so you can get home. Each pump stroke looks vaguely X-rated and also manages to eject roughly 80% of the air you just spent 26 calories producing straight into the atmosphere. You can literally *watch* your will to live leaking out around that tiny brass disaster.
 
 Ok I am going to say it. **Fuck Presta valves.**
