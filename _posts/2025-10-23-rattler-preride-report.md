@@ -3,11 +3,9 @@ layout: post
 title: "Recon Mission or Death March? Rattler Pre-Ride Report"  
 date: 2025-10-23  
 excerpt: "A pre-race shakedown at Reveille Peak that turned into a full-blown survival story. Heat, rock, dust, and pain"
-image: /assets/images/recon_header.jpg  
+headimage: /assets/images/recon_header.jpg  
 tags: [ride report, rattler, austin, mountain bike, sb150, training]  
 ---
-
-![panorama](/assets/images/recon_header.jpg)
 
 I got roped into entering to race the Austin Rattler in a few weeks, and yeah — I knew I needed to get fitter. A lot fitter. But I didn't quite realize *how much* until now. How do I make this not sound like a death march?  
 
