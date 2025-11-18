@@ -16,7 +16,6 @@ minima:
 # Navigation pages
 header_pages:
   - origin.md
-  - subscribe.md
 
 # SEO and social media defaults
 defaults:
