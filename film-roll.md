@@ -7,7 +7,7 @@ permalink: /film-roll/
 <div class="film-roll-page">
   <header class="film-roll-page-header">
     <h1>Film Roll</h1>
-    <p class="film-roll-intro">Trail photography. Raw, unfiltered, no bullshit.</p>
+    <p class="film-roll-intro">Trail photography. Raw, unfiltered, no HDR fake bullshit.</p>
   </header>
 
   <div class="film-roll-grid">
@@ -50,9 +50,5 @@ permalink: /film-roll/
         </figcaption>
       </figure>
     {% endfor %}
-    
-    {% if image_files.size == 0 %}
-      <p style="color: #666; font-style: italic;">No photos yet. Drop images in <code>/assets/images/film-roll/</code></p>
-    {% endif %}
   </div>
 </div>
