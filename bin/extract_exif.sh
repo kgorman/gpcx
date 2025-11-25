@@ -29,35 +29,12 @@ for img in "$FILM_ROLL_DIR"/*.jpg "$FILM_ROLL_DIR"/*.jpeg "$FILM_ROLL_DIR"/*.JPG
   
   echo "  → Processing $filename..."
   
-  # Extract EXIF data using sips (macOS built-in)
+  # Extract EXIF data using exiftool (better than sips/mdls)
   # Remove GPS/location data for privacy
   {
-    echo "Date: $(sips -g creation "$img" 2>/dev/null | grep creation | awk '{print $2, $3}')"
-    echo "Camera: $(sips -g format "$img" 2>/dev/null | grep format | awk '{print $2}')"
-    
-    # Try to get additional metadata using mdls
-    if command -v mdls &> /dev/null; then
-      camera_model=$(mdls -name kMDItemAcquisitionModel "$img" 2>/dev/null | cut -d'"' -f2)
-      [ -n "$camera_model" ] && echo "Model: $camera_model"
-      
-      focal_length=$(mdls -name kMDItemFocalLength "$img" 2>/dev/null | awk '{print $3}')
-      [ -n "$focal_length" ] && [ "$focal_length" != "(null)" ] && echo "Focal Length: ${focal_length}mm"
-      
-      fstop=$(mdls -name kMDItemFNumber "$img" 2>/dev/null | awk '{print $3}')
-      [ -n "$fstop" ] && [ "$fstop" != "(null)" ] && echo "Aperture: f/$fstop"
-      
-      iso=$(mdls -name kMDItemISOSpeed "$img" 2>/dev/null | awk '{print $3}')
-      [ -n "$iso" ] && [ "$iso" != "(null)" ] && echo "ISO: $iso"
-      
-      exposure=$(mdls -name kMDItemExposureTimeSeconds "$img" 2>/dev/null | awk '{print $3}')
-      [ -n "$exposure" ] && [ "$exposure" != "(null)" ] && echo "Shutter: ${exposure}s"
-    fi
-    
-    # Dimensions
-    width=$(sips -g pixelWidth "$img" 2>/dev/null | grep pixelWidth | awk '{print $2}')
-    height=$(sips -g pixelHeight "$img" 2>/dev/null | grep pixelHeight | awk '{print $2}')
-    [ -n "$width" ] && [ -n "$height" ] && echo "Size: ${width}x${height}"
-    
+    exiftool -Make -Model -LensModel -FocalLength -FNumber -ISO -ShutterSpeed -ExposureTime \
+             -DateTimeOriginal -ImageWidth -ImageHeight -d "%Y-%m-%d %H:%M:%S" \
+             "$img" 2>/dev/null | grep -v "File Name" | sed 's/^[[:space:]]*//' | sed 's/[[:space:]]*:[[:space:]]*/: /'
   } > "$exif_file"
   
   echo "  ✓ Created $exif_file"
