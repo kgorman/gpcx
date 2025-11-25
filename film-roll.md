@@ -12,8 +12,9 @@ permalink: /film-roll/
 
   <div class="film-roll-grid">
     {% for photo in site.data.film-roll %}
-      <figure class="film-roll-item">
-        <span class="image-number">#{{ forloop.index }}</span>
+      {% assign photo_id = photo.image | remove: '.jpeg' | remove: '.jpg' | remove: '.JPEG' | remove: '.JPG' %}
+      <figure class="film-roll-item" id="{{ photo_id }}">
+        <a href="#{{ photo_id }}" class="image-number">#{{ forloop.index }}</a>
         <img src="/assets/images/film-roll/{{ photo.image }}" 
              alt="Photo by {{ photo.photographer | default: 'Kenny Gorman' }}" 
              loading="lazy">

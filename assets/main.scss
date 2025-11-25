@@ -9,6 +9,7 @@ body {
   font-size: 1.08rem;
   line-height: 1.8;
   color: #1f1f1f;
+  scroll-behavior: smooth;
 }
 
 // Custom styles for compact post images on home page
@@ -350,6 +351,12 @@ img {
     color: #999;
     display: block;
     margin-bottom: 0.5rem;
+    text-decoration: none;
+    
+    &:hover {
+      color: #666;
+      text-decoration: underline;
+    }
   }
   
   .caption {
