@@ -18,12 +18,12 @@ permalink: /film-roll/
              alt="Photo by {{ photo.photographer | default: 'Kenny Gorman' }}" 
              loading="lazy">
         
+        {% if photo.caption %}
+          <div class="caption">{{ photo.caption }}</div>
+        {% endif %}
+        
         <figcaption class="image-meta">
           <div class="photographer">{{ photo.photographer | default: "Kenny Gorman" }}</div>
-          
-          {% if photo.caption %}
-            <div class="caption">{{ photo.caption }}</div>
-          {% endif %}
           
           {% if photo.date or photo.camera or photo.lens or photo.settings %}
             <div class="exif-details">
