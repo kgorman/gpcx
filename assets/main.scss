@@ -169,6 +169,17 @@ img {
   color: #666;
 }
 
+// Make navigation links smaller to prevent wrapping
+.site-nav .page-link {
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 768px) {
+  .site-nav .page-link {
+    font-size: 0.85rem;
+  }
+}
+
 .site-footer .social {
   margin-top: 0.5rem;
 }
