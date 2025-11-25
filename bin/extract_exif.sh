@@ -13,7 +13,8 @@ fi
 echo "Extracting EXIF data from photos in $FILM_ROLL_DIR..."
 
 # Process each image file
-for img in "$FILM_ROLL_DIR"/*.{jpg,jpeg,JPG,JPEG} 2>/dev/null; do
+shopt -s nullglob
+for img in "$FILM_ROLL_DIR"/*.jpg "$FILM_ROLL_DIR"/*.jpeg "$FILM_ROLL_DIR"/*.JPG "$FILM_ROLL_DIR"/*.JPEG; do
   [ -e "$img" ] || continue
   
   filename=$(basename "$img")

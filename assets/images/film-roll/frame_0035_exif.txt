@@ -1,0 +1,4 @@
+Date: 2025:11:24 16:54:48
+Camera: DJI
+Model: Action 5 Pro
+Size: 1200x900
