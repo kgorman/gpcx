@@ -1,5 +1,52 @@
 - image: frame_0035.jpeg
-  caption: "A little bit of descent on the MTe"
+  caption: "A little bit of descent on the MTe at Emma Long, Austin, TX"
   date: "2025-11-24"
   camera: "DJI Action 5 Pro"
+  photographer: "Kenny Gorman"
+
+- image: frame_0051.jpeg
+  date: "2025-11-24"
+  camera: "DJI Action 5 Pro"
+  photographer: "Kenny Gorman"
+
+- image: frame_0079.jpeg
+  date: "2025-11-24"
+  camera: "DJI Action 5 Pro"
+  photographer: "Kenny Gorman"
+
+- image: frame_0100.jpeg
+  date: "2025-11-24"
+  camera: "DJI Action 5 Pro"
+  photographer: "Kenny Gorman"
+
+- image: frame_0163.jpeg
+  date: "2025-11-24"
+  camera: "DJI Action 5 Pro"
+  photographer: "Kenny Gorman"
+
+- image: frame_0307.jpeg
+  date: "2025-11-24"
+  camera: "DJI Action 5 Pro"
+  photographer: "Kenny Gorman"
+
+- image: frame_0331.jpeg
+  date: "2025-11-24"
+  camera: "DJI Action 5 Pro"
+  photographer: "Kenny Gorman"
+
+- image: frame_0427.jpeg
+  date: "2025-11-24"
+  camera: "DJI Action 5 Pro"
+  photographer: "Kenny Gorman"
+
+- image: IMG_8202.jpeg
+  date: "2025-10-14"
+  camera: "iPhone 16 Pro Max"
+  settings: "6.8mm, f/1.8, 1/117s, ISO 125"
+  photographer: "Kenny Gorman"
+
+- image: IMG_8868.jpeg
+  date: "2025-11-16"
+  camera: "iPhone 16 Pro Max"
+  settings: "6.8mm, f/1.8, 1/40s, ISO 320"
   photographer: "Kenny Gorman"
