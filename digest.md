@@ -6,7 +6,7 @@ permalink: /digest/
 
 <div class="home">
   <h1>Weekly Digest</h1>
-  <p style="color: #666; margin-bottom: 2rem;">Weekly updates from the trail, garage, and journey. <a href="https://gpcx.substack.com/subscribe" target="_blank" rel="noopener">Subscribe on Substack</a> for email delivery.</p>
+  <p style="color: #666; margin-bottom: 2rem;">Weekly updates from the trail, garage, and journey. <a href="https://gpcx.substack.com/?showWelcome=true" target="_blank" rel="noopener">Sign up for the newsletter</a> for email delivery.</p>
   
   <ul class="post-list">
     {% for digest in site.data.digests %}
@@ -36,8 +36,8 @@ permalink: /digest/
   </ul>
   
   <div style="margin: 3rem 0; padding: 2rem; border: 2px dashed #ddd; border-radius: 8px; text-align: center;">
-    <h3 style="margin-top: 0;">Subscribe for Weekly Updates</h3>
-    <p style="color: #666;">Get the digest delivered to your inbox every Friday.</p>
-    <a href="https://gpcx.substack.com/subscribe" target="_blank" rel="noopener" style="display: inline-block; padding: 0.75rem 1.5rem; background: #111; color: #fff; text-decoration: none; border-radius: 4px; font-weight: 500;">Subscribe on Substack</a>
+    <h3 style="margin-top: 0;">Get Weekly Updates</h3>
+    <p style="color: #666;">Delivered to your inbox every Friday.</p>
+    <a href="https://gpcx.substack.com/?showWelcome=true" target="_blank" rel="noopener" style="display: inline-block; padding: 0.75rem 1.5rem; background: #111; color: #fff; text-decoration: none; border-radius: 4px; font-weight: 500;">Sign Up for Newsletter</a>
   </div>
 </div>
