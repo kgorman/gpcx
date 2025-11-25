@@ -298,3 +298,116 @@ img {
   color: #111;
   border-bottom: 1px solid #111;
 }
+
+// Film Roll styles
+.film-roll-page-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  
+  h1 {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .film-roll-intro {
+    color: #666;
+    font-style: italic;
+  }
+}
+
+.film-roll-grid {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.film-roll-item {
+  margin: 0 0 4rem 0;
+  padding: 0;
+  position: relative;
+  
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+  }
+  
+  .image-number {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    color: #999;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  figcaption.image-meta {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    
+    .photographer {
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+      color: #333;
+    }
+    
+    .caption {
+      color: #555;
+      line-height: 1.6;
+      margin-bottom: 0.75rem;
+    }
+    
+    .exif-details {
+      margin-top: 0.75rem;
+      
+      details {
+        cursor: pointer;
+        
+        summary {
+          font-family: 'JetBrains Mono', monospace;
+          font-size: 0.8rem;
+          color: #666;
+          user-select: none;
+          
+          &:hover {
+            color: #111;
+          }
+        }
+        
+        pre {
+          font-family: 'JetBrains Mono', monospace;
+          font-size: 0.75rem;
+          color: #666;
+          background: #fff;
+          padding: 0.75rem;
+          margin-top: 0.5rem;
+          border-radius: 4px;
+          border: 1px solid #e0e0e0;
+          overflow-x: auto;
+          line-height: 1.6;
+        }
+      }
+    }
+  }
+}
+
+// Mobile optimization
+@media screen and (max-width: 768px) {
+  .film-roll-item {
+    margin-bottom: 3rem;
+    
+    img {
+      border-radius: 2px;
+    }
+    
+    figcaption.image-meta {
+      padding: 0.75rem;
+      font-size: 0.85rem;
+    }
+  }
+}
+

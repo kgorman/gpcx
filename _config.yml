@@ -15,6 +15,7 @@ minima:
 
 # Navigation pages
 header_pages:
+  - film-roll.md
   - digest.md
   - origin.md
 

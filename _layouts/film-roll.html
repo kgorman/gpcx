@@ -1,0 +1,56 @@
+---
+layout: default
+---
+<article class="film-roll">
+  
+  <header class="film-roll-header">
+    <h1 class="film-roll-title">{{ page.title }}</h1>
+    <div class="film-roll-meta">
+      <span class="meta-item">{{ page.date | date: "%B %-d, %Y" }}</span>
+      {% if page.bike %}<span class="meta-item">{{ page.bike }}</span>{% endif %}
+      {% if page.conditions %}<span class="meta-item">{{ page.conditions }}</span>{% endif %}
+      {% if page.cameras %}<span class="meta-item">{{ page.cameras }}</span>{% endif %}
+    </div>
+  </header>
+
+  <div class="film-roll-content">
+    {% if page.images %}
+      {% for image in page.images %}
+        <figure class="film-roll-image">
+          <span class="image-number">#{{ forloop.index }}</span>
+          <img src="{{ image.src | relative_url }}" 
+               alt="{{ image.caption | default: page.title }}" 
+               loading="lazy">
+          {% if image.caption %}
+            <figcaption>{{ image.caption }}</figcaption>
+          {% endif %}
+        </figure>
+      {% endfor %}
+    {% endif %}
+    
+    {% if content != "" %}
+      <div class="film-roll-notes">
+        {{ content }}
+      </div>
+    {% endif %}
+  </div>
+
+  <nav class="film-roll-nav">
+    <div class="nav-links">
+      {% if page.previous.url and page.previous.layout == "film-roll" %}
+        <a href="{{ page.previous.url | relative_url }}" class="nav-prev">
+          ← {{ page.previous.title | truncate: 30 }}
+        </a>
+      {% endif %}
+      
+      <a href="/film-rolls/" class="nav-archive">All Film Rolls</a>
+      
+      {% if page.next.url and page.next.layout == "film-roll" %}
+        <a href="{{ page.next.url | relative_url }}" class="nav-next">
+          {{ page.next.title | truncate: 30 }} →
+        </a>
+      {% endif %}
+    </div>
+  </nav>
+
+</article>
