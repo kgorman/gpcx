@@ -6,7 +6,7 @@ permalink: /digest/
 
 <div class="home">
   <h1>Weekly Digest</h1>
-  <p style="color: #666; margin-bottom: 2rem;">Weekly updates from the trail, garage, and journey. Subscribe on Substack for email delivery.</p>
+  <p style="color: #666; margin-bottom: 2rem;">Weekly updates from the trail, garage, and journey. <a href="https://gpcx.substack.com/subscribe" target="_blank" rel="noopener">Subscribe on Substack</a> for email delivery.</p>
   
   <ul class="post-list">
     {% for digest in site.data.digests %}
