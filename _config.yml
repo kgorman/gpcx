@@ -15,6 +15,7 @@ minima:
 
 # Navigation pages
 header_pages:
+  - digest.md
   - origin.md
 
 # SEO and social media defaults
