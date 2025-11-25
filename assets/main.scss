@@ -344,7 +344,7 @@ img {
   .caption {
     color: #666;
     line-height: 1.5;
-    margin: 0.75rem auto 1rem auto;
+    margin: 0.75rem auto 0.5rem auto;
     font-style: italic;
     font-size: 0.85rem;
     text-align: center;
@@ -352,27 +352,15 @@ img {
     display: block;
   }
   
-  figcaption.image-meta {
-    margin-top: 1rem;
-    padding: 1rem;
-    background: #f9f9f9;
-    border-radius: 4px;
-    font-size: 0.9rem;
-    
-    .photographer {
-      font-family: 'JetBrains Mono', monospace;
-      font-weight: 500;
-      margin-bottom: 0.5rem;
-      color: #333;
-    }
-    
-    .exif-details {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 0.75rem;
-      color: #888;
-      line-height: 1.8;
-      margin-top: 0.5rem;
-    }
+  .image-meta {
+    color: #888;
+    line-height: 1.5;
+    margin: 0.5rem auto 2rem auto;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    text-align: center;
+    max-width: 100%;
+    display: block;
   }
 }
 
