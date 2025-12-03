@@ -49,6 +49,26 @@ img {
   border-radius: 8px;
 }
 
+// Remove top spacing on filter pages
+body.page-notes .page-content,
+body.page-stories .page-content,
+body.page-film-roll .page-content {
+  padding-top: 0;
+}
+
+body.page-notes .home,
+body.page-stories .home,
+body.page-film-roll .film-roll-page {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+body.page-notes .home > p:first-child,
+body.page-stories .home > p:first-child,
+body.page-film-roll .film-roll-page > p:first-child {
+  margin-top: 0;
+}
+
 // Active navigation states
 .page-link.active {
   font-weight: bold;
