@@ -15,7 +15,8 @@ body_class: page-film-roll
         <a href="#{{ photo_id }}" class="image-number">#{{ forloop.index }}</a>
         <img src="/assets/images/film-roll/{{ photo.image }}" 
              alt="Photo by {{ photo.photographer | default: 'Kenny Gorman' }}" 
-             loading="lazy">
+             loading="lazy"
+             onclick="openLightbox(this)">
         
         {% if photo.caption %}
           <div class="caption">{{ photo.caption }}</div>
@@ -34,3 +35,44 @@ body_class: page-film-roll
     {% endfor %}
   </div>
 </div>
+
+<script>
+// Lightbox for film roll images
+function openLightbox(img) {
+  const lightbox = document.createElement('div');
+  lightbox.className = 'lightbox-overlay';
+  lightbox.innerHTML = `
+    <div class="lightbox-content">
+      <span class="lightbox-close">&times;</span>
+      <img src="${img.src}" alt="${img.alt}" class="lightbox-image">
+    </div>
+  `;
+  
+  document.body.appendChild(lightbox);
+  document.body.style.overflow = 'hidden';
+  
+  // Close on click outside or on close button
+  lightbox.addEventListener('click', function(e) {
+    if (e.target === lightbox || e.target.classList.contains('lightbox-close')) {
+      closeLightbox(lightbox);
+    }
+  });
+  
+  // Close on escape key
+  const escapeHandler = function(e) {
+    if (e.key === 'Escape') {
+      closeLightbox(lightbox);
+      document.removeEventListener('keydown', escapeHandler);
+    }
+  };
+  document.addEventListener('keydown', escapeHandler);
+  
+  // Prevent scrolling behind lightbox
+  document.body.style.overflow = 'hidden';
+}
+
+function closeLightbox(lightbox) {
+  document.body.removeChild(lightbox);
+  document.body.style.overflow = '';
+}
+</script>

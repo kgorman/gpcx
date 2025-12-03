@@ -524,40 +524,74 @@ body.page-origin-story .site-nav .page-link[href="/origin_story/"] {
 }
 
 // Simple lightbox
-.lightbox {
+.lightbox,
+.lightbox-overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.9);
   z-index: 1000;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  animation: fadeIn 0.3s ease;
 }
 
 .lightbox-content {
   position: relative;
-  max-width: 90vw;
-  max-height: 90vh;
-  
-  img {
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 4px;
-  }
+  max-width: 95vw;
+  max-height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-image {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 4px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  cursor: default;
 }
 
 .lightbox-close {
   position: absolute;
-  top: -40px;
-  right: 0;
+  top: -50px;
+  right: -10px;
   color: white;
-  font-size: 30px;
+  font-size: 40px;
   cursor: pointer;
   line-height: 1;
+  z-index: 1001;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-close:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+// Film roll images should show pointer cursor
+.film-roll-item img {
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.film-roll-item img:hover {
+  opacity: 0.9;
 }
 
 /* Tag system styles */
