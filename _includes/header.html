@@ -20,7 +20,11 @@
         </label>
 
         <div class="trigger">
-          {% include navigation.html %}
+          <a class="page-link" href="{{ "/notes/" | relative_url }}">Notes</a>
+          <a class="page-link" href="{{ "/stories/" | relative_url }}">Stories</a>
+          <a class="page-link" href="{{ "/filmroll/" | relative_url }}">Film Roll</a>
+          <a class="page-link" href="{{ "/origin/" | relative_url }}">Origin Story</a>
+          <a class="page-link" href="https://store.gpcx.cc" target="_blank" rel="noopener">Store</a>
         </div>
       </nav>
     {%- endif -%}
