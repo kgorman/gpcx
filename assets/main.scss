@@ -53,19 +53,27 @@ img {
 body.page-notes .page-content,
 body.page-stories .page-content,
 body.page-film-roll .page-content {
-  padding-top: 0.5rem;
+  padding-top: 0;
 }
 
-// Reduce top spacing on homepage
+// Aggressive spacing reduction for all pages
 .layout-home .page-content,
-.home .page-content {
-  padding-top: 0.5rem;
+.home .page-content,
+.page-content {
+  padding-top: 0 !important;
 }
 
 .layout-home .home,
-body .home {
-  margin-top: 0;
-  padding-top: 0;
+body .home,
+.wrapper {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+// Post headers need minimal spacing too
+.post-header {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
 
 body.page-notes .home,
