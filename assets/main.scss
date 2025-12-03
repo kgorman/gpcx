@@ -53,14 +53,15 @@ img {
 body.page-notes .page-content,
 body.page-stories .page-content,
 body.page-film-roll .page-content {
-  padding-top: 0;
+  padding-top: 1rem;
 }
 
-// Aggressive spacing reduction for all pages
+// Balanced spacing - small top padding, minimal bottom
 .layout-home .page-content,
 .home .page-content,
 .page-content {
-  padding-top: 0 !important;
+  padding-top: 1rem !important;
+  padding-bottom: 0.5rem !important;
 }
 
 .layout-home .home,
@@ -68,12 +69,20 @@ body .home,
 .wrapper {
   margin-top: 0 !important;
   padding-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
 }
 
-// Post headers need minimal spacing too
+// Post headers with balanced spacing
 .post-header {
   margin-top: 0 !important;
   padding-top: 0 !important;
+  margin-bottom: 0.5rem !important;
+}
+
+// Reduce space after post content
+.post-content {
+  margin-bottom: 0.5rem !important;
 }
 
 body.page-notes .home,
@@ -81,6 +90,7 @@ body.page-stories .home,
 body.page-film-roll .film-roll-page {
   margin-top: 0;
   padding-top: 0;
+  margin-bottom: 0;
 }
 
 body.page-notes .home > p:first-child,
