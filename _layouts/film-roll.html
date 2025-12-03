@@ -15,20 +15,22 @@ layout: default
 
   <div class="film-roll-content">
     {% if page.images %}
-      {% for image in page.images %}
-        <figure class="film-roll-image">
-          <span class="image-number">#{{ forloop.index }}</span>
-          <img src="{{ image.src | relative_url }}" 
-               alt="{{ image.caption | default: page.title }}" 
-               loading="lazy">
-          {% if image.caption %}
-            <figcaption>{{ image.caption }}</figcaption>
-          {% endif %}
-        </figure>
-      {% endfor %}
+      <div class="film-roll-grid">
+        {% for image in page.images %}
+          <figure class="film-roll-image">
+            <img src="{{ image.src | relative_url }}" 
+                 alt="{{ image.caption | default: page.title }}" 
+                 loading="lazy"
+                 onclick="openLightbox(this)">
+            {% if image.caption %}
+              <figcaption>{{ image.caption }}</figcaption>
+            {% endif %}
+          </figure>
+        {% endfor %}
+      </div>
     {% endif %}
     
-    {% if content != "" %}
+    {% if content and content != "" %}
       <div class="film-roll-notes">
         {{ content }}
       </div>
@@ -37,20 +39,65 @@ layout: default
 
   <nav class="film-roll-nav">
     <div class="nav-links">
-      {% if page.previous.url and page.previous.layout == "film-roll" %}
-        <a href="{{ page.previous.url | relative_url }}" class="nav-prev">
-          ← {{ page.previous.title | truncate: 30 }}
+      {% assign prev_filmroll = null %}
+      {% assign next_filmroll = null %}
+      {% for post in site.posts %}
+        {% if post.tags contains "filmroll" %}
+          {% if post.date > page.date and next_filmroll == null %}
+            {% assign next_filmroll = post %}
+          {% elsif post.date < page.date %}
+            {% assign prev_filmroll = post %}
+            {% break %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+      
+      {% if prev_filmroll %}
+        <a href="{{ prev_filmroll.url | relative_url }}" class="nav-prev">
+          ← {{ prev_filmroll.title | truncate: 30 }}
         </a>
       {% endif %}
       
-      <a href="/film-rolls/" class="nav-archive">All Film Rolls</a>
+      <a href="/?filter=filmroll" class="nav-archive">All Film Rolls</a>
       
-      {% if page.next.url and page.next.layout == "film-roll" %}
-        <a href="{{ page.next.url | relative_url }}" class="nav-next">
-          {{ page.next.title | truncate: 30 }} →
+      {% if next_filmroll %}
+        <a href="{{ next_filmroll.url | relative_url }}" class="nav-next">
+          {{ next_filmroll.title | truncate: 30 }} →
         </a>
       {% endif %}
     </div>
   </nav>
 
 </article>
+
+<script>
+// Simple lightbox for film roll images
+function openLightbox(img) {
+  const lightbox = document.createElement('div');
+  lightbox.className = 'lightbox';
+  lightbox.innerHTML = `
+    <div class="lightbox-content">
+      <span class="lightbox-close">&times;</span>
+      <img src="${img.src}" alt="${img.alt}">
+    </div>
+  `;
+  
+  document.body.appendChild(lightbox);
+  
+  // Close on click
+  lightbox.addEventListener('click', function(e) {
+    if (e.target === lightbox || e.target.classList.contains('lightbox-close')) {
+      document.body.removeChild(lightbox);
+    }
+  });
+  
+  // Close on escape key
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+      if (document.body.contains(lightbox)) {
+        document.body.removeChild(lightbox);
+      }
+    }
+  });
+}
+</script>

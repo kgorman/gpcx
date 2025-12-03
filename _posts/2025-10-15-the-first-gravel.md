@@ -4,9 +4,9 @@ title: "Doss Gravel: First Taste of Gravel"
 date: 2025-10-10 07:00:00 -0500
 description: "First race in years. Dust, cramps, good friends, and gratitude."
 headimage: /assets/images/dos_gravel_road.jpg
-tags: [gpcx, gravel, race, dossgravel, rideeveryday]
+tags: [stories, gravel, race, doss, ride]
 author: Kenny Gorman
-excerpt: "Gravel racing is a whole thing in Texas. I signed up to see what it’s about."
+excerpt: "Gravel racing is a whole thing in Texas. I signed up to see what it's about."
 ---
 
 Texas seems obsessed with gravel racing. Every small town has one, and I wanted to see what the noise was about. Here’s what happened.

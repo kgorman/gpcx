@@ -3,7 +3,7 @@ layout: post
 title: "Presta Is Dead"
 date: 2025-11-15
 categories: [tech, gear, opinion]
-tags: [valves, clik, presta, upgrades, mountain-biking]
+tags: [stories, valves, clik, presta, upgrades, mountain-biking]
 headimage: "/assets/images/clik_head.jpg"
 excerpt: "Presta valves are finicky, century-old tech. I switched to Clik and my trail-side stress dropped 200%. Here's why."
 ---

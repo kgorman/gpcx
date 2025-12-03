@@ -2,7 +2,7 @@
 layout: post
 title: "My 2025 Austin Rattler Race: Probably — proving it to myself"
 date: 2025-11-11
-tags: [race, austin rattler, mtb, story, gpcx]
+tags: [stories, race, austin, rattler, mtb, gpcx]
 excerpt: "Nervousness, pain, and finding out what happens when you push past your own doubt."
 image: /assets/images/rattler_head.jpg
 ---

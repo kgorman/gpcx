@@ -3,7 +3,7 @@ layout: page
 title: Origin Story
 description: How this came to be
 image: /assets/images/telluride_beer.jpg
-permalink: /origin_story/
+permalink: /origin/
 ---
 ![beer](/assets/images/telluride_beer.jpg)
 

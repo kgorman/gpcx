@@ -398,3 +398,255 @@ img {
   }
 }
 
+// Tag styling for post meta
+.post-tag {
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  background: #f5f5f5;
+  border-radius: 3px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: lowercase;
+  margin-left: 0.5rem;
+}
+
+.tag-stories { background: #e3f2fd; color: #1976d2; }
+.tag-notes { background: #f3e5f5; color: #7b1fa2; }
+.tag-filmroll { background: #e8f5e8; color: #388e3c; }
+
+// Navigation active states
+.nav-filter.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+// Film roll specific styling
+.film-roll-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+@media (max-width: 768px) {
+  .film-roll-grid {
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+}
+
+.film-roll-image {
+  margin: 0;
+  position: relative;
+  
+  img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  img:hover {
+    transform: scale(1.02);
+  }
+  
+  figcaption {
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 0.5rem;
+  }
+}
+
+.film-roll-nav {
+  border-top: 1px solid #e5e5e5;
+  padding-top: 2rem;
+  margin-top: 3rem;
+  
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  a:hover {
+    color: #333;
+    text-decoration: underline;
+  }
+}
+
+// Simple lightbox
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.lightbox-content {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+  
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 4px;
+  }
+}
+
+.lightbox-close {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  line-height: 1;
+}
+
+/* Tag system styles */
+.post-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border-radius: 12px;
+  margin-left: 8px;
+  text-transform: lowercase;
+}
+
+.tag-notes {
+  background-color: #e3f2fd;
+  color: #1565c0;
+}
+
+.tag-stories {
+  background-color: #f3e5f5;
+  color: #7b1fa2;
+}
+
+.tag-filmroll {
+  background-color: #e8f5e8;
+  color: #2e7d32;
+}
+
+.tag-origin {
+  background-color: #fff3e0;
+  color: #ef6c00;
+}
+
+/* Navigation styles */
+.nav-filter.active {
+  font-weight: bold;
+  color: #222;
+}
+
+.nav-filter {
+  text-decoration: none;
+}
+
+.nav-filter:hover {
+  text-decoration: underline;
+}
+
+/* Film roll specific styles */
+.film-roll-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.film-roll-image {
+  margin: 0;
+  
+  img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+  }
+  
+  img:hover {
+    opacity: 0.9;
+  }
+  
+  figcaption {
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 0.5rem;
+    font-style: italic;
+  }
+}
+
+.film-roll-nav {
+  margin: 2rem 0;
+  border-top: 1px solid #e5e5e5;
+  padding-top: 1rem;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  a {
+    text-decoration: none;
+    color: #666;
+    font-size: 0.9rem;
+  }
+  
+  a:hover {
+    color: #222;
+    text-decoration: underline;
+  }
+}
+
+/* Lightbox styles */
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Mobile optimizations */
+@media (max-width: 768px) {
+  .film-roll-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .post-tag {
+    display: block;
+    margin-top: 4px;
+    margin-left: 0;
+    width: fit-content;
+  }
+}

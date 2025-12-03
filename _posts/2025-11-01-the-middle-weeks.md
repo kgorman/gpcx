@@ -3,9 +3,9 @@ layout: post
 title: "The Middle Weeks"
 date: 2025-11-01
 categories: [rides, training]
-tags: [austin, rattler, yeti, sb150, emma-long, gpcx]
+tags: [notes, training, rattler, yeti, sb150, emma-long]
 image: /assets/images/weekday_header.jpg
-excerpt: "The excitement fades and what’s left is rhythm — wake up, ride, repeat. Somewhere in the middle weeks, the real work happens."
+excerpt: "The excitement fades and what's left is rhythm — wake up, ride, repeat. Somewhere in the middle weeks, the real work happens."
 ---
 
 It’s getting almost second nature now. The alarm goes off and it’s still dark out. I piss, weigh myself and get my shit together. HR strap, air in tires, which jersey? Oh, and I’m gunna need a light.

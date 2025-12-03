@@ -5,14 +5,30 @@ layout: default
 <div class="home">
   <ul class="post-list">
     {% for post in site.posts %}
-      <li>
+      {% assign primary_tag = "" %}
+      {% if post.tags contains "notes" %}
+        {% assign primary_tag = "notes" %}
+      {% elsif post.tags contains "stories" %}
+        {% assign primary_tag = "stories" %}
+      {% elsif post.tags contains "filmroll" %}
+        {% assign primary_tag = "filmroll" %}
+      {% elsif post.tags contains "origin" %}
+        {% assign primary_tag = "origin" %}
+      {% else %}
+        {% assign primary_tag = "stories" %}
+      {% endif %}
+      <li class="post-item" data-tags="{{ primary_tag }}">
         <article class="post-preview">
           <h2>
             <a class="post-link" href="{{ post.url | relative_url }}">
               {{ post.title | escape }}
             </a>
           </h2>
-          <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }} by {{ post.author }}</p>
+          <p class="post-meta">
+            {{ post.date | date: "%B %-d, %Y" }}
+            {% if post.author %} by {{ post.author }}{% endif %}
+            <span class="post-tag tag-{{ primary_tag }}">{{ primary_tag }}</span>
+          </p>
            {% if post.homeimage %}
             <a href="{{ post.url | relative_url }}">
               <img src="{{ post.homeimage | relative_url }}" alt="{{ post.title }}" class="post-image" />
@@ -26,12 +42,67 @@ layout: default
               <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-image" />
             </a>
           {% endif %}
+          {% if primary_tag != "filmroll" %}
           <p class="post-excerpt">
             {{ post.excerpt | strip_html | truncatewords: 40 }}
           </p>
           <p><a class="read-more" href="{{ post.url | relative_url }}">open the story →</a></p>
+          {% endif %}
         </article>
       </li>
     {% endfor %}
   </ul>
 </div>
+
+<script>
+// Client-side filtering for tag navigation
+document.addEventListener('DOMContentLoaded', function() {
+  const navFilters = document.querySelectorAll('.nav-filter');
+  const postItems = document.querySelectorAll('.post-item');
+  
+  // Get current filter from URL params or default to 'all'
+  const urlParams = new URLSearchParams(window.location.search);
+  let currentFilter = urlParams.get('filter') || 'all';
+  
+  // Apply initial filter
+  filterPosts(currentFilter);
+  
+  navFilters.forEach(filter => {
+    filter.addEventListener('click', function(e) {
+      const filterValue = this.getAttribute('data-filter');
+      if (filterValue) {
+        e.preventDefault();
+        filterPosts(filterValue);
+        
+        // Update URL without page reload
+        const url = new URL(window.location);
+        if (filterValue === 'all') {
+          url.searchParams.delete('filter');
+        } else {
+          url.searchParams.set('filter', filterValue);
+        }
+        window.history.pushState({}, '', url);
+      }
+    });
+  });
+  
+  function filterPosts(filter) {
+    postItems.forEach(post => {
+      const tags = post.getAttribute('data-tags');
+      if (filter === 'all' || tags.includes(filter)) {
+        post.style.display = 'block';
+      } else {
+        post.style.display = 'none';
+      }
+    });
+    
+    // Update active nav state
+    navFilters.forEach(nav => {
+      nav.classList.remove('active');
+      if (nav.getAttribute('data-filter') === filter || (filter === 'all' && nav.getAttribute('data-filter') === null)) {
+        nav.classList.add('active');
+      }
+    });
+  }
+});
+</script>
