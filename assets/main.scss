@@ -56,6 +56,18 @@ body.page-film-roll .page-content {
   padding-top: 0.5rem;
 }
 
+// Reduce top spacing on homepage
+.layout-home .page-content,
+.home .page-content {
+  padding-top: 0.5rem;
+}
+
+.layout-home .home,
+body .home {
+  margin-top: 0;
+  padding-top: 0;
+}
+
 body.page-notes .home,
 body.page-stories .home,
 body.page-film-roll .film-roll-page {
