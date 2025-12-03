@@ -6,7 +6,7 @@ body_class: page-stories
 ---
 
 <div class="home">
-  <p style="color: #666; margin-bottom: 2rem; font-size: 0.9rem;">Long-form narrative pieces. Deep dives, project retrospectives, ride reports with full context.</p>
+  <p style="color: #666; margin-bottom: 1rem; font-size: 0.9rem;">Long-form narrative pieces. Deep dives, project retrospectives, ride reports with full context.</p>
   
   <ul class="post-list">
     {% for post in site.posts %}
