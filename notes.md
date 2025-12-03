@@ -6,7 +6,7 @@ body_class: page-notes
 ---
 
 <div class="home">
-  <p style="color: #666; margin-bottom: 1rem; font-size: 0.9rem;">Short, incremental posts. Ride notes, shop updates, progress photos, half-formed thoughts. The live feed.</p>
+  <p class="filter-description">Short, incremental posts. Ride notes, shop updates, progress photos, half-formed thoughts. The live feed.</p>
   
   <ul class="post-list">
     {% assign notes_posts = site.posts | where_exp: "post", "post.tags contains 'notes'" %}
