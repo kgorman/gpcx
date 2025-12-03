@@ -79,6 +79,16 @@ body.page-film-roll .film-roll-page > p:first-child {
   margin-top: 0;
 }
 
+// Tighter spacing between post titles and meta
+.post-preview h2 {
+  margin-bottom: 0.25rem;
+}
+
+.post-meta {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
 // Active navigation states
 .page-link.active {
   font-weight: bold;
