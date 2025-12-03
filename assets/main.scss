@@ -322,7 +322,8 @@ body.page-origin-story .site-nav .page-link[href="/origin_story/"] {
   border-top: 1px dashed #ccc;
 }
 
-.icon-instagram {
+.icon-instagram,
+.icon-substack {
   width: 22px;
   height: 22px;
   opacity: 0.8;
@@ -330,7 +331,8 @@ body.page-origin-story .site-nav .page-link[href="/origin_story/"] {
   vertical-align: middle;
 }
 
-.icon-instagram:hover {
+.icon-instagram:hover,
+.icon-substack:hover {
   opacity: 1;
 }
 
