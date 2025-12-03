@@ -4,6 +4,7 @@ title: Origin Story
 description: How this came to be
 image: /assets/images/telluride_beer.jpg
 permalink: /origin_story/
+body_class: page-origin-story
 ---
 ![beer](/assets/images/telluride_beer.jpg)
 

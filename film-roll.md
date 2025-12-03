@@ -2,13 +2,11 @@
 layout: default
 title: Film Roll
 permalink: /film-roll/
+body_class: page-film-roll
 ---
 
 <div class="film-roll-page">
-  <header class="film-roll-page-header">
-    <h1>Film Roll</h1>
-    <p class="film-roll-intro">Trail photography. Raw, unfiltered, no HDR fake bullshit.</p>
-  </header>
+  <p style="color: #666; margin-bottom: 2rem; font-size: 0.9rem;">Trail photography. Raw, unfiltered, no HDR fake bullshit.</p>
 
   <div class="film-roll-grid">
     {% for photo in site.data.film-roll %}

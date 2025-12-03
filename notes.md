@@ -2,11 +2,11 @@
 layout: default
 title: Notes
 permalink: /notes/
+body_class: page-notes
 ---
 
 <div class="home">
-  <h1>Notes</h1>
-  <p style="color: #666; margin-bottom: 2rem;">Short posts, ride notes, shop updates, progress photos, and half-formed thoughts.</p>
+  <p style="color: #666; margin-bottom: 2rem; font-size: 0.9rem;">Short, incremental posts. Ride notes, shop updates, progress photos, half-formed thoughts. The live feed.</p>
   
   <ul class="post-list">
     {% assign notes_posts = site.posts | where_exp: "post", "post.tags contains 'notes'" %}

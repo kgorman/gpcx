@@ -49,6 +49,46 @@ img {
   border-radius: 8px;
 }
 
+// Active navigation states
+.page-link.active {
+  font-weight: bold;
+  color: #222;
+  text-decoration: underline;
+}
+
+// Auto-detect active page for navigation
+.site-nav .page-link[href="/notes/"]:focus,
+.site-nav .page-link[href="/notes/"].current,
+body.page-notes .site-nav .page-link[href="/notes/"] {
+  font-weight: bold;
+  color: #222;
+  text-decoration: underline;
+}
+
+.site-nav .page-link[href="/stories/"]:focus,
+.site-nav .page-link[href="/stories/"].current,
+body.page-stories .site-nav .page-link[href="/stories/"] {
+  font-weight: bold;
+  color: #222;
+  text-decoration: underline;
+}
+
+.site-nav .page-link[href="/film-roll/"]:focus,
+.site-nav .page-link[href="/film-roll/"].current,
+body.page-film-roll .site-nav .page-link[href="/film-roll/"] {
+  font-weight: bold;
+  color: #222;
+  text-decoration: underline;
+}
+
+.site-nav .page-link[href="/origin_story/"]:focus,
+.site-nav .page-link[href="/origin_story/"].current,
+body.page-origin-story .site-nav .page-link[href="/origin_story/"] {
+  font-weight: bold;
+  color: #222;
+  text-decoration: underline;
+}
+
 /* --- Photo with caption --- */
 .photo-caption {
   margin: 1.5rem 0;
