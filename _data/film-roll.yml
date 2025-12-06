@@ -50,3 +50,21 @@
   camera: "iPhone 16 Pro Max"
   settings: "6.8mm, f/1.8, 1/40s, ISO 320"
   photographer: "Kenny Gorman"
+
+- image: roll_co.jpg
+  date: "2022-07-24"
+  camera: "Sony ZV-E10"
+  settings: "20mm, f/5.0, 1/80s, ISO 100"
+  photographer: "Kenny Gorman"
+
+- image: DSC00869.jpeg
+  date: "2022-07-19"
+  camera: "Sony ZV-E10"
+  settings: "18mm, f/8.0, 1/125s, ISO 100"
+  photographer: "Kenny Gorman"
+
+- image: DSC01493.jpeg
+  date: "2023-07-13"
+  camera: "Sony ZV-E10"
+  settings: "18mm, f/4.0, 1/4000s, ISO 10000"
+  photographer: "Kenny Gorman"

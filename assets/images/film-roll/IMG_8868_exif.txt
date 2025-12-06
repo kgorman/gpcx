@@ -1,0 +1,11 @@
+Make: Apple
+Camera Model Name: iPhone 16 Pro Max
+Lens Model: iPhone 16 Pro Max back triple camera 6.765mm f/1.78
+Focal Length: 6.8 mm
+F Number: 1.8
+ISO: 320
+Shutter Speed: 1/40
+Exposure Time: 1/40
+Date/Time Original: 2025-11-16 06:31:32
+Image Width: 1200
+Image Height: 675

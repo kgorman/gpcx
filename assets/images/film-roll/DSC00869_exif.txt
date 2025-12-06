@@ -1,0 +1,11 @@
+Make: SONY
+Camera Model Name: ZV-E10
+Lens Model: E PZ 18-105mm F4 G OSS
+Focal Length: 18.0 mm
+F Number: 8.0
+ISO: 100
+Shutter Speed: 1/125
+Exposure Time: 1/125
+Date/Time Original: 2022-07-19 09:34:28
+Image Width: 1200
+Image Height: 675
