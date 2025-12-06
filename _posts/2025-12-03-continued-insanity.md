@@ -24,4 +24,4 @@ A year later, the startup was acquired, and I became a Texan, and here, that wro
 
 So, that brings us to current times. About a week ago I started thinking about her again. Not because I felt like a singlespeed was the right move for me, or that I am so damn strong I only need one gear, none of that shit. I just felt bad for her.
 
-So, as I mentioned in the intro note https://gpcx.cc/2025/12/02/kona-unit-ss-project.html - it's time to pull her out. I honestly don't know how/where I will ride her, but, I will find something. Maybe it's beer at the firepit Fridays at one of the crew's yard, or maybe even a run to the marg shack rig. We'll see. But for now, she's getting some love.
+So, as I mentioned in the intro note [https://gpcx.cc/2025/12/02/kona-unit-ss-project.html](https://gpcx.cc/2025/12/02/kona-unit-ss-project.html) - it's time to pull her out. I honestly don't know how/where I will ride her, but, I will find something. Maybe it's beer at the firepit Fridays at one of the crew's yard, or maybe even a run to the marg shack rig. We'll see. But for now, she's getting some love.
