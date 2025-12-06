@@ -9,10 +9,12 @@ body_class: page-film-roll
   <p class="filter-description">Trail photography. Raw, unfiltered, no HDR fake bullshit.</p>
 
   <div class="film-roll-grid">
+    {% assign total = site.data.film-roll | size %}
     {% for photo in site.data.film-roll %}
       {% assign photo_id = photo.image | remove: '.jpeg' | remove: '.jpg' | remove: '.JPEG' | remove: '.JPG' %}
+      {% assign reversed_number = total | minus: forloop.index0 %}
       <figure class="film-roll-item" id="{{ photo_id }}">
-        <a href="#{{ photo_id }}" class="image-number">#{{ forloop.index }}</a>
+        <a href="#{{ photo_id }}" class="image-number">#{{ reversed_number }}</a>
         <img src="/assets/images/film-roll/{{ photo.image }}" 
              alt="Photo by {{ photo.photographer | default: 'Kenny Gorman' }}" 
              loading="lazy"
