@@ -34,13 +34,15 @@ body_class: page-film-roll
           {{ meta_parts | join: " • " }}
         </div>
         
-        {% assign base_name = photo.image | split: '.' | first %}
-        {% assign extension = photo.image | split: '.' | last %}
-        {% assign full_res_filename = base_name | append: '_full_res.' | append: extension %}
-        {% capture full_res_path %}/assets/images/film-roll/{{ full_res_filename }}{% endcapture %}
-        <div class="download-link">
-          <a href="{{ full_res_path }}" download="{{ full_res_filename }}" class="full-res-download">↓ download full resolution</a>
-        </div>
+        {% if photo.full_res %}
+          {% assign base_name = photo.image | split: '.' | first %}
+          {% assign extension = photo.image | split: '.' | last %}
+          {% assign full_res_filename = base_name | append: '_full_res.' | append: extension %}
+          {% capture full_res_path %}/assets/images/film-roll/{{ full_res_filename }}{% endcapture %}
+          <div class="download-link">
+            <a href="{{ full_res_path }}" download="{{ full_res_filename }}" class="full-res-download">↓ download full resolution</a>
+          </div>
+        {% endif %}
       </figure>
     {% endfor %}
   </div>

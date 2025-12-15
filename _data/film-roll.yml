@@ -1,18 +1,22 @@
 - image: mte_speed.jpeg
   date: "2025-11-24"
   photographer: "Kenny Gorman"
+  full_res: true
 
 - image: mte_down.jpeg
   date: "2025-11-24"
   photographer: "Kenny Gorman"
+  full_res: true
 
 - image: mte_rocks.jpeg
   date: "2025-11-24"
   photographer: "Kenny Gorman"
+  full_res: true
 
 - image: lots_of_turq.jpeg
   date: "2025-12-15"
   photographer: "Kenny Gorman"
+  full_res: true
 
 - image: DSC01493.jpeg
   date: "2023-07-13"
