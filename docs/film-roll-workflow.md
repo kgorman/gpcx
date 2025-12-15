@@ -16,16 +16,42 @@ Film Roll uses a simple YAML data file (`_data/film-roll.yml`) to manage photos.
 
 **Location:** User will drop photos in `/assets/images/film-roll/`
 
-**Command to resize:**
+**Workflow:**
+1. Rename original files to add `_full_res` suffix (these become download versions)
+2. Create web-optimized copies without the suffix
+
+**Commands:**
 ```bash
 cd /Users/kgorman/workspace/Github/gpcx/assets/images/film-roll
-sips -Z 1200 *.jpg *.jpeg *.JPG *.JPEG 2>/dev/null
+
+# For each new photo, rename it to _full_res version
+# Example: mv photo.jpg photo_full_res.jpg
+
+# Then create a web-optimized copy
+# Example: cp photo_full_res.jpg photo.jpg && sips -Z 1200 photo.jpg
+```
+
+**Batch processing for multiple photos:**
+```bash
+# Rename originals to _full_res
+for file in *.jpg; do 
+  base="${file%.jpg}"
+  mv "$file" "${base}_full_res.jpg"
+done
+
+# Create and resize web copies
+for file in *_full_res.jpg; do
+  base="${file%_full_res.jpg}"
+  cp "$file" "${base}.jpg"
+  sips -Z 1200 "${base}.jpg"
+done
 ```
 
 **What this does:**
-- Resizes to max 1200px width/height while maintaining aspect ratio
-- Reduces file size for web delivery
-- Preserves EXIF data for extraction
+- Preserves original full resolution files as `*_full_res.jpg` for download links
+- Creates web-optimized copies at max 1200px width/height
+- Maintains aspect ratio and preserves EXIF data
+- Film Roll will automatically show download links for full res versions
 
 ---
 
@@ -59,6 +85,7 @@ cd /Users/kgorman/workspace/Github/gpcx
   lens: "Wide angle"
   settings: "4K/60fps, f/2.8, ISO 100"
   photographer: "Kenny Gorman"
+  full_res: true
 ```
 
 **Required fields:**
@@ -71,6 +98,7 @@ cd /Users/kgorman/workspace/Github/gpcx
 - `lens`: Lens info
 - `settings`: Aperture, ISO, shutter, etc.
 - `photographer`: Defaults to "Kenny Gorman" if omitted
+- `full_res`: Set to `true` if a `*_full_res.*` version exists for download
 
 **Order:** Photos appear in the order they're listed (top = #1)
 
@@ -97,10 +125,32 @@ git push origin main
 
 Execute this sequence:
 
-1. **Resize all new photos:**
+1. **Process new photos (rename originals, create web copies):**
    ```bash
    cd /Users/kgorman/workspace/Github/gpcx/assets/images/film-roll
-   sips -Z 1200 *.jpg *.jpeg *.JPG *.JPEG 2>/dev/null
+   
+   # Rename originals to _full_res (skip files already with _full_res)
+   for file in *.jpg *.jpeg; do 
+     if [[ ! "$file" =~ _full_res\. ]]; then
+       base="${file%.*}"
+       ext="${file##*.}"
+       mv "$file" "${base}_full_res.${ext}"
+     fi
+   done
+   
+   # Create and resize web copies from _full_res files
+   for file in *_full_res.jpg *_full_res.jpeg; do
+     if [ -f "$file" ]; then
+       base="${file%_full_res.*}"
+       ext="${file##*.}"
+       webfile="${base}.${ext}"
+       # Only create if web version doesn't exist
+       if [ ! -f "$webfile" ]; then
+         cp "$file" "$webfile"
+         sips -Z 1200 "$webfile"
+       fi
+     fi
+   done
    ```
 
 2. **Extract EXIF data for reference:**
