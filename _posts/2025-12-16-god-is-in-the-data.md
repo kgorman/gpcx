@@ -37,7 +37,7 @@ Hmm. Calories.
 ![quarq power meter](/assets/images/intervals_quarq.jpeg)
 *SRAM Quarq power meter on the SB150BR*
 
-Recently I'd stumbled into intervals.icu. It's a pro analysis tool similar to Training Peaks or TSS. Except it seemed approachable, had an API, and was free. So I gave it a shot and got it syncing from Wahoo.
+Recently I'd stumbled into [intervals.icu](https://intervals.icu/). It's a pro analysis tool similar to Training Peaks or TSS. Except it seemed approachable, had an API, and was free. So I gave it a shot and got it syncing from Wahoo.
 
 And here is where the ooooohhhhh fuuuuuuuuckkk moment came.
 
