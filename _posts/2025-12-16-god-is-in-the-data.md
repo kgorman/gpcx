@@ -49,11 +49,11 @@ Intervals uses something called TSS. It's expressed as load. It's a single numbe
 
 You might have guessed it. I wasn't just training harder. I was blowing myself up.
 
-When I started this journey in July, my load for a ride was anywhere from say 70 to 130. Call it 100.
+When I started this journey in July, my load for a week was anywhere from say 70 to 130. Call it 100.
 
-Recently, after the Rattler race, I'd upped my load to about 200 — doubling it from previous. This is all about when I started riding analog mostly, pushing through my "mostly eMTB" phase to 50/50, then finally to mostly analog.
+Recently, after the Rattler race, I'd upped my weekly load to about 200 — doubling it from previous. This is all about when I started riding analog mostly, pushing through my "mostly eMTB" phase to 50/50, then finally to mostly analog.
 
-The last ride?
+The last week?
 
 Load 400.
 
@@ -62,6 +62,7 @@ I'd beaten myself into submission, grinding out crazy watts for crazy miles, and
 Yeah. I felt like shit for a reason.
 
 ![danger zone](/assets/images/intervals_danger_rising.jpg)
+
 *Load rising over the weeks, fatigue setting in, it was all right there in the data*
 
 So, it's one week out from Fat Mike's. I'm super embarrassed, but also super glad I caught this (maybe my wife needs to get credit) before the race. I'm laying low, recovering, getting ready to hit it with everything I've got after I chill for a bit.
