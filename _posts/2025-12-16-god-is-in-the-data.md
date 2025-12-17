@@ -16,7 +16,7 @@ What was going on?
 
 I double-checked my ride length and route. Same. I looked at my caloric output — eh, down about 20% from previous analog rides. Ok, I must be getting in better shape. But if that's true, why so crap-tastic?
 
-Finally, a big day. I agreed to ride with JB, Brett, and David. I knew the pace was going to be rowdy and I knew I wanted to be on the analog bike — Fat Mike's Revenge is coming up, and I needed to push. Plus, I'd been going so well after recovering from the holiday party. I was feeling better.
+Finally, a big day. I agreed to ride with JB, Brett, and David. I knew the pace was going to be rowdy and I knew I wanted to be on the analog bike — Fat Chuck's Revenge is coming up, and I needed to push. Plus, I'd been going so well after recovering from the holiday party. I was feeling better.
 
 Or so I thought.
 
@@ -41,7 +41,7 @@ Recently I'd stumbled into [intervals.icu](https://intervals.icu/). It's a pro a
 
 And here is where the ooooohhhhh fuuuuuuuuckkk moment came.
 
-Turns out, I'd been focusing on my analog rides — getting ready for Fat Mike's. Good 13-mile loops through Emma Long area with loads of singletrack, huge efforts up and down, really driving my skills, heart rate, and overall fitness. I'd almost exclusively moved to analog. No more Z2 rips on the Skitch on the road and singletrack, no mega days on the MTE. Just focused riding on my analog Yeti, chasing calories.
+Turns out, I'd been focusing on my analog rides — getting ready for Fat Chuck's. Good 13-mile loops through Emma Long area with loads of singletrack, huge efforts up and down, really driving my skills, heart rate, and overall fitness. I'd almost exclusively moved to analog. No more Z2 rips on the Skitch on the road and singletrack, no mega days on the MTE. Just focused riding on my analog Yeti, chasing calories.
 
 Except I had gotten more efficient, just as my wife had said. And I was still chasing. Pushing, pushing, going hard, "hitting my numbers."
 
@@ -65,7 +65,7 @@ Yeah. I felt like shit for a reason.
 
 *Load rising over the weeks, fatigue setting in, it was all right there in the data*
 
-So, it's one week out from Fat Mike's. I'm super embarrassed, but also super glad I caught this (maybe my wife needs to get credit) before the race. I'm laying low, recovering, getting ready to hit it with everything I've got after I chill for a bit.
+So, it's one week out from Fat Chuck's. I'm super embarrassed, but also super glad I caught this (maybe my wife needs to get credit) before the race. I'm laying low, recovering, getting ready to hit it with everything I've got after I chill for a bit.
 
 You can be sure I'm watching all my stats now. Learning what they mean, how they work, and understanding the impact I'm putting myself under when I ride these days. To get fitter you need to create stress by increasing load — but go too far and you put yourself in a fatigued category. Risk over-training.
 
