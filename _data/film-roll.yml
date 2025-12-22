@@ -1,3 +1,11 @@
+- image: lake_austin_overlook.jpeg
+  date: "2025-12-13"
+  photographer: "Kenny Gorman"
+  camera: "RICOH GR III"
+  settings: "18.3mm, f/3.5, 1/200s, ISO 200"
+  caption: "Emma Long Motocross Park overlooking Lake Austin"
+  full_res: true
+
 - image: mte_speed.jpeg
   date: "2025-11-24"
   photographer: "Kenny Gorman"
