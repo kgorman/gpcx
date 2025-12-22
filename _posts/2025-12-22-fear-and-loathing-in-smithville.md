@@ -4,6 +4,8 @@ title: "Race Report - Fear and Loathing in Smithville, TX"
 date: 2025-12-22
 tags: stories
 headimage: "/assets/images/chucks_ready.jpg"
+author: "Kenny Gorman"
+excerpt: "Hallucinations, pain, chicks, and snakes"
 ---
 
 # Fat Chuck's Revenge
