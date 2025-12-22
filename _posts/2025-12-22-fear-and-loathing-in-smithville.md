@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Fear and Loathing in Smithville, TX"
+title: "Race Report - Fear and Loathing in Smithville, TX"
 date: 2025-12-22
 tags: stories
 headimage: "/assets/images/chucks_ready.jpg"
