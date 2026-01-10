@@ -4,7 +4,7 @@ title: "The Left Turn"
 date: 2026-01-09
 categories: [stories, mountain biking]
 tags: [emma-long, sb140, training, mental-game]
-headerimage: "/assets/images/left_header.jpg"
+headimage: "/assets/images/left_header.jpg"
 ---
 
 The holidays are always a happy time for me. I love the break, Christmas trees, a big dinner, seeing people, New Year's celebrations—all of it. This year was especially great having rekindled my deep love of riding and falling off the deep end. I met my goal, exceeded it really.
