@@ -31,3 +31,17 @@
 .read-more:hover {
   text-decoration: underline;
 }
+
+/* Ensure image captions appear below images with spacing */
+.post-image + em,
+.post-image + .caption,
+img + em,
+img + .caption,
+img + p {
+  display: block;
+  margin-top: 0.5em;
+  color: #666;
+  font-size: 0.98em;
+  font-style: italic;
+  text-align: center;
+}
