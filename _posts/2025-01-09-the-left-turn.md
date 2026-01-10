@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "The Left Turn"
-date: 2025-01-09
-categories: [rides, stories]
+date: 2026-01-09
+categories: [stories, mountain biking]
 tags: [emma-long, sb140, training, mental-game]
 headerimage: "/assets/images/left_header.jpg"
 ---
