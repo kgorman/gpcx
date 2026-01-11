@@ -29,3 +29,27 @@ I've been testing this idea for almost 6 months now, it's been on my bike every 
 ## What I Want (Please)
 
 I'm interested in hearing your feedback. Critical feedback, you can't hurt my feelings, I gotta hear the good, bad and ugly. Text me.
+
+---
+
+## Gallery
+
+![TR1 mounted on bike](/assets/images/beta/TR1/DSC01918.jpeg)
+
+![TR1 detail shot](/assets/images/beta/TR1/DSC01965.jpeg)
+
+![TR1 on bike 1](/assets/images/beta/TR1/IMG_9470.jpeg)
+
+![TR1 on bike 2](/assets/images/beta/TR1/IMG_9471.jpeg)
+
+![TR1 close-up 1](/assets/images/beta/TR1/IMG_9528.jpeg)
+
+![TR1 close-up 2](/assets/images/beta/TR1/IMG_9529.jpeg)
+
+![TR1 installation 1](/assets/images/beta/TR1/IMG_9531.jpeg)
+
+![TR1 installation 2](/assets/images/beta/TR1/IMG_9532.jpeg)
+
+![TR1 with tool roll 1](/assets/images/beta/TR1/IMG_9533.jpeg)
+
+![TR1 with tool roll 2](/assets/images/beta/TR1/IMG_9534.jpeg)
