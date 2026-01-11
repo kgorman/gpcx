@@ -44,8 +44,6 @@ I'm interested in hearing your feedback. Critical feedback, you can't hurt my fe
 
 ![TR1 on bike 1](/assets/images/beta/TR1/IMG_9470.jpeg)
 
-![TR1 on bike 2](/assets/images/beta/TR1/IMG_9471.jpeg)
-
 ![TR1 close-up 1](/assets/images/beta/TR1/IMG_9528.jpeg)
 
 ![TR1 close-up 2](/assets/images/beta/TR1/IMG_9529.jpeg)
