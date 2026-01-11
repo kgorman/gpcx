@@ -3,6 +3,7 @@ layout: page
 title: "TR1 Beta"
 permalink: /TR1_beta/
 exclude: true
+headimage: "/assets/images/beta/TR1/IMG_9531.jpeg"
 ---
 
 TR1 is a compact tool roll holder designed for mountain bike and gravel bike riders to carry essential trail-side repair tools.
