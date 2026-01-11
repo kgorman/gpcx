@@ -21,6 +21,10 @@ I've been testing this idea for almost 6 months now, it's been on my bike every 
 - It's not some uber-weight-weenie shave your legs thing. If you want to stash micro tools all over your bike like it's an easter egg hunt, cool, but this isn't your answer.
 - If you carry all your shit in your USWE pack or jersey, I get it, cool, again, not for you.
 
+## Construction
+
+The tool roll holder is made from carbon fiber infused polymer and pure carbon rails. These materials are super durable, light, and last forever with exposure to moisture, UV, etc. Plus they are right at home with your fancy carbon frame.
+
 ## What I'm Sending
 
 - **A tool roll holder** - Goes on your water bottle bosses. It screws on, I provided the hardware, it's easy to mount. One sip of beer level job. But crush the beer anyway.
