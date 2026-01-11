@@ -32,7 +32,9 @@ The tool roll holder is made from carbon fiber infused polymer and pure carbon r
 
 ## What I Want (Please)
 
-I'm interested in hearing your feedback. Critical feedback, you can't hurt my feelings, I gotta hear the good, bad and ugly. Text me.
+I'm interested in hearing your feedback. Critical feedback, you can't hurt my feelings, I gotta hear the good, bad and ugly. How can I improve this? Oil Slick Ti Rails? Ti bolts? Something else? I can do whatever, let your imagination go wild, what would be most useful? Straps suck? Need something else?
+
+Text me.
 
 ---
 
