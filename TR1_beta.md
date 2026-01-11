@@ -7,6 +7,8 @@ exclude: true
 
 TR1 is a compact tool roll holder designed for mountain bike and gravel bike riders to carry essential trail-side repair tools.
 
+I've been testing this idea for almost 6 months now, it's been on my bike every ride since about October. All the races, rides, crashes, whatever, I've improved it enough I am ready for a couple of folks to tell me what they think. That's what this beta is for.
+
 ## Design Principles
 
 - **Lightweight** - Because weight matters
