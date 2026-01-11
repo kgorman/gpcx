@@ -58,3 +58,7 @@ Text me.
 ![TR1 with tool roll 1](/assets/images/beta/TR1/IMG_9533.jpeg)
 
 ![TR1 with tool roll 2](/assets/images/beta/TR1/IMG_9534.jpeg)
+
+![TR1 detail 1](/assets/images/beta/TR1/IMG_9535.jpeg)
+
+![TR1 detail 2](/assets/images/beta/TR1/IMG_9536.jpeg)
