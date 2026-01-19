@@ -5,11 +5,12 @@ date: 2026-01-09
 categories: [stories, mountain biking]
 tags: [emma-long, sb140, training, mental-game]
 headimage: "/assets/images/left_header.jpg"
+author: "Kenny Gorman"
 ---
 
 The holidays are always a happy time for me. I love the break, Christmas trees, a big dinner, seeing people, New Year's celebrations—all of it. This year was especially great having rekindled my deep love of riding and falling off the deep end. I met my goal, exceeded it really.
 
-Yet something was picking at me in the background. I should be super happy, yet I wasn't as happy as I thought I would be. After six months of extreme effort and dedication and consistency, I got to this point... this point like, no shit dude, this isn't an achievement, this is getting back to normal from where you were. The realization that I was pretty far gone, but in the way a frog boils in water.
+Yet something was picking at me in the background. I should be super happy, but I wasn't as happy about it as I thought I would be. After six months of extreme effort and dedication and consistency, I got to this point... this point like, no shit dude, this isn't an achievement, this is getting back to normal from where you were. The realization that I was pretty far gone, but in the way a frog boils in water.
 
 There aren't any excuses. I had a fresh Yeti SB140 sitting here all built up, ready to go. The weather wasn't terrible by most standards—we live in Austin, it's nice almost all year (except I guess July/August, but whatever). I should be chomping at the bit to rock this new steed.
 
@@ -26,7 +27,7 @@ Then Thursday I upped the game to >200 TSS. Big push, big pace, pushed hard. And
 Body is revolting, brain is not helping. I'm feeling 54.
 
 ![really fml](/assets/images/left_fml.jpg)
-*really? fml right now*
+really? fml right now
 
 I know if you're reading this, you are a rider, or are married to one. It's moments like this where we give up, where we just say it's too much, where we find reasons. Things taper, and goals aren't met. We make excuses. From July to now I hadn't felt this way—it was riding the wave. And now I sit here between sets, mentally cramping, physically hurting, going dude... fuuuck.
 
@@ -43,7 +44,7 @@ So I turned left. No, serious. I just turned and took another fucking lap. Alrea
 This part of the trail is along the lake. The crew knows it—twisty, rocky. Jump onto the concrete manhole cover, crush the baby-head section, zooming, lean in, find the traction. Wide bars, loads of leverage and grip. Fox shocks ripping. Cooling effect of the speed. Speed.
 
 ![left turn](/assets/images/left_left_turn.jpg)
-*turn left, go downhill, go*
+turn left, go downhill, go
 
 If you remember riding in the '90s, one thing that you'll remember is that bikes are not quiet. Modern MTB rigs are dead fucking silent. All you hear are tires on dirt, you can hear your grip, the whiz of the freewheel, and your own breathing. It's something. You can think. You can process.
 
