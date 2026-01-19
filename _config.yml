@@ -4,7 +4,6 @@ baseurl: ""
 url: "https://gpcx.cc"
 image: /assets/images/telluride_singletrack.jpg
 theme: minima
-future: true
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
