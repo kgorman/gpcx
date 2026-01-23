@@ -23,6 +23,7 @@ Now there are a few other key sensors - a heart rate monitor is key. It's going 
 Next there are power meters. These are devices that measure the force you are able to exert on the cranks. Typically a strain gauge built into your cranks, battery powered, and again wirelessly transmit the data to the head unit. These typically sample at 500Hz or more. They capture torque (force) and cadence (pedal speed, not bike speed) allowing for the output to be represented in Watts (Force x Velocity).
 
 ![a power meter](/assets/images/daq_powermeter.jpg)
+*the SRAM Quarq power meter spider. Pure Sex*
 
 These are our core metrics:
 * Speed. GPS speed from the head unit, or via wheel sensors, or calculated on ebikes via the mandatory wheel sensors.
@@ -71,6 +72,9 @@ So that setup provides the sensors to capture my core metrics. Now let's use thi
 
 1. **I ride each week to a TSS number.** Right now I am doing about 400 TSS a week. In other words to keep losing weight, getting a better power to weight ratio I need to keep that level of intensity. This value scales with me, in other words, if I just tracked something like calories output over time that number would go down as I got in better shape. TSS scales as I do, I can keep at 400 and know roughly how I am going to feel each week even as I get better (tired as hell).
 
+![weekly load](/assets/images/daq_tss.jpg)
+*weekly load showing about 400*
+
 2. **TSB (or CTL/ATL).** I use these two metrics to measure if I am going to feel like shit on the next ride or actively manage it leading into a race. For example I will want to make sure I have a positive TSB before race day, and I might train light, do a simple spin, or whatever it takes so I stay positive TSB and don't blow myself up right before a race.
 
 3. **HR Decoupling.** I use this to see if I am feeding properly during a race. One of my key learnings from Boots and the Rattler race is, I can do better than I thought if I keep feeding/hydrated and that I don't decouple during a race. This metric is a lookback - I look at past races or rides and make adjustments. It's not something you can do while you are in the race - at that point if you decouple it's too late.
@@ -78,6 +82,9 @@ So that setup provides the sensors to capture my core metrics. Now let's use thi
 4. **IF.** I look at this just to validate the ride was hard. Sometimes a ride just feels hard or for whatever reason you are just rocking it. I might also think about what I had for dinner the night before or how I fueled during a ride or the weather. I've noticed if it's hot, the IF skyrockets for example.
 
 5. **Power to weight ratio.** Lastly, this metric is my north star. To calculate this you need your weight. Notice I didn't talk about scales here - I manually enter my weight into intervals.icu so this calculation can be done. Power to weight is measuring me to my goal of overall fitness and health. It's both losing weight AND getting stronger in one metric.
+
+![fitness graph](/assets/images/daq_training.jpg)
+* my training data leading up to the Dos Gravel Race*
 
 Ok that's it, that's how, at least for now, I use all this data to become a better rider, try not to get dropped, and have more fun on the bike.
 
