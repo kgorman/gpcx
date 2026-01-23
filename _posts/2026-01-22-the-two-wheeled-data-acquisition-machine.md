@@ -78,7 +78,7 @@ So that setup provides the sensors to capture my core metrics. Now let's use thi
 2. **TSB (or CTL/ATL).** I use these two metrics to measure if I am going to feel like shit on the next ride or actively manage it leading into a race. For example I will want to make sure I have a positive TSB before race day, and I might train light, do a simple spin, or whatever it takes so I stay positive TSB and don't blow myself up right before a race.
 
 ![fitness graph](/assets/images/daq_training.jpg)
-* my training data leading up to the Dos Gravel Race*
+*my training data leading up to the Dos Gravel Race*
 
 3. **HR Decoupling.** I use this to see if I am feeding properly during a race. One of my key learnings from Boots and the Rattler race is, I can do better than I thought if I keep feeding/hydrated and that I don't decouple during a race. This metric is a lookback - I look at past races or rides and make adjustments. It's not something you can do while you are in the race - at that point if you decouple it's too late.
 
