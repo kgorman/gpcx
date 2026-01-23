@@ -2,12 +2,12 @@
 layout: post
 title: "The two wheeled data acquisition machine"
 date: 2026-01-22
-categories: [tech, training]
+categories: [notes, tech, training]
 author: "Kenny Gorman"
 excerpt: "Here is my approach to capturing and making use of the data in my riding and training."
 ---
 
-We really do live in the future. As I sit here in 2026 I have 4 bikes in my garage that aren't just bikes they are essntially  data acquisition computers. They are outfitted with technology that just a few years ago was impossible for spacecraft let alone a human powered have-fun machine. It's crazy how far technology has come - For example, my bike has an onboard strain gauge that measures my leg power 1000 times a second, transmits it to a head unit who remembers it on non-volatile memory until the ride is done, at which time it transmits it over wifi to the cloud where the data is normalized, and compared near instantly against previous efforts and finally I see output to see how badly having that cheeseburger hurt my FTP. This article is about the state of the art in consumer data acquisition that is available on your bike today, and what you can do with the data.
+We really do live in the future. As I sit here in 2026 I have 4 bikes in my garage that aren't just bikes they are essntially  data acquisition computers. They are outfitted with technology that just a few years ago was impossible for spacecraft let alone a human powered have-fun machine. It's crazy how far technology has come - For example, my bike has an onboard strain gauge that measures my leg power 1000 times a second, transmits it to a head unit who remembers it on non-volatile memory until the ride is done, at which time it transmits it over wifi to the cloud where the data is normalized, and compared near instantly against previous efforts and finally I see output to see how badly having that cheeseburger hurt my FTP. This article is about the state of the art in consumer data acquisition that is available on your bike today, and a practical guide to what you can do with the data.
 
 Let's follow the chain of data creation from source to consumption. There are a few main types of sensors that are popular, are reasonable cost, and provide very helpful information.
 
