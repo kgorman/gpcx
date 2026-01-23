@@ -5,7 +5,7 @@ date: 2026-01-22
 categories: [notes, tech, training]
 author: "Kenny Gorman"
 excerpt: "Here is my approach to capturing and making use of the data in my riding and training."
-headimage: "/assets/images/daq_leader.jpg"
+headimage: "/assets/images/daq_head.jpg"
 headimage_position: "center bottom"
 ---
 
