@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "the two wheeled data acquisition machine"
+title: "The two wheeled data acquisition machine"
 date: 2026-01-22
 categories: [tech, training]
 author: "Kenny Gorman"
