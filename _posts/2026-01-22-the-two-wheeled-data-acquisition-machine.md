@@ -6,6 +6,7 @@ categories: [notes, tech, training]
 author: "Kenny Gorman"
 excerpt: "Here is my approach to capturing and making use of the data in my riding and training."
 headimage: "/assets/images/daq_leader.jpg"
+headimage_position: "center bottom"
 ---
 
 We really do live in the future. As I sit here in 2026 I have 4 bikes in my garage that aren't just bikes they are essntially  data acquisition computers. They are outfitted with technology that just a few years ago was impossible for spacecraft let alone a human powered have-fun machine. It's crazy how far technology has come - For example, my bike has an onboard strain gauge that measures my leg power 1000 times a second, transmits it to a head unit who remembers it on non-volatile memory until the ride is done, at which time it transmits it over wifi to the cloud where the data is normalized, and compared near instantly against previous efforts and finally I see output to see how badly having that cheeseburger hurt my FTP. This article is about the state of the art in consumer data acquisition that is available on your bike today, and a practical guide to what you can do with the data.
@@ -20,6 +21,8 @@ First and foremost is the head unit. Garmin, Wahoo, and Hammerhead are popular o
 Now there are a few other key sensors - a heart rate monitor is key. It's going to provide data showing how hard you are working by measuring your heart rate. Typically these measure at 1Hz or once per second. This data is captured and sent wirelessly to your head unit.
 
 Next there are power meters. These are devices that measure the force you are able to exert on the cranks. Typically a strain gauge built into your cranks, battery powered, and again wirelessly transmit the data to the head unit. These typically sample at 500Hz or more. They capture torque (force) and cadence (pedal speed, not bike speed) allowing for the output to be represented in Watts (Force x Velocity).
+
+![a power meter](/assets/images/daq_powermeter.jpg)
 
 These are our core metrics:
 * Speed. GPS speed from the head unit, or via wheel sensors, or calculated on ebikes via the mandatory wheel sensors.

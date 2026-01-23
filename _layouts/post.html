@@ -16,7 +16,7 @@ layout: default
   </header>
 
   {%- if page.headimage -%}
-    <img src="{{ page.headimage | relative_url }}" alt="{{ page.title }}" class="post-header-image" style="width: 100%; border-radius: 8px; margin: 1.5rem 0;">
+    <img src="{{ page.headimage | relative_url }}" alt="{{ page.title }}" class="post-header-image" style="width: 100%; border-radius: 8px; margin: 1.5rem 0;{% if page.headimage_position %} object-fit: cover; height: 400px; object-position: {{ page.headimage_position }};{% endif %}">
   {%- endif -%}
 
   <div class="post-content e-content" itemprop="articleBody">
