@@ -6,6 +6,7 @@ categories: [stories, journey]
 tags: [stories, injury, recovery, mental-game, gratitude]
 author: "Kenny Gorman"
 headimage: "/assets/images/fifty_five_head.jpg"
+headimage_position: "center bottom"
 excerpt: "It's the eve of my 55th birthday and inside I'm gutted."
 ---
 
