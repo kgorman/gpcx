@@ -10,7 +10,7 @@ headimage_position: "center bottom"
 excerpt: "It's the eve of my 55th birthday and inside I'm gutted."
 ---
 
-I figured it was time. I was feeling better, and I told myself if I could walk up stairs without putting both feet on the same tread, I could start thinking about a spin on the trainer. I'd had my reset and was feeling healed-ish. Much better.
+I figured it was time. I was feeling better, and I told myself if I could walk up stairs without putting both feet on the same tread, I could start thinking about a spin on the trainer. I'd had my [reset](https://gpcx.cc/stories/journey/2026/01/19/reset.html) and was feeling healed-ish. Much better.
 
 This feeling would betray me and lead me to darkness.
 
