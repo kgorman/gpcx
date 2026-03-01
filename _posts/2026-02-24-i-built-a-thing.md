@@ -6,7 +6,7 @@ last_modified_at: 2026-02-24
 categories: [stories, tech]
 tags: [stories, data, training, tech, ridetool, riding]
 author: "Kenny Gorman"
-headimage: "/assets/images/ridetool_calendar.png"
+headimage: "/assets/images/ridetool_hero.png"
 headimage_position: "center center"
 excerpt: "30 years of riding and 30 years of data crashed together. I had to build this."
 description: "The story of how a Stumpjumper, a career in data, and a renewed obsession with riding led to rideTool."
