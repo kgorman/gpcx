@@ -21,7 +21,7 @@ I did finally get it paid off. Battleship gray, two inches of suspension, fat ti
 
 ## the data thing
 
-Around 1995, I'd been working on a series of CAD projects that involved data systems. I started to love databases and database engineering. I wanted to move from the CAD world to something more exciting. I was living in San Francisco at the time and the startup vibe was starting to vibe. First it was Sybase SQL Anywhere, then Oracle. I went deep and ended up pivoting my career to being a DBA. Back then the guy who supported the production database — the crown jewels of data — who wore the pager? That guy was the shit.
+Around 1995, I'd been working on a series of CAD projects that involved data systems. I started to love databases and database engineering. I wanted to move from the CAD world to something more exciting. I was living in San Francisco at the time and the startup vibe was starting to vibe. First it was Sybase SQL Anywhere, then Oracle. I went deep and ended up pivoting my career to being a DBA. Back then the guy who supported the production database, the crown jewels of data, who wore the pager. That guy was the shit.
 
 I was the shit.
 
