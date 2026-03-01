@@ -6,8 +6,7 @@ last_modified_at: 2026-02-24
 categories: [stories, tech]
 tags: [stories, data, training, tech, ridetool, riding]
 author: "Kenny Gorman"
-headimage: "/assets/images/ridetool_hero.png"
-headimage_position: "center center"
+headimage: "/assets/images/ridetool_logo.png"
 excerpt: "30 years of riding and 30 years of data crashed together. I had to build this."
 description: "The story of how a Stumpjumper, a career in data, and a renewed obsession with riding led to Ridetool."
 ---
@@ -50,8 +49,6 @@ None of the existing products out there were doing it for me. They were too focu
 ## introducing Ridetool
 
 30 years of riding and 30 years of data expertise wrapped up in a self-improvement and tracking platform. Built because I needed this functionality, and built for the love of riding and data.
-
-![Ridetool](/assets/images/ridetool_logo.png)
 
 I needed something that kept the source .fit files intact. I couldn't live with myself if we didn't have an honest approach to user data. The customer isn't the product for Ridetool — it's not a social network. It's a data-centric approach to ride data. I wanted simple and honest. It's got amazing map views and telemetry, ride stat tallies over weeks or months, and it allows you to compare against time periods, against yourself. All of this for a modest price point.
 
