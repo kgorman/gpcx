@@ -23,8 +23,6 @@ I did finally get it paid off. Battleship gray, two inches of suspension, fat ti
 
 Around 1995, I'd been working on a series of CAD projects that involved data systems. I started to love databases and database engineering. I wanted to move from the CAD world to something more exciting. I was living in San Francisco at the time and the startup vibe was starting to vibe. First it was Sybase SQL Anywhere, then Oracle. I went deep and ended up pivoting my career to being a DBA. Back then the guy who supported the production database, the crown jewels of data, who wore the pager. That guy was the shit.
 
-I was the shit.
-
 I built a career on data, databases, software. Worked at some bellwethers of tech — PayPal, eBay, Shutterfly, Match.com, MongoDB. I co-founded two data focused startups and sold them (ObjectRocket, and Eventador.io). Being a data nerd is who I am. Literally 30 years of work.
 
 ## the collision
