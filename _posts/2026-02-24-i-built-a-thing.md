@@ -38,7 +38,7 @@ None of the existing products out there were doing it for me. They were too focu
 ![rideTool consistency scores](/assets/images/ridetool_consistency.png)
 *am I showing up? am I putting in the time?*
 
-![rideTool ride detail](/assets/images/ridetool_ridedetail.png)
+![rideTool ride detail](/assets/images/ridetool_hero.png)
 *the Rattler race in rideTool — map, stats, the whole picture*
 
 ![rideTool compare view](/assets/images/ridetool_compare.png)
