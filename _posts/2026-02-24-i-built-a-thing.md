@@ -52,4 +52,6 @@ I needed something that kept the source .fit files intact. I couldn't live with 
 
 And this is just the tip of the iceberg. This isn't just a product, it's a journey. There is much functionality to add, and my plan is to keep a solid cadence adding new capabilities and usefulness. That $29/year will go farther and farther. Maybe a premium plan down the line for some really advanced stuff I'm thinking about. But you tell me — you, the user, are ultimately the arbiter of this functionality. I build for you, and for me second.
 
+There's way more functionality than I can cover here — check out the [docs](https://ridetool.cc/docs) for the full rundown.
+
 I hope you try it and join me on this journey. Log in at [ridetool.cc](https://ridetool.cc) and hit the Discord button. I'd love to hear from you.
