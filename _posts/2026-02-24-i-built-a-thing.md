@@ -56,4 +56,7 @@ And this is just the tip of the iceberg. This isn't just a product, it's a journ
 
 There's way more functionality than I can cover here — check out the [docs](https://ridetool.cc/docs) for the full rundown.
 
+![on the trail](/assets/images/ridetool_gratitude.jpg)
+*from a Stumpjumper on layaway to here — 30 years of riding, still pushing*
+
 I hope you try it and join me on this journey. Log in at [ridetool.cc](https://ridetool.cc) and hit the Discord button. I'd love to hear from you.
