@@ -48,6 +48,8 @@ None of the existing products out there were doing it for me. They were too focu
 
 30 years of riding and 30 years of data expertise wrapped up in a self-improvement and tracking platform. Built because I needed this functionality, and built for the love of riding and data.
 
+![rideTool](/assets/images/ridetool_logo.png)
+
 I needed something that kept the source .fit files intact. I couldn't live with myself if we didn't have an honest approach to user data. The customer isn't the product for rideTool — it's not a social network. It's a data-centric approach to ride data. I wanted simple and honest. It's got amazing map views and telemetry, ride stat tallies over weeks or months, and it allows you to compare against time periods, against yourself. All of this for a modest price point.
 
 And this is just the tip of the iceberg. This isn't just a product, it's a journey. There is much functionality to add, and my plan is to keep a solid cadence adding new capabilities and usefulness. That $29/year will go farther and farther. Maybe a premium plan down the line for some really advanced stuff I'm thinking about. But you tell me — you, the user, are ultimately the arbiter of this functionality. I build for you, and for me second.
