@@ -34,6 +34,12 @@ The collision of these two things — my deep love for data, my deep love for ri
 
 I wrote about all the [data your bike generates](https://gpcx.cc/notes/tech/training/2026/01/22/the-two-wheeled-data-acquisition-machine.html) and said I'd follow up with a deeper dive into intervals.icu. I never did. Instead I just wrote my own thing. Because none of the existing products out there were doing it for me. They were too focused on online competition, or too hard to use, or just too simple in design. I wanted something simple but powerful for guys like most of us — we don't want to compete, we just want to improve. I wanted core features to allow me to compare to myself. *Am I getting better?* I needed to be neck deep in this journey to see that. Once I did, I couldn't look back. I knew I had to build it.
 
+## built from the couch
+
+Then came the [knee injury](https://gpcx.cc/stories/journey/2026/01/19/reset.html). Weeks off the bike. I couldn't ride, couldn't drive, could barely sleep. I watched my CTL crater and my fitness numbers die. All that work evaporating. It was [dark](https://gpcx.cc/stories/journey/2026/02/01/fifty-five.html).
+
+But I could code. So that's what I did. I channeled all of that frustrated energy — the energy that should have been going into pedaling — into building Ridetool. Every feature came from a question I'd been asking myself as a rider. How was my month? Am I being consistent? Am I actually getting better or just tired? I built the tool I wanted to open when I finally got back on the bike.
+
 ![Ridetool consistency scores](/assets/images/ridetool_consistency.png)
 *am I showing up? am I putting in the time?*
 
