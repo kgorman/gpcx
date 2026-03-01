@@ -11,7 +11,7 @@ excerpt: "30 years of riding and 30 years of data crashed together. I had to bui
 description: "The story of how a Stumpjumper, a career in data, and a renewed obsession with riding led to Ridetool."
 ---
 
-My first real mountain bike was a Specialized Stumpjumper FS. 1992, if I remember right. The very first bike Specialized made with front suspension. There was no way in hell I could afford the $1,200 price tag in one shot. I figured if I could squeeze my beer budget down and eat the then $0.88 Taco Bell bean burritos, I could make payments. I had no credit, so layaway it was. I can't remember how long it took, but I do remember thinking *for fuck's sake the new model is going to come out before I can pay this one off*.
+My first real mountain bike was a Specialized Stumpjumper FS. 1992. The very first bike Specialized made with front suspension. There was no way in hell I could afford the $1,200 price tag in one shot. I figured if I could squeeze my beer budget down and eat the then $0.88 Taco Bell bean burritos, I could make payments. I had no credit, so layaway it was. I can't remember how long it took, but I do remember thinking *for fuck's sake the new model is going to come out before I can pay this one off*.
 
 I did finally get it paid off. Battleship gray, two inches of suspension, fat tires. What a whip. I rode the fuck out of that thing. That's when I fell in love with mountain biking.
 
