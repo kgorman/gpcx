@@ -16,7 +16,7 @@ My first real mountain bike was a Specialized Stumpjumper FS. 1992, if I remembe
 
 I did finally get it paid off. Battleship gray, two inches of suspension, fat tires. What a whip. I rode the fuck out of that thing. That's when I fell in love with mountain biking.
 
-![1992 Specialized Stumpjumper FS](https://www.mtbr.com/media/1992-stumpjumper-fs.1460555/)
+![1992 Specialized Stumpjumper FS](/assets/images/1992_stumpjumper_fs.jpg)
 *the 1992 Specialized Stumpjumper FS — image credit: [mtbr.com](https://www.mtbr.com)*
 
 ## the data thing
