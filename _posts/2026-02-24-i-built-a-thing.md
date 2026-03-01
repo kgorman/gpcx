@@ -44,6 +44,9 @@ None of the existing products out there were doing it for me. They were too focu
 ![Ridetool compare view](/assets/images/ridetool_compare.png)
 *comparing months — the data doesn't lie*
 
+![Ridetool file library](/assets/images/ridetool_file_library.png)
+*the ride library — your .FIT files, Strava imports, all in one place*
+
 ## introducing Ridetool
 
 30 years of riding and 30 years of data expertise wrapped up in a self-improvement and tracking platform. Built because I needed this functionality, and built for the love of riding and data.
