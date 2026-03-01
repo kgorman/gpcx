@@ -32,7 +32,7 @@ One — I'd been focusing on my riding. A renewed push to ride more, lose weight
 
 The collision of these two things — my deep love for data, my deep love for riding — crashed together with modern AI coding techniques. And I decided to just build [Ridetool](https://ridetool.cc).
 
-None of the existing products out there were doing it for me. They were too focused on online competition, or too hard to use, or just too simple in design. I wanted core features to allow me to compare to myself. *Am I getting better?* I needed to be neck deep in this journey to see that. Once I did, I couldn't look back. I knew I had to build it.
+I wrote about all the [data your bike generates](https://gpcx.cc/notes/tech/training/2026/01/22/the-two-wheeled-data-acquisition-machine.html) and said I'd follow up with a deeper dive into intervals.icu. I never did. Instead I just wrote my own thing. Because none of the existing products out there were doing it for me. They were too focused on online competition, or too hard to use, or just too simple in design. I wanted something simple but powerful for guys like most of us — we don't want to compete, we just want to improve. I wanted core features to allow me to compare to myself. *Am I getting better?* I needed to be neck deep in this journey to see that. Once I did, I couldn't look back. I knew I had to build it.
 
 ![Ridetool consistency scores](/assets/images/ridetool_consistency.png)
 *am I showing up? am I putting in the time?*
