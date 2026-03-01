@@ -38,7 +38,7 @@ I wrote about all the [data your bike generates](https://gpcx.cc/notes/tech/trai
 
 Then came the [knee injury](https://gpcx.cc/stories/journey/2026/01/19/reset.html). Weeks off the bike. I couldn't ride, couldn't drive, could barely sleep. I watched my CTL crater and my fitness numbers die. All that work evaporating. It was [dark](https://gpcx.cc/stories/journey/2026/02/01/fifty-five.html).
 
-But I could code. So that's what I did. I channeled all of that frustrated energy — the energy that should have been going into pedaling — into building Ridetool. Every feature came from a question I'd been asking myself as a rider. How was my month? Am I being consistent? Am I actually getting better or just tired? I built the tool I wanted to open when I finally got back on the bike.
+But I could code. So that's what I did. I channeled all of that frustrated energy, the energy that should have been going into pedaling, into building Ridetool. Every feature came from a question I'd been asking myself as a rider. How was my month? Am I being consistent? Am I actually getting better or just tired? I built the tool I wanted to open when I finally got back on the bike.
 
 ![Ridetool consistency scores](/assets/images/ridetool_consistency.png)
 *am I showing up? am I putting in the time?*
