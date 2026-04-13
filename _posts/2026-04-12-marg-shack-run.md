@@ -7,6 +7,7 @@ categories: [stories, journey]
 tags: [stories, night-riding, crew, emtb, fun]
 author: "Kenny Gorman"
 excerpt: "3 margs in 30 minutes is redline. It's now dark. Everyone dons lights and heads out."
+image: /assets/images/margs02_main.jpeg
 ---
 
 For whatever reason we decided we needed a more social ride. You know, easy going, fun ride without pressure. The plan was to head to our local marg shack, ride there and ride back. It would be dark when we rode back so bring lights. See where this is going?
