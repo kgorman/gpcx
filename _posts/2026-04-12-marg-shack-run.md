@@ -38,15 +38,18 @@ Let me just pause to say. Wow. I mean, shit, I've been riding bikes for 30 years
 Or 6.
 
 ![the crew](/assets/images/margs02_all.jpeg)
+*photo credit: Boots*
 
 And that's exactly what happened. Any more margs would have meant we needed a dust off from the wives. Nope, time to go. 3 margs in 30 minutes is redline. It's now dark. Everyone dons lights and heads out. I am going to just admit. I was a bit nervous.
 
 To get home it's a climb. Not a crazy climb but it's mostly uphill. JB has a plan and a pace. We fall into line. No one is talking now. Everyone's inner gyro is recalibrating after the tequila hits. Uhhhhh.
 
 ![night peloton](/assets/images/margs02_peleton.jpeg)
+*photo credit: Boots*
 
 We settle into a rhythm. It's pitch black, lights are illuminating the trail but everything else is dark. If you haven't ridden at night you have to do it. The darkness around has a way of focusing you, no distractions, just the trail, just where your headlights are. I'm rocking a helmet-mounted unit from Outbound Lighting. Dude it's the sun. Our ragtag MTB-style peloton winds its way up. Single track all of it. Some parts smooth then rocky, some technical then more technical. A quick rock drop down keeps us on point as we find our way through the forest. Not too fast, not too slow, just right. Night pace. Fast enough that we are all on edge. Vberg quips how fucking epic this is — he's right. Fun level 9 million as we finally get our out-of-breath train of 40-and-50-somethings feeling like kids again out to the road.
 
 We all give big high fives and knuckles. No yakking this time. A new standard has been set — and a new level of oh my fucking god night riding. As I pedal home Vberg just keeps saying epic. Epic. Again he's not wrong. I'm not even home yet when JB sends out the next marg shack run invite. Yeah it was that good.
 
 ![through the forest](/assets/images/margs02_forest.jpeg)
+*photo credit: Boots*
