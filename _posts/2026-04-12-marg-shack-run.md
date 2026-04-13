@@ -29,9 +29,7 @@ Rocks, roots, climbs, zip zap, the pace is good. Rowdy. Z smacks a couple trees,
 
 We pull up at the marg shack. It's Tuesday. And yeah it's all us. We park our bikes on the dock next to Lake Austin. The temps are perfect central Texas spring. Not too hot, not too humid, just perfect. Vberg orders margs two at a time. Fucking genius.
 
-Let me just pause to say. Wow. I mean, shit, I've been riding bikes for 30 years, it's second nature. But some of these guys haven't and I just want to say wow. Vberg crushing Emma. JB's pace, his on-bike posture. Boots is a fucking diesel-powered freight train. And Z. Dude, Z is brand new to this sport. We didn't go easy on him. No whimper, no whine, he just fucking put his head down and got it done. Only two tree strikes! Most guys this new would have gone down half a dozen times at that pace. Everyone deserved a marg. Or 6.
-
-It's clearly time to go. 3 margs in 30 minutes is redline. It's now dark. Everyone dons lights and heads out. I am going to just admit. I was a bit nervous.
+Let me just pause to say. Wow. I mean, shit, I've been riding bikes for 30 years, it's second nature. But some of these guys haven't and I just want to say wow. Vberg crushing Emma. JB's pace, his on-bike posture. Boots is a fucking diesel-powered freight train. And Z. Dude, Z is brand new to this sport. We didn't go easy on him. No whimper, no whine, he just fucking put his head down and got it done. Only two tree strikes! Most guys this new would have gone down half a dozen times at that pace. Everyone deserved a marg. Or 6. And that's exactly what happened. Any more margs would have meant we needed a dust off from the wives. Nope, time to go. 3 margs in 30 minutes is redline. It's now dark. Everyone dons lights and heads out. I am going to just admit. I was a bit nervous.
 
 To get home it's a climb. Not a crazy climb but it's mostly uphill. JB has a plan and a pace. We fall into line. No one is talking now. Everyone's inner gyro is recalibrating after the tequila hits. Uhhhhh.
 
