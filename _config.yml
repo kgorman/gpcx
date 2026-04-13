@@ -21,6 +21,9 @@ header_pages:
   - origin.md
 
 # SEO and social media defaults
+twitter:
+  card: summary_large_image
+
 defaults:
   - scope:
       path: ""
