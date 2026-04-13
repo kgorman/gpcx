@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Marg Shack Run"
+title: "Marg Shack Run Number 2"
 date: 2026-04-12
 last_modified_at: 2026-04-12
 categories: [stories, journey]
