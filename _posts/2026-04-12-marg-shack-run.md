@@ -30,14 +30,22 @@ Rocks, roots, climbs, zip zap, the pace is good. Rowdy. Z smacks a couple trees,
 
 We pull up at the marg shack. It's Tuesday. And yeah it's all us. We park our bikes on the dock next to Lake Austin. The temps are perfect central Texas spring. Not too hot, not too humid, just perfect. Vberg orders margs two at a time. Fucking genius.
 
+![bikes on the dock](/assets/images/margs02_bikes.jpeg)
+
 Let me just pause to say. Wow. I mean, shit, I've been riding bikes for 30 years, it's second nature. But some of these guys haven't and I just want to say wow. Vberg crushing Emma. JB's pace, his on-bike posture. Boots is a fucking diesel-powered freight train. And Z. Dude, Z is brand new to this sport. We didn't go easy on him. No whimper, no whine, he just fucking put his head down and got it done. Only two tree strikes! Most guys this new would have gone down half a dozen times at that pace. Everyone deserved a marg.
 
 Or 6.
+
+![the crew](/assets/images/margs02_all.jpeg)
 
 And that's exactly what happened. Any more margs would have meant we needed a dust off from the wives. Nope, time to go. 3 margs in 30 minutes is redline. It's now dark. Everyone dons lights and heads out. I am going to just admit. I was a bit nervous.
 
 To get home it's a climb. Not a crazy climb but it's mostly uphill. JB has a plan and a pace. We fall into line. No one is talking now. Everyone's inner gyro is recalibrating after the tequila hits. Uhhhhh.
 
+![night peloton](/assets/images/margs02_peleton.jpeg)
+
 We settle into a rhythm. It's pitch black, lights are illuminating the trail but everything else is dark. If you haven't ridden at night you have to do it. The darkness around has a way of focusing you, no distractions, just the trail, just where your headlights are. I'm rocking a helmet-mounted unit from Outbound Lighting. Dude it's the sun. Our ragtag MTB-style peloton winds its way up. Single track all of it. Some parts smooth then rocky, some technical then more technical. A quick rock drop down keeps us on point as we find our way through the forest. Not too fast, not too slow, just right. Night pace. Fast enough that we are all on edge. Vberg quips how fucking epic this is — he's right. Fun level 9 million as we finally get our out-of-breath train of 40-and-50-somethings feeling like kids again out to the road.
 
 We all give big high fives and knuckles. No yakking this time. A new standard has been set — and a new level of oh my fucking god night riding. As I pedal home Vberg just keeps saying epic. Epic. Again he's not wrong. I'm not even home yet when JB sends out the next marg shack run invite. Yeah it was that good.
+
+![through the forest](/assets/images/margs02_forest.jpeg)
