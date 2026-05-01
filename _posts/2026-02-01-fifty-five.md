@@ -2,11 +2,14 @@
 layout: post
 title: "Fifty-Five"
 date: 2026-02-01
+last_modified_at: 2026-02-01
 categories: [stories, journey]
 tags: [stories, injury, recovery, mental-game, gratitude]
 author: "Kenny Gorman"
 headimage: "/assets/images/fifty_five_head.jpg"
+image: "/assets/images/fifty_five_head.jpg"
 headimage_position: "center center"
+description: "Turning 55 with a knee injury and a year of training on the line. Honest notes on the mental game of recovery and birthday gut-checks."
 excerpt: "It's the eve of my 55th birthday and inside I'm gutted."
 ---
 

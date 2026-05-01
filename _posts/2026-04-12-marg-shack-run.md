@@ -7,6 +7,7 @@ categories: [stories, journey]
 tags: [stories, night-riding, crew, emtb, fun]
 author: "Kenny Gorman"
 excerpt: "3 margs in 30 minutes is redline. It's now dark. Everyone dons lights and heads out."
+description: "Five guys, three margaritas, and a night ride through Emma Long Park. The second Marg Shack Run goes from chill social ride to fun-level-9-million."
 headimage: "/assets/images/margs02_main.jpeg"
 image: /assets/images/margs02_main.jpeg
 ---

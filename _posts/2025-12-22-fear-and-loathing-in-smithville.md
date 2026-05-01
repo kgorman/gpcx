@@ -1,11 +1,14 @@
 ---
-layout: default
+layout: post
 title: "Race Report - Fear and Loathing in Smithville, TX"
 date: 2025-12-22
-tags: stories
+last_modified_at: 2025-12-22
+tags: [stories, race, tmbra, mountain-biking]
 headimage: "/assets/images/chucks_ready.jpg"
+image: "/assets/images/chucks_ready.jpg"
 author: "Kenny Gorman"
 excerpt: "Hallucinations, pain, chicks, and snakes"
+description: "Race report from Fat Chuck's Revenge at Rocky Hill Ranch. A TMBRA mountain bike marathon in Smithville, Texas."
 ---
 
 # Fat Chuck's Revenge

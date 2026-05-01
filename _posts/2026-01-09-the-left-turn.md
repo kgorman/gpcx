@@ -2,10 +2,14 @@
 layout: post
 title: "The Left Turn"
 date: 2026-01-09
+last_modified_at: 2026-01-09
 categories: [stories, mountain biking]
-tags: [emma-long, sb140, training, mental-game]
+tags: [stories, emma-long, sb140, training, mental-game]
 headimage: "/assets/images/left_header.jpg"
+image: "/assets/images/left_header.jpg"
 author: "Kenny Gorman"
+excerpt: "After hitting my weight loss goal, something still felt off. The holidays, a new Yeti SB140, and what comes next."
+description: "After hitting my weight loss goal, something still felt off. The holidays, a new Yeti SB140, and the mental game of what comes next."
 ---
 
 The holidays are always a happy time for me. I love the break, Christmas trees, a big dinner, seeing people, New Year's celebrations—all of it. This year was especially great having rekindled my deep love of riding and falling off the deep end. I met my goal, exceeded it really.

@@ -2,7 +2,9 @@ title: gpcx.cc
 description: "ride stories & garage experiments"
 baseurl: ""
 url: "https://gpcx.cc"
-image: /assets/images/telluride_singletrack.jpg
+lang: en
+image: /assets/images/recon_header.jpg
+logo: /assets/images/recon_header.jpg
 theme: minima
 plugins:
   - jekyll-feed
@@ -11,7 +13,7 @@ plugins:
 
 minima:
   show_excerpts: true
-  skin: classic 
+  skin: classic
 
 # Navigation pages
 header_pages:
@@ -20,7 +22,19 @@ header_pages:
   - digest.md
   - origin.md
 
-# SEO and social media defaults
+# Site author — hash form so jekyll-seo-tag does not generate an invalid twitter:creator handle from the name
+author:
+  name: "Kenny Gorman"
+  url: "https://gpcx.cc/origin_story/"
+
+# Person schema enrichment
+social:
+  name: "Kenny Gorman"
+  links:
+    - https://www.instagram.com/gpcx.cc/
+    - https://gpcx.substack.com/
+
+# Twitter card type — no handle since the site has no Twitter presence
 twitter:
   card: summary_large_image
 

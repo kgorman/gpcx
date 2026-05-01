@@ -2,8 +2,10 @@
 layout: post
 title: "Doss Gravel: First Taste of Gravel"
 date: 2025-10-10 07:00:00 -0500
+last_modified_at: 2025-10-10
 description: "First race in years. Dust, cramps, good friends, and gratitude."
 headimage: /assets/images/dos_gravel_road.jpg
+image: /assets/images/dos_gravel_road.jpg
 tags: [stories, gravel, race, doss, ride]
 author: Kenny Gorman
 excerpt: "Gravel racing is a whole thing in Texas. I signed up to see what it's about."

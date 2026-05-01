@@ -2,9 +2,11 @@
 layout: post
 title: "The Middle Weeks"
 date: 2025-11-01
+last_modified_at: 2025-11-01
 categories: [rides, training]
 tags: [stories, training, rattler, yeti, sb150, emma-long]
 image: /assets/images/weekday_header.jpg
+description: "The middle weeks of training, when the novelty wears off and routine takes over. Pre-dawn rides, climbs, and the real work between the highlights."
 excerpt: "The excitement fades and what's left is rhythm — wake up, ride, repeat. Somewhere in the middle weeks, the real work happens."
 ---
 

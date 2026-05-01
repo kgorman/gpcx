@@ -2,10 +2,14 @@
 layout: post
 title: "The two wheeled data acquisition machine"
 date: 2026-01-22
+last_modified_at: 2026-01-22
 categories: [notes, tech, training]
+tags: [notes, data, training, tech, power-meter]
 author: "Kenny Gorman"
 excerpt: "Here is my approach to capturing and making use of the data in my riding and training."
+description: "Power meters, heart rate, GPS, and how to turn a mountain bike into a rolling data platform."
 headimage: "/assets/images/daq_head.jpg"
+image: "/assets/images/daq_head.jpg"
 headimage_position: "center bottom"
 ---
 

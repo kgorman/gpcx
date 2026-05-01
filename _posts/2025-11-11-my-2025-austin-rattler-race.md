@@ -2,7 +2,9 @@
 layout: post
 title: "My 2025 Austin Rattler Race: Probably — proving it to myself"
 date: 2025-11-11
+last_modified_at: 2025-11-11
 tags: [stories, race, austin, rattler, mtb, gpcx]
+description: "Race report from the 2025 Austin Rattler at Reveille Peak Ranch — first big mountain bike race in years, and what it took to finish."
 excerpt: "Nervousness, pain, and finding out what happens when you push past your own doubt."
 image: /assets/images/rattler_head.jpg
 ---

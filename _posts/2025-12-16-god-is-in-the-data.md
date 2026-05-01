@@ -2,9 +2,12 @@
 layout: post
 title: "God is in the Data (or: Why Do I Feel Like Shit)"
 date: 2025-12-16
+last_modified_at: 2025-12-16
 tags: [stories, training, data, racing]
 headimage: "/assets/images/intervals_theboys.jpeg"
+image: "/assets/images/intervals_theboys.jpeg"
 excerpt: "Then there it was - ooooooohhhhh fuuuuuuuuck"
+description: "Training data revealed overtraining before I could feel it. How heart rate variability and power numbers told the truth."
 author: "Kenny Gorman"
 ---
 

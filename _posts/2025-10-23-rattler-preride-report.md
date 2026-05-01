@@ -1,9 +1,12 @@
 ---
 layout: post  
 title: "Recon Mission or Death March? Rattler Pre-Ride Report"  
-date: 2025-10-23  
+date: 2025-10-23
+last_modified_at: 2025-10-23
 excerpt: "A pre-race shakedown at Reveille Peak that turned into a full-blown survival story. Heat, rock, dust, and pain"
-headimage: /assets/images/recon_header.jpg  
+description: "Pre-race recon ride at Reveille Peak Ranch turned heat-soaked survival mission. Shakedown for the SB150BR and the Austin Rattler."
+headimage: /assets/images/recon_header.jpg
+image: /assets/images/recon_header.jpg
 tags: [stories, ride, rattler, austin, mountain-bike, sb150, training]  
 ---
 

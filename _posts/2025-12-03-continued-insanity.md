@@ -2,9 +2,12 @@
 layout: post
 title: "The SS Project, Continued Insanity"
 date: 2025-12-03
+last_modified_at: 2025-12-03
 tags: [notes, build, kona, singlespeed, project]
 headimage: "/assets/images/ss2_ring.jpg"
+image: "/assets/images/ss2_ring.jpg"
 excerpt: "The singlespeed project gets out of hand"
+description: "The 2010 Kona Unit singlespeed rebuild continues with new parts and too much enthusiasm."
 author: "Kenny Gorman"
 ---
 

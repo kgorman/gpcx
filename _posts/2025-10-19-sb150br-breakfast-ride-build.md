@@ -1,9 +1,11 @@
 ---
 title: "SB150BR: The Breakfast Ride Build"
 date: 2025-10-19
+last_modified_at: 2025-10-19
 layout: post
 tags: [stories, build, yeti, sb150, rattler]
 image: /assets/images/sb150_head.jpg
+description: "Converting a six-year-old Yeti SB150 park bike into a Rattler-ready race weapon — coil-to-Float-X swap, fork travel cut, and the geometry math behind it."
 excerpt: "Turning a six-year-old park bike into a Rattler weapon — coil to Float X, 38 to 36, some geometry math, and a few garage tricks that actually worked."
 author: "Kenny Gorman"
 ---

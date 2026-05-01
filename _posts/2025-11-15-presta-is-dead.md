@@ -2,9 +2,12 @@
 layout: post
 title: "Presta Is Dead"
 date: 2025-11-15
+last_modified_at: 2025-11-15
 categories: [tech, gear, opinion]
 tags: [stories, valves, clik, presta, upgrades, mountain-biking]
 headimage: "/assets/images/clik_head.jpg"
+image: "/assets/images/clik_head.jpg"
+description: "Why I switched from Presta to Schwalbe Clik valves on tubeless mountain bike tires. Faster sealing, no stem stripping, fewer trail-side headaches."
 excerpt: "Presta valves are finicky, century-old tech. I switched to Clik and my trail-side stress dropped 200%. Here's why."
 ---
 

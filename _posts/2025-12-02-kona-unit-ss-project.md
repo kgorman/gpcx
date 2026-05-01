@@ -2,8 +2,11 @@
 layout: post
 title: "Kona Unit SS Project"
 date: 2025-12-02
+last_modified_at: 2025-12-02
 tags: [notes, build, kona, singlespeed, project]
 headimage: "/assets/images/ss_bike.jpg"
+image: "/assets/images/ss_bike.jpg"
+description: "Pulling a 2010 Kona Unit out of the attic for a singlespeed rebuild. Race Face bars, SRAM brakes, and figuring out gear inches for Texas hill country."
 excerpt: "Pulling a 2010 Kona Unit from the attic for some single-speed love. New bars, brakes, and figuring out gear inches for Texas hills."
 author: "Kenny Gorman"
 ---
