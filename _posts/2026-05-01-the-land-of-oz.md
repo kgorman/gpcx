@@ -64,7 +64,7 @@ We decide to start on the Traverse trail. Absolutely gorgeous singletrack. Zoomy
 
 After a couple beers, we decide we need to do two things. 1) ride. 2) get more beers. This time, Mark, Vbergh, and I are analog. Z is back on his rig, and we head back to Slaughter Pen for some rips at the tech and flow hubs. We ride into town and get at it. We make short work of it. It's drier now than before, and we take a turn at all the stuff other than the blacks. It's ok, we are exhausted and there's no need to push it.
 
-The thing about these trails: they aren't just trails, they're riding art. And the soil is the wild part. It's not Colorado loam, smooth and flowy. It's not Texas or Utah chunk, rocky as fuck, every move technical. It's somehow somewhere in between, like they imported the best of everything by hand on some giant truck. An impossible combination. And it works.
+The thing about these trails: they aren't just trails, they're riding art. And the soil is the wild part. It's not Colorado loam, smooth and flowy. It's not Texas or Utah chunk, rocky as fuck, every move technical. It's somehow somewhere in between, like they imported the best of everything by hand on some giant truck. An impossible combination. Amazing.
 
 ## The Hub
 
