@@ -119,3 +119,7 @@ Sunday 9:00AM. 10:00AM. Noon. You see the pattern. Look, our legs are toast, our
 ![Last beers, Bentonville Brewery](/assets/images/oz_brewery.jpg)
 
 That's a wrap, folks, no more legs left. 4 guys utterly exhausted. Big rides, crashes, broken bikes, bruised bodies, food, beer, atmosphere, mud, sun, and some of the sweetest trails I have ever ridden. Thank you, Bentonville. Thank you, Arkansas. As we drive home in Vanimal, I think to myself, *I hope this is the new normal.* An idea, a van, a bunch of bikes, and an incredible adventure. Oz delivered.
+
+---
+
+**Editor's note:** This trip was supposed to be five of us. My brother Dan was on the list until a medical emergency right before we left almost took him from us. Real serious. He's alive, he's healing, and that's the only stat that matters. We missed you out there, brother. There's always next time. Love you, Dan.
