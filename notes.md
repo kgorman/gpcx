@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Notes
+description: "Short ride notes, shop updates, progress photos, and half-formed thoughts from the live feed."
 permalink: /notes/
 body_class: page-notes
 ---
@@ -9,7 +10,7 @@ body_class: page-notes
   <p class="filter-description">Short, incremental posts. Ride notes, shop updates, progress photos, half-formed thoughts. The live feed.</p>
   
   <ul class="post-list">
-    {% assign notes_posts = site.posts | where_exp: "post", "post.tags contains 'notes'" %}
+    {% assign notes_posts = site.posts | where_exp: "post", "post.tags contains 'notes' and post.draft != true" %}
     {% for post in notes_posts %}
       <li class="post-item">
         <article class="post-preview">
@@ -25,15 +26,15 @@ body_class: page-notes
           </p>
           {% if post.homeimage %}
             <a href="{{ post.url | relative_url }}">
-              <img src="{{ post.homeimage | relative_url }}" alt="{{ post.title }}" class="post-image" />
+              <img src="{{ post.homeimage | relative_url }}" alt="{{ post.title }}" class="post-image" loading="lazy" />
             </a>
           {% elsif post.headimage %}
             <a href="{{ post.url | relative_url }}">
-              <img src="{{ post.headimage | relative_url }}" alt="{{ post.title }}" class="post-image" />
+              <img src="{{ post.headimage | relative_url }}" alt="{{ post.title }}" class="post-image" loading="lazy" />
             </a>
           {% elsif post.image %}
             <a href="{{ post.url | relative_url }}">
-              <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-image" />
+              <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-image" loading="lazy" />
             </a>
           {% endif %}
           <p class="post-excerpt">

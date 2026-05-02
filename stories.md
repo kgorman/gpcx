@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Stories
+description: "Long-form ride reports, bike build retrospectives, and deep dives from the trail and the garage."
 permalink: /stories/
 body_class: page-stories
 ---
@@ -10,6 +11,7 @@ body_class: page-stories
   
   <ul class="post-list">
     {% for post in site.posts %}
+      {% if post.draft %}{% continue %}{% endif %}
       {% if post.tags contains "stories" %}
         <li class="post-item">
           <article class="post-preview">
@@ -25,15 +27,15 @@ body_class: page-stories
             </p>
             {% if post.homeimage %}
               <a href="{{ post.url | relative_url }}">
-                <img src="{{ post.homeimage | relative_url }}" alt="{{ post.title }}" class="post-image" />
+                <img src="{{ post.homeimage | relative_url }}" alt="{{ post.title }}" class="post-image" loading="lazy" />
               </a>
             {% elsif post.headimage %}
               <a href="{{ post.url | relative_url }}">
-                <img src="{{ post.headimage | relative_url }}" alt="{{ post.title }}" class="post-image" />
+                <img src="{{ post.headimage | relative_url }}" alt="{{ post.title }}" class="post-image" loading="lazy" />
               </a>
             {% elsif post.image %}
               <a href="{{ post.url | relative_url }}">
-                <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-image" />
+                <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" class="post-image" loading="lazy" />
               </a>
             {% endif %}
             <p class="post-excerpt">
