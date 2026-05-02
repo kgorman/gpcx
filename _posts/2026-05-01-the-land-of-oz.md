@@ -22,7 +22,7 @@ Thursday 11:00AM. I show up in Z's driveway and we load his bike along with the 
 
 The route is north through Dallas from Austin, then Oklahoma, then finally NW Arkansas, better known as Oz. Of course we stop at Buc-ee's, and then traffic in Dallas is killing us. Now we are 4 beers.
 
-Ok, I just have to say, Oklahoma, wow. We headed up past Lake Eufaula, which was so beautiful it hurt. I had no idea Oklahoma was this pretty. Turns out it's man-made, finished in 1964, the largest lake in Oklahoma. LBJ himself came down to dedicate the dam. 600 miles of shoreline, a "gentle giant" they call it. None of us knew any of that as we rolled past. We just kept saying *holy shit, look at that*.
+Ok, I just have to say it: Oklahoma, wow. We headed up past Lake Eufaula, which was so beautiful it hurt. I had no idea Oklahoma was this pretty. Turns out it's man-made, finished in 1964, and the largest lake in the state. LBJ himself came down to dedicate the dam. 600 miles of shoreline. They call it the "gentle giant." None of us knew any of that as we rolled past. We just kept saying *holy shit, look at that*.
 
 Dark settles in, drive is getting long. I down my 4th Red Bull, a decision I will later regret. We arrive in the dark, the AirBnB is bad ass, we find our beds, and I finally fall asleep as thunderstorms rock the place. Hrm, tomorrow is going to be muddy.
 
