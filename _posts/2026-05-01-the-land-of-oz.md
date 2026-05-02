@@ -74,7 +74,7 @@ The Hub sits a couple blocks off the Bentonville square. Bike shop, coffee bar, 
 
 We head inside as a thunderstorm starts pummeling the place. We order some beers and some chicken tacos. Now I just want to point out: these are some of the very best tacos I have ever had. Vbergh nods in agreement. Look, we are from Austin. We don't just throw around compliments like this willy-nilly. We take tacos fucking seriously. We down a plate of them and order two more. Demolished along with a couple more beers.
 
-There is a break in the weather, so we all start riding to our house in the dark with a sky being lit up by lightning. We have one tail light, one head light, and other than that it's dark, except for those lightning streaks. The smell of fresh rain on pavement, all of us giggling, freewheels buzzing. I love this. These guys, love them. And... now I love Bentonville too.
+There's a break in the weather, so we all start riding home in the dark, the sky lit up by lightning. One tail light, one headlight. Otherwise pitch black, except for those lightning streaks. The smell of fresh rain on pavement, all of us giggling, freewheels buzzing. I love this. These guys. Love them. And... now I love Bentonville too.
 
 ## Sunday
 
