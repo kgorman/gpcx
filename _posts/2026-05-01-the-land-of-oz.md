@@ -20,7 +20,7 @@ It was Vbergh, Mark, Z, and me.
 
 Thursday 11:00AM. I show up in Z's driveway and we load his bike along with the 2 of mine already in the van. Then Mark. Then Vbergh. 6 bikes, 4 riders, a stack of avocados, Honeycrisp apples (don't ask, really), and 6 beers. Let's GO.
 
-The route is up through Dallas from Austin, then Oklahoma, then finally NW Arkansas, better known as Oz. Of course we stop at Buc-ee's, and then traffic in Dallas is killing us. Now we are 4 beers.
+The route is north through Dallas from Austin, then Oklahoma, then finally NW Arkansas, better known as Oz. Of course we stop at Buc-ee's, and then traffic in Dallas is killing us. Now we are 4 beers.
 
 Ok, I just have to say, Oklahoma, wow. We headed up past Lake Eufaula, which was so beautiful it hurt. I had no idea Oklahoma was this pretty. Turns out it's man-made, finished in 1964, the largest lake in Oklahoma. LBJ himself came down to dedicate the dam. 600 miles of shoreline, a "gentle giant" they call it. None of us knew any of that as we rolled past. We just kept saying *holy shit, look at that*.
 
