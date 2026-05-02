@@ -14,7 +14,7 @@ sitemap: false
 permalink: /preview/land-of-oz/
 ---
 
-I can't remember when the idea got floated. At some point Vbergh and I started this idea we should all go hit Bentonville. I was the only one who had ridden there, and it was pretty brief. But enough to know it's rad and an amazing destination. That was enough I guess. Vbergh set his sights on it and drove it forward. After a bunch of back and forth with the wider crew we had 4 of us who could make the dates work and had the itch. It sounded straightforward enough. We would all jump in Vanimal (our 2015 Sprinter) and drive there from TX, stay the weekend, ride, have a few beers, and rip back home again. We didn't quite understand what was going to happen. In retrospect we should have known.
+I can't remember when the idea got floated. At some point Vbergh and I started this idea we should all go ride Bentonville. I was the only one who had ridden there, and it was pretty brief. But enough to know it's rad and an amazing destination. That was enough I guess. Vbergh set his sights on it and drove it forward. After a bunch of back and forth with the wider crew we had 4 of us who could make the dates work and had the itch. It sounded straightforward enough. We would all jump in Vanimal (our 2015 Sprinter) and drive there from TX, stay the weekend, ride, have a few beers, and rip back home again. We didn't quite understand what was going to happen. In retrospect we should have known.
 
 It was Vbergh, Mark, Z, and me.
 
