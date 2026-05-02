@@ -9,9 +9,6 @@ excerpt: "4 guys, 6 bikes, one Sprinter, and a long weekend on the Oz Trails. Mu
 description: "Four guys, six bikes, and a Sprinter van head from Austin to Bentonville for a long weekend on the Oz Trails. Mud, hospital, tacos, and singletrack."
 headimage: "/assets/images/oz_main.jpg"
 image: "/assets/images/oz_main.jpg"
-draft: true
-sitemap: false
-permalink: /preview/land-of-oz/
 ---
 
 I can't remember when the idea got floated. At some point Vbergh and I started kicking around going to ride Bentonville. I was the only one who had ridden there, and it was pretty brief. But it was enough to know it's a rad destination. That was enough, I guess. Vbergh set his sights on it and drove the plan forward. After a bunch of back and forth with the wider crew, we ended up with 4 of us who could make the dates work and had the itch. It sounded straightforward enough. We would all jump in Vanimal (our 2015 Sprinter) and drive there from TX, stay the weekend, ride, have a few beers, and rip back home again. We had no idea what was coming. We should have.
