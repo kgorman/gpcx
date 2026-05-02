@@ -18,7 +18,7 @@ I can't remember when the idea got floated. At some point Vbergh and I started k
 
 It was Vbergh, Mark, Z, and me.
 
-Thursday 11:00AM. I show up in Z's driveway and we load his bike along with my 2 already loaded. Then Mark. Then Vbergh. 6 bikes, 4 riders, a stack of avocados, and honey crisp apples (don't ask, really), and 6 beers. Let's GO.
+Thursday 11:00AM. I show up in Z's driveway and we load his bike along with the 2 of mine already in the van. Then Mark. Then Vbergh. 6 bikes, 4 riders, a stack of avocados, Honeycrisp apples (don't ask, really), and 6 beers. Let's GO.
 
 The route is up through Dallas from Austin, then Oklahoma, then finally NW Arkansas, better known as Oz. Of course we stop at Buc-ee's, and then traffic in Dallas is killing us. Now we are 4 beers.
 
