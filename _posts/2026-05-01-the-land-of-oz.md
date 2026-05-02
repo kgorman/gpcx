@@ -24,13 +24,19 @@ Thursday 11:00AM. I show up in Z's driveway and we load his bike along with the 
 
 The route is north through Dallas from Austin, then Oklahoma, then finally NW Arkansas, better known as Oz. Of course we stop at Buc-ee's, and then traffic in Dallas is killing us. Now we are 4 beers.
 
+![The crew, in Vanimal](/assets/images/oz_crew.jpg)
+
 Ok, I just have to say it: Oklahoma, wow. We headed up past Lake Eufaula, which was so beautiful it hurt. I had no idea Oklahoma was this pretty. Turns out it's man-made, finished in 1964, and the largest lake in the state. LBJ himself came down to dedicate the dam. 600 miles of shoreline. They call it the "gentle giant." None of us knew any of that as we rolled past. We just kept saying *holy shit, look at that*.
 
 Dark settles in, drive is getting long. I down my 4th Red Bull, a decision I will later regret. We arrive in the dark, the AirBnB is bad ass, we find our beds, and I finally fall asleep as thunderstorms rock the place. Hrm, tomorrow is going to be muddy.
 
+![The long dark stretch](/assets/images/oz_nightdrive.jpg)
+
 ## Friday
 
 Friday 8:00AM. We are up, groggy, but everyone is eager to both ride but also see if the trails are too wet, can we even ride? Bikes get prepped, shoes, packs, gloves, pumping up tires, time to roll. The amazing thing about Bentonville is, you just ride everywhere. No loading up the car, driving just to ride. Instead you ride right from town, easy to get to everything. In our case the trail runs right by the back gate. We set off. We immediately realize, yes, yes, it's going to be a muddy day. At the intersection Vbergh quips some shit about trying to stay clean, to which I respond "what do you think is going to happen today?". We crack up, tone set. Today will be rowdy.
+
+![Rolling out](/assets/images/oz_amtrail.jpg)
 
 Let's go back to this 6 bike thing. I bet you wondered if you read that right. You did. 4 of us, 6 bikes. Vbergh, me, Z are on eMTB. Mark is insane and came knowing this. God damn legend. Vbergh and I both brought analogs. You know, just in case. Today Mark is the only analog. Wait until we get into tomorrow.
 
@@ -41,6 +47,8 @@ Bentonville was founded in 1837, named after a Missouri senator, and for a long 
 We decide, as one does, to start on the American Trail. No one is out. It's just us. We rip into the fresh meat of the trail, not too muddy, believe it or not. All I can hear is us all breathing. First ride, everyone max stoked. Magic Marys tearing into dirt. I check the firm switch on the Fox shock. Good, we plush. And the trails themselves. Mega groomed, zoomy, flowy, with just enough tech to keep you honest. Well designed. Fun as hell. I eat shit, we keep going.
 
 ![Friday morning, into the rock](/assets/images/oz_pov.jpg)
+
+![American Trail, mid-rip](/assets/images/oz_amselfie.jpg)
 
 Eventually we wind our way out of Slaughter Pen and head back downtown to check out Phat Tire Bike Shop, and they point us at Homegrown for food. Turns out this is a genius recommendation. It takes a mile or two of pedalling, and we are sitting at breakfast crushing beer-mosas and egg scrambles. Is this even real? I mean, I know we aren't the first people to experience this, but damn it's rad when it's you vs. reading it in some mag (maybe like you are now). All I can say is: fucking go to Bentonville.
 
@@ -87,6 +95,8 @@ We get up to the hub and do some rips on the various options. Chat with some fol
 ![Sandwich bigger than my head, no, seriously](/assets/images/oz_sandwich.jpg)
 
 After a couple beers, we decide we need to do two things. 1) ride. 2) get more beers. This time, Mark, Vbergh, and I are analog. And yeah, this is what I meant earlier. The Mojo bolt held just fine. This was just the perfect time to interject analog. Dice up the day, change the feel. Z is back on his rig, and we head back to Slaughter Pen for some rips at the tech and flow hubs. We ride into town and get at it. We make short work of it. It's drier now than before. We move through the network methodically, picking off the stuff we missed yesterday, re-riding the lines we loved. We skip the blacks. We're exhausted and there's no need to push it. And honestly? We still barely scratched the surface. It would take months to cover it all.
+
+![Methodical sweep, Slaughter Pen](/assets/images/oz_slaughterpov.jpg)
 
 The thing about these trails: they aren't just trails, they're riding art. And the soil is the wild part. It's not Colorado loam, smooth and flowy. It's not Texas or Utah chunk, rocky as fuck, every move technical. It's somehow somewhere in between, like they imported the best of everything by hand on some giant truck. An impossible combination. Amazing.
 
