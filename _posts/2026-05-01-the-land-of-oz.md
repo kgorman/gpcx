@@ -40,7 +40,7 @@ Bentonville was founded in 1837, named after a Missouri senator, and for a long 
 
 We decide, as one does, to start on the American Trail. No one is out. It's just us. We rip into the fresh meat of the trail, not too muddy, believe it or not. All I can hear is us all breathing. First ride, everyone max stoked. Magic Marys tearing into dirt. I check the firm switch on the Fox shock. Good, we plush. And the trails themselves. Mega groomed, zoomy, flowy, with just enough tech to keep you honest. Well designed. Fun as hell. I eat shit, we keep going.
 
-![Friday morning, fresh meat](/assets/images/oz_trail.jpg)
+![Friday morning, into the rock](/assets/images/oz_pov.jpg)
 
 Eventually we wind our way out of Slaughter Pen and head back downtown to check out Phat Tire Bike Shop, and they point us at Homegrown for food. Turns out this is a genius recommendation. It takes a mile or two of pedalling, and we are sitting at breakfast crushing beer-mosas and egg scrambles. Is this even real? I mean, I know we aren't the first people to experience this, but damn it's rad when it's you vs. reading it in some mag (maybe like you are now). All I can say is: fucking go to Bentonville.
 
@@ -49,8 +49,6 @@ Eventually we wind our way out of Slaughter Pen and head back downtown to check 
 ![Beer-mosas and egg scrambles at Homegrown](/assets/images/oz_homegrown.jpg)
 
 At this point it gets blurry. Maybe it's the beer-mosas talking, or just the entirety of how rad this place is sinking in. I remember more trails, jumps, hips, tech, stream crossings. The miles are stacking up. At some point Vbergh exclaims his bike is shit and doesn't work. *¿Qué es eso* doesn't work? A quick inspection reveals he's missing the entire bolt stack holding the rear triangle of his Santa Cruz Vala together. Yeah, broken for sure. We look for it, no bueno. Why am I speaking Spanish now? But we did see some folks who had rented Valas, so let's figure out where they rented them and go there. They must have a bolt. Turns out it's Mojo Cycles. We pedal (slowly) over there and they pull the bolt off a brand new bike and set up Vbergh. Are you fucking kidding? They saved him from having to go analog too soon in the trip. More on that later. At some point during all this craziness, Z took a digger, and he doesn't tell us at the time, but it's bad. Handlebar to the gut. You've been there. There is nothing as bad as this. You would rather get hit in the head with a baseball bat than this. He's muscling through, but we can tell all is not well in Z-town.
-
-![Vbergh's broken Vala](/assets/images/oz_bolt.jpg)
 
 ## Friday Night
 
@@ -72,7 +70,9 @@ I am just going to outright say, right now: so sorry to the staff of Northwest M
 
 ## Saturday
 
-Saturday, 8:00AM, uh no way, back to bed. 10:00AM, nope. Finally by noon we had our shit together enough to entertain the idea of a ride. Z was going to sit it out (as he should have). And guess who took his eMTB. Mark. The legend. Virgin ride on the electric zoom zoom. After yesterday's analog suffering he'd earned every one of those 800 watts. We head off through Slaughter Pen again and out to Handcut Hollow to find some singletrack. Today will be big.
+Saturday, 8:00AM, uh no way, back to bed. 10:00AM, nope. Finally by noon we had our shit together enough to entertain the idea of a ride. Z was going to sit it out (as he should have). And guess who took his eMTB. Mark. The legend. Virgin ride on the electric zoom zoom. After yesterday's analog suffering he'd earned every one of those 800 watts.
+
+![Mark, on the e-juice](/assets/images/oz_markemtb.jpg) We head off through Slaughter Pen again and out to Handcut Hollow to find some singletrack. Today will be big.
 
 Handcut Hollow is quintessential Oz Trails. Built in 2020 and 2021, it's all hand-cut, as the name says. No big machine-built berms here, just narrow corridors hacked into the woods east of I-49 to connect a chunk of country the rest of the network hadn't touched. About 16 miles of it now, depending on who you ask, all run by a group called Trailblazers. The Traverse Loop has something like 75 switchbacks. There's a climb called Zone 4 that the builders were specifically asked to make as hard as humanly possible to pedal up, and to date no one, including the pros, has cleaned it in one go. There's a giant axe sculpture out there. There's a restored 1800s schoolhouse on the property. There's a brand new dirt jump line some volunteers stomped in last year. The whole place feels like it was built by people who actually ride, because it was.
 
@@ -80,7 +80,7 @@ Handcut Hollow is quintessential Oz Trails. Built in 2020 and 2021, it's all han
 
 We decide to start on the Traverse trail. Absolutely gorgeous singletrack. Zoomy, but with interjections of tech. Cool switchbacks, smooth parts, rocky parts, bridges, steep up, steep down. The switchbacks up are steep and challenging, reminding me of the Front Range of Colorado. Get momentum, keep compact, muscle up, recover. Meanwhile Mark is yelling *"Like a boss!"* on every climb. eMTB payoff for yesterday's analog suffering. But on the down, these same switchbacks are mega tight, keeping you on your toes. Release, rail them, and enjoy the speed. Just unreal perfect. Perfect trail.
 
-![Traverse, switchbacks for days](/assets/images/oz_pov.jpg)
+![Traverse, deep in it](/assets/images/oz_trail.jpg)
 
 We get up to the hub and do some rips on the various options. Chat with some folks. More rips. It's just so much fun out here. We are hooting and hollering out loud. Super, super fun. We decide it's time to cut out and head back on the Traverse. We take the long way, another 5 miles at least of perfect singletrack, until we hook back up with the main road into town. We end up at Archie's Sandwichery and get sandwiches bigger than our heads, no, seriously. We are exhausted, something like 20 miles in, just so much fun. Post sandwiches, we head back and hook back up with Z.
 
