@@ -819,3 +819,42 @@ body.page-origin-story .site-nav .page-link[href="/origin_story/"] {
     width: fit-content;
   }
 }
+
+// Related posts section
+.related-posts {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px dashed #ddd;
+}
+
+.related-posts h3 {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  color: #333;
+}
+
+.related-posts ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.related-posts li {
+  margin-bottom: 0.5rem;
+}
+
+.related-posts a {
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.related-posts a:hover {
+  text-decoration: underline;
+}
+
+.related-meta {
+  color: #888;
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+}
