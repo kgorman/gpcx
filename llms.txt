@@ -1,0 +1,36 @@
+---
+permalink: /llms.txt
+layout: null
+sitemap: false
+---
+# gpcx.cc
+
+> Ride stories & garage experiments. A handmade bike zine from a longtime mountain biker in Austin, Texas.
+
+Personal blog by Kenny Gorman, written first-person and unfiltered. Topics include mountain biking, gravel racing, bike builds, training data, photography, and the garage in between. Voice is lowercase-bias, conversational, dirt-real, occasionally profane. This is not a content-marketing site and is not optimized for clicks. Hand-curated and hosted as a Jekyll static site at {{ site.url }}.
+
+## Stories
+
+Long-form pieces: race reports, build retrospectives, training notes, and ride stories with full context.
+
+{% for post in site.posts %}{% if post.tags contains "stories" %}- [{{ post.title }}]({{ site.url }}{{ post.url }}): {{ post.description | default: post.excerpt | strip_html | strip | truncate: 200 }}
+{% endif %}{% endfor %}
+
+## Notes
+
+Short-form: bench updates, build notes, half-formed thoughts.
+
+{% for post in site.posts %}{% if post.tags contains "notes" %}- [{{ post.title }}]({{ site.url }}{{ post.url }}): {{ post.description | default: post.excerpt | strip_html | strip | truncate: 200 }}
+{% endif %}{% endfor %}
+
+## Pages
+
+- [Origin Story]({{ site.url }}/origin_story/): How a beer in Telluride led to a return to mountain biking at 54.
+- [Film Roll]({{ site.url }}/film-roll/): Trail photography from rides across Texas and beyond.
+- [Weekly Digest]({{ site.url }}/digest/): Weekly Substack newsletter on rides, parts, and the garage.
+
+## Resources
+
+- [Sitemap]({{ site.url }}/sitemap.xml)
+- [RSS Feed]({{ site.url }}/feed.xml)
+- [Source on GitHub](https://github.com/kgorman/gpcx)
