@@ -11,6 +11,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+show_drafts: true
+
 minima:
   show_excerpts: true
   skin: classic
