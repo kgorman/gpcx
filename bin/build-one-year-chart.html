@@ -9,7 +9,7 @@
   html,body{margin:0;background:#faf8f3;}
   .stage{padding:40px;display:flex;justify-content:center;}
   .rt-embed{--rt-bg1:#0c0f14;--rt-bg2:#11161d;--rt-bd:#222b36;--rt-ink:#eef1f5;
-    --rt-mut:#8b95a3;--rt-faint:#5b6571;--rt-acc:#ff6a3d;--rt-acc2:#ffb04a;
+    --rt-mut:#8b95a3;--rt-faint:#5b6571;--rt-acc:#10b981;--rt-acc2:#34d399;
     width:1180px;}
   .rt-card{background:radial-gradient(120% 140% at 0% 0%,var(--rt-bg2),var(--rt-bg1));
     border:1px solid var(--rt-bd);border-radius:18px;padding:26px 26px 18px;
@@ -57,7 +57,7 @@
   </div>
 </div>
 <script>
-var ACC='#ff6a3d',ACC2='#ffb04a',MUT='#8b95a3',FAINT='#5b6571',
+var ACC='#10b981',ACC2='#34d399',MUT='#8b95a3',FAINT='#5b6571',
     GRID='rgba(255,255,255,0.05)',INK='#eef1f5';
 var MONTHS=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 var baseline=[["2013-07-01",0.0],["2013-12-31",4.65],["2014-06-30",1.46],
@@ -122,11 +122,11 @@ f.setOption({
       lineStyle:{color:FAINT,width:2},
       areaStyle:{color:vgrad('rgba(91,101,113,.22)','rgba(91,101,113,0)')},z:2},
     {type:'line',xAxisIndex:1,yAxisIndex:1,data:journey,showSymbol:false,smooth:0.35,
-      lineStyle:{color:grad(ACC,ACC2),width:4.5,shadowColor:'rgba(255,106,61,.55)',shadowBlur:18,cap:'round'},
-      areaStyle:{color:vgrad('rgba(255,106,61,.34)','rgba(255,106,61,0)')},z:5,
+      lineStyle:{color:grad(ACC,ACC2),width:4.5,shadowColor:'rgba(16,185,129,.55)',shadowBlur:18,cap:'round'},
+      areaStyle:{color:vgrad('rgba(16,185,129,.34)','rgba(16,185,129,0)')},z:5,
       markLine:{symbol:'none',silent:true,lineStyle:{color:'rgba(255,255,255,.35)',type:[3,4],width:1},
         label:{color:MUT,fontSize:11,formatter:'year one',position:'insideStartBottom'},data:[{xAxis:'2025-07-02'}]},
-      markArea:{silent:true,itemStyle:{color:'rgba(255,106,61,.10)'},
+      markArea:{silent:true,itemStyle:{color:'rgba(16,185,129,.10)'},
         label:{color:ACC,fontSize:11,position:'insideTop',formatter:'45 days off'},
         data:[[{xAxis:'2026-01-13'},{xAxis:'2026-02-17'}]]},
       markPoint:{symbolSize:10,symbol:'circle',
@@ -144,7 +144,7 @@ var feet=[27.1,13.7,11.5,1.5,7.5,7.1,7.1,15.5,12.9,37.0,33.5,48.2,125.4];
 function bar(id,data,fmt){
   var bars=data.map(function(v,i){var last=i===data.length-1;
     return {value:v,itemStyle:{color:last?vgrad(ACC2,ACC):'#3d4854',borderRadius:[3,3,0,0],
-      shadowColor:last?'rgba(255,106,61,.5)':'transparent',shadowBlur:last?14:0}};});
+      shadowColor:last?'rgba(16,185,129,.5)':'transparent',shadowBlur:last?14:0}};});
   echarts.init(document.getElementById(id)).setOption({animation:false,
     grid:{left:6,right:6,top:24,bottom:22},tooltip:{trigger:'axis',axisPointer:{type:'shadow'}},
     xAxis:{type:'category',data:yr,axisLine:{lineStyle:{color:'#2a333f'}},axisTick:{show:false},
