@@ -25,7 +25,7 @@ So what did it look like? Let's get into the change. The numbers, where I was, w
 
 ## where I was
 
-If you've been reading along, you know some of this. Few do, and that's okay. For the rest, a recap.
+If you've been reading along all year, you know some of this already. Both of you. For everyone else, a quick recap.
 
 I've been riding since I was about 18. I'm 55 now. So, uh, that's almost 40 years on mountain bikes, folks. I had to check my math twice. Even writing this I can't believe the number, but here we are.
 
@@ -35,7 +35,7 @@ But there's been a giant lull in my riding arc since the 2000s, as life took ove
 
 Fast forward to the 2010s and I taught my kids to ride. We'd hit Colorado every year and I'd ride behind them, shepherding them like little ducks, teaching them the way of the MTB. I'd ride behind them at Crested Butte, Snowmass, Telluride, Angelfire, Purgatory and more. Both my daughter and son are rippers at heart now. My son crushes me now, so, there's that.
 
-And there I was. Telluride, on the mountain, my favorite place on earth, heaven, drinking this beer. [55 years old](/stories/journey/2026/02/01/fifty-five.html), bike sitting right there. Fundamentals done. Parenting, bike-wise, done. It was my time. I'd gained weight, gotten lazy, fitness in the toilet. Skills locked in, but aging.
+And there I was. Telluride, on the mountain, my favorite place on earth, heaven, drinking this beer. 54 years old, bike sitting right there. Fundamentals done. Parenting, bike-wise, done. It was my time. I'd gained weight, gotten lazy, fitness in the toilet. Skills locked in, but aging.
 
 I was reminded of the dude at Purgatory. Yeti Gathering, 2018. We saw him out on the mountain, 65 years old, ripping. We stopped and chatted, then he took off, absolutely hair on fire off the drop, over the double, a whoop out of his mouth, then gone. I'd have thought it was god talking to me, except the kids saw him too.
 
@@ -49,6 +49,11 @@ I was reminded of the dude at Purgatory. Yeti Gathering, 2018. We saw him out on
 ## the year
 
 The year started out with a bang. No more beer, strict diet, and riding. A lot. Mostly on the MTe, so, ebike.
+
+<div class="photo-caption">
+  <img src="/assets/images/film-roll/frame_0035.jpeg" alt="first-person view over the handlebars descending a rocky trail on the mte at dusk">
+  <span class="caption">emma long at dusk on the mte. most of the year looked exactly like this.</span>
+</div>
 
 I could write a book at this point on what eMTB means to me, and I might. For now I'll sum it up this way: without eMTB technology, this year would have been near impossible. So, hat tip to the eMTB gods. If you're over 40 and you need to ride more and you're not going to enter races, then, uh, dude, get an eMTB. You can always lower the power as you gain fitness. I'll write a whole piece on this later so the haters can hate over there.
 
@@ -64,13 +69,18 @@ Well, I'd done it once. Might as well do it again. I wasn't going to give up tha
 
 But I had some time to kill, and my brain wasn't broken, no more than normal, and you can only watch so many episodes of Impossible Routes on YouTube while you sit on the couch icing your knee. So I picked up my laptop and started to code.
 
-The entire fall season I'd been running a Wahoo computer, an HR strap, and Strava plus Intervals.icu as my data stack. I've [recorded every ride since 2012](/notes/tech/training/2026/01/22/the-two-wheeled-data-acquisition-machine.html), so this was no different. I went into this journey fully data-engaged. But through the fall I'd started to want more. Strava is a social network with some fitness stuff bolted on. Intervals.icu takes a PhD in data analysis to actually use. And [I build data systems for a living](/2025/12/16/god-is-in-the-data.html), so if *I* couldn't read Intervals, then, duuuude. I needed something more. And I wanted to use this new breed of Claude tooling to full effect.
+The entire fall season I'd been running a Wahoo computer, an HR strap, and Strava plus Intervals.icu as my data stack. I've [recorded every ride since 2012](/notes/tech/training/2026/01/22/the-two-wheeled-data-acquisition-machine.html), so this was no different. I went into this journey fully data-engaged. But through the fall I'd started to want more. Strava is a social network with some fitness stuff bolted on. Intervals.icu takes a PhD in data analysis to actually use. And [I build data systems for a living](/2025/12/16/god-is-in-the-data.html), so if *I* couldn't read Intervals, then, duuuude. And here's the thing neither one got: this was never me versus the leaderboard. It was me versus me. Was I stronger than last week? Was I ready to push, or about to dig a hole? No tool I could find was built to answer that. I needed something more. And I wanted to use this new breed of Claude tooling to full effect.
 
 So I built [ridetool](/stories/tech/2026/02/24/i-built-a-thing.html). It's the thing I wanted and needed for this journey. An AI-enabled, common-sense fitness software system that would help me repeat my fall fitness arc.
 
 As I came out of [the injury](/stories/journey/2026/01/19/reset.html), I used ridetool to keep my fitness load under a certain value each week. A slow ramp, on my doctor's advice. I also used it to gauge where to set the power on the eMTB, and when I was good to ride and then push on analog. It was like a superpower. I knew what I had under me. I kept wishing I'd had this capability all through the fall. It would have been so helpful.
 
 So, recovery complete, fitness restored, head in the game through March, April, May, June. Riding two or three times a week, having so much fun with the pressure off. I knew I could do it and I knew what it would take. I didn't schedule any races. I didn't need to. I know where my fitness is. I didn't need to race to prove I wasn't fat. Just ripping on the bike, enjoying every second of it, pushing myself to get better. There were [margarita night rides](/stories/journey/2026/04/12/marg-shack-run.html) with the crew and a [road trip to Bentonville](/stories/journey/2026/05/01/the-land-of-oz.html) that turned into mud, tacos, and a hospital visit. And now with a bunch more bikes.
+
+<div class="photo-caption">
+  <img src="/assets/images/oz_pov.jpg" alt="first-person view dropping into a rocky green trail in bentonville">
+  <span class="caption">bentonville, friday morning, dropping into the rock. the crew trip that turned into mud, tacos, and a hospital visit.</span>
+</div>
 
 ## where I am now
 
@@ -80,9 +90,17 @@ I have a new life now. A new cadence. A healthier, stronger person. A calmer, ha
 
 And the riding spilled into everything else. Somewhere in the middle of it I started writing this journal. I'm still not sure exactly why. I just felt the need, it felt good, so I kept going. I started [making parts](/2025/12/11/see-i-can.html) too. Stem risers, tool bag holders, little [garage experiments](/2025/12/02/kona-unit-ss-project.html), with more on the bench. Turns out when you get the engine running, it doesn't only move the bike.
 
+<div class="photo-caption">
+  <img src="/assets/images/margs02_peleton.jpeg" alt="night peloton of riders rolling down a road under oak trees, red tail lights glowing">
+  <span class="caption">rolling out into the dark with the crew. this is the rhythm now.</span>
+</div>
+
 I'm teeing up that 65-year-old moment. The one where I rip a double, yell out a whoop, and disappear, leaving the bystanders to say *damn, that dude is rad.*
 
-<!-- YEAR IN NUMBERS infographic GOES HERE. the awesome stuff that happened, in numbers, generated from ridetool -->
+<div class="photo-caption">
+  <a href="/assets/images/one_year_numbers.png" target="_blank" rel="noopener"><img src="/assets/images/one_year_numbers.png" alt="one year by the numbers: 129 rides, 1,448 miles, 125,367 feet climbed, 175 hours in the saddle, 101,629 calories, 26 pounds lost, peak fitness 74, 45 days off the bike, plus deltas versus the previous 12 years of data."></a>
+  <span class="caption">created using RideTool MCP and Claude Code · tap to enlarge</span>
+</div>
 
 ## where from here
 

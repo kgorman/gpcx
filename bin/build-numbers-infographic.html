@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>one year — by the numbers</title>
+<style>
+  html,body{margin:0;background:#faf8f3;}
+  .stage{padding:34px;display:flex;justify-content:center;}
+  .ig{--bg1:#0c0f14;--bg2:#11161d;--bd:#222b36;--ink:#eef1f5;--mut:#8b95a3;
+    --faint:#5b6571;--grn:#10b981;--grn2:#34d399;
+    width:720px;
+    font-family:"SF Mono","JetBrains Mono",Menlo,Consolas,"Liberation Mono",monospace;}
+  .card{position:relative;overflow:hidden;
+    background:radial-gradient(130% 120% at 0% 0%,var(--bg2),var(--bg1));
+    border:1px solid var(--bd);border-radius:16px;padding:30px 30px 22px;color:var(--ink);
+    box-shadow:0 30px 70px -28px rgba(0,0,0,.55);}
+  .card::before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.5;
+    background:repeating-linear-gradient(0deg,rgba(255,255,255,.012) 0 2px,transparent 2px 4px);}
+  .hdr{display:flex;justify-content:space-between;align-items:center;
+    font-size:.72rem;letter-spacing:.14em;font-weight:700;}
+  .hdr .tag{color:var(--grn);}
+  .hdr .tag b{color:var(--grn2);}
+  .hdr .range{color:var(--mut);}
+  .title{margin:18px 0 0;font-size:2.7rem;font-weight:800;letter-spacing:-.01em;line-height:.98;}
+  .title .grn{color:var(--grn);}
+  .by{margin-top:12px;font-size:.78rem;color:var(--mut);letter-spacing:.04em;}
+  hr{border:0;border-top:1px solid var(--bd);margin:20px 0;}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:20px 26px;}
+  .stat .num{font-size:2.05rem;font-weight:800;line-height:1;letter-spacing:-.01em;}
+  .stat .num .u{font-size:.92rem;font-weight:700;color:var(--grn);margin-left:5px;letter-spacing:.02em;}
+  .stat.acc .num{color:var(--grn2);}
+  .stat .lbl{margin-top:8px;font-size:.74rem;letter-spacing:.13em;color:var(--ink);text-transform:uppercase;}
+  .stat .sub{margin-top:4px;font-size:.74rem;color:var(--mut);letter-spacing:.02em;}
+  .grid.sec .stat .num{font-size:1.55rem;}
+  .grid.sec .stat .num .u{font-size:.78rem;}
+  .delta{border:1px solid rgba(16,185,129,.32);border-radius:12px;
+    background:rgba(16,185,129,.06);padding:16px 20px 6px;}
+  .delta .dhdr{font-size:.68rem;letter-spacing:.14em;color:var(--grn);
+    text-transform:uppercase;font-weight:700;margin-bottom:6px;}
+  .drow{display:flex;align-items:baseline;gap:18px;padding:11px 0;
+    border-top:1px solid rgba(255,255,255,.06);}
+  .drow .dstat{flex:0 0 138px;font-size:1.5rem;font-weight:800;color:var(--grn2);line-height:1;}
+  .drow .dstat .u{font-size:.74rem;font-weight:700;color:var(--grn);margin-left:4px;}
+  .drow .dtxt{font-size:.84rem;color:var(--ink);letter-spacing:.02em;line-height:1.3;}
+  .foot{display:flex;justify-content:space-between;align-items:flex-end;
+    margin-top:6px;font-size:.68rem;letter-spacing:.04em;color:var(--faint);}
+  .foot .src{color:var(--grn);font-weight:700;}
+  .foot .made{text-align:right;}
+</style>
+</head>
+<body>
+<div class="stage">
+  <div class="ig">
+    <div class="card">
+      <div class="hdr">
+        <div class="tag">▸ RIDETOOL <b>·</b> SESSION LOG</div>
+        <div class="range">JUL 2 ’25 → JUN 30 ’26</div>
+      </div>
+      <h1 class="title">ONE YEAR<br><span class="grn">ON THE BIKE</span></h1>
+      <div class="by">Kenny Gorman · gpcx.cc · little bike zine from texas</div>
+
+      <hr>
+      <div class="grid">
+        <div class="stat"><div class="num">129</div><div class="lbl">rides logged</div><div class="sub">~2.5 / week</div></div>
+        <div class="stat"><div class="num">1,448<span class="u">mi</span></div><div class="lbl">distance</div><div class="sub">2,330 km</div></div>
+        <div class="stat"><div class="num">125,367<span class="u">ft</span></div><div class="lbl">climbed</div><div class="sub">4.3× everest</div></div>
+        <div class="stat"><div class="num">175<span class="u">hrs</span></div><div class="lbl">in the saddle</div><div class="sub">7.3 days straight</div></div>
+        <div class="stat"><div class="num">101,629<span class="u">kcal</span></div><div class="lbl">burned</div><div class="sub">≈ 290 breakfast tacos</div></div>
+        <div class="stat acc"><div class="num">−26<span class="u">lb</span></div><div class="lbl">weight</div><div class="sub">271 lb → 245 lb over the year</div></div>
+      </div>
+
+      <hr>
+      <div class="delta">
+        <div class="dhdr">this year vs the previous 12</div>
+        <div class="drow"><div class="dstat">129<span class="u">rides</span></div><div class="dtxt">more than my previous <b>two years combined</b> (95)</div></div>
+        <div class="drow"><div class="dstat">41<span class="u">%</span></div><div class="dtxt">of every mile i’ve logged <b>since 2012</b>, in one year</div></div>
+        <div class="drow"><div class="dstat">74<span class="u">ctl</span></div><div class="dtxt">highest fitness in <b>13 years of data</b>, 3× the old best</div></div>
+      </div>
+
+      <hr>
+      <div class="grid sec">
+        <div class="stat"><div class="num">74.2<span class="u">ctl</span></div><div class="lbl">peak fitness</div><div class="sub">season high · nov 23 ’25</div></div>
+        <div class="stat"><div class="num">234<span class="u">lb</span></div><div class="lbl">lowest weight</div><div class="sub">logged feb 21 ’26</div></div>
+        <div class="stat"><div class="num">45<span class="u">days</span></div><div class="lbl">off the bike</div><div class="sub">grade-2 mcl + gout</div></div>
+        <div class="stat acc"><div class="num">+38<span class="u">ctl</span></div><div class="lbl">the comeback</div><div class="sub">15 → 53 · feb low to june</div></div>
+        <div class="stat"><div class="num">34<span class="u">mi</span></div><div class="lbl">biggest ride</div><div class="sub">single longest push · oct 4</div></div>
+        <div class="stat"><div class="num">2,736<span class="u">ft</span></div><div class="lbl">biggest climb</div><div class="sub">in one ride · oct 25</div></div>
+        <div class="stat"><div class="num">963<span class="u">w</span></div><div class="lbl">peak power</div><div class="sub">single best spike</div></div>
+        <div class="stat"><div class="num">1.82<span class="u">w/kg</span></div><div class="lbl">power to weight</div><div class="sub">ftp 203 w</div></div>
+        <div class="stat"><div class="num">3</div><div class="lbl">races finished</div><div class="sub">dos gravel · rattler · fat chuck’s</div></div>
+        <div class="stat"><div class="num">12.0<span class="u">mi</span></div><div class="lbl">avg ride</div><div class="sub">1,071 ft · 86 min moving</div></div>
+      </div>
+
+      <hr>
+      <div class="foot">
+        <div class="src">since 2012 · 502 rides · 3,528 mi · 348k ft logged</div>
+        <div class="made">data · ridetool<br>created using RideTool MCP and Claude Code</div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
