@@ -113,3 +113,5 @@ But beyond the schedule and the goals, I'm at peace. At peace with my pace, my t
 So, what would happen if I took the entire year and focused on riding?
 
 Holy shit. Great things.
+
+*Editor's note: a shout out to my wife Eowyn. She's been encouraging and supportive beyond what is humanly possible. Her love and guidance through this process, our discussions over an athletic brew, her pushing me, her never giving me shit when I wake up and make noise pulling on riding shorts before dawn, her at the finish line at Chuck's, her sitting with me in Telluride. This is her victory too. We rode together through this. I love you, honey.*
