@@ -8,7 +8,7 @@ tags: [stories, data, training, tech, ridetool, riding]
 author: "Kenny Gorman"
 headimage: "/assets/images/ridetool_logo.png"
 image: "/assets/images/ridetool_logo.png"
-excerpt: "30 years of riding and 30 years of data crashed together. I had to build this."
+excerpt: "Almost 40 years of riding and 30 years of data crashed together. I had to build this."
 description: "The story of how a Stumpjumper, a career in data, and a renewed obsession with riding led to Ridetool."
 ---
 
@@ -55,7 +55,7 @@ But I could code. So that's what I did. I channeled all of that frustrated energ
 
 ## introducing Ridetool
 
-30 years of riding and 30 years of data expertise wrapped up in a self-improvement and tracking platform. Built because I needed this functionality, and built for the love of riding and data.
+Almost 40 years of riding and 30 years of data expertise wrapped up in a self-improvement and tracking platform. Built because I needed this functionality, and built for the love of riding and data.
 
 I needed something that kept the source .fit files intact. I couldn't live with myself if we didn't have an honest approach to user data. The customer isn't the product for Ridetool — it's not a social network. It's a data-centric approach to ride data. I wanted simple and honest. It's got amazing map views and telemetry, ride stat tallies over weeks or months, and it allows you to compare against time periods, against yourself. All of this for a modest price point.
 
@@ -64,6 +64,6 @@ And this is just the tip of the iceberg. This isn't just a product, it's a journ
 There's way more functionality than I can cover here — check out the [docs](https://ridetool.cc/docs) for the full rundown.
 
 ![on the trail](/assets/images/ridetool_gratitude.jpg)
-*from a Stumpjumper on layaway to here — 30 years of riding, still pushing*
+*from a Stumpjumper on layaway to here, almost 40 years of riding, still pushing*
 
 I hope you try it and join me on this journey. Log in at [ridetool.cc](https://ridetool.cc) and hit the Discord button. I'd love to hear from you.
