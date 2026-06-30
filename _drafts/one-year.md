@@ -51,8 +51,8 @@ I was reminded of the dude at Purgatory. Yeti Gathering, 2018. We saw him out on
 The year started out with a bang. No more beer, strict diet, and riding. A lot. Mostly on the MTe, so, ebike.
 
 <div class="photo-caption">
-  <img src="/assets/images/film-roll/frame_0035.jpeg" alt="first-person view over the handlebars descending a rocky trail on the mte at dusk">
-  <span class="caption">emma long at dusk on the mte. most of the year looked exactly like this.</span>
+  <img src="/assets/images/rattler_mid.jpg" alt="mountain biker in a plaid shirt riding a teal yeti through golden-hour texas hill country, other riders behind">
+  <span class="caption">hill country golden hour. most of the year looked something like this.</span>
 </div>
 
 I could write a book at this point on what eMTB means to me, and I might. For now I'll sum it up this way: without eMTB technology, this year would have been near impossible. So, hat tip to the eMTB gods. If you're over 40 and you need to ride more and you're not going to enter races, then, uh, dude, get an eMTB. You can always lower the power as you gain fitness. I'll write a whole piece on this later so the haters can hate over there.
