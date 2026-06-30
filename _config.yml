@@ -12,6 +12,7 @@ plugins:
   - jekyll-sitemap
 
 show_drafts: true
+future: true
 
 minima:
   show_excerpts: true
